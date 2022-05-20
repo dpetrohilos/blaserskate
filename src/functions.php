@@ -510,9 +510,5 @@ function mytheme_add_woocommerce_support() {
 add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 
 
-remove_theme_support( 'wc-product-gallery-zoom' );
-remove_theme_support( 'wc-product-gallery-lightbox' );
-remove_theme_support( 'wc-product-gallery-slider' );
-
 add_filter( 'woocommerce_enqueue_styles', '__return_false' );
 
