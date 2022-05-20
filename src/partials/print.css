@@ -1,0 +1,71 @@
+/**
+ * partials/print
+ * ---
+ * Print version
+ * (from https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css)
+ */
+@media print {
+  /* line 10, ../css/sass/partials/print.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    text-shadow: none !important; }
+
+  /* line 19, ../css/sass/partials/print.scss */
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  /* line 24, ../css/sass/partials/print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  /* line 28, ../css/sass/partials/print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  /* line 37, ../css/sass/partials/print.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+
+  /* line 42, ../css/sass/partials/print.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  /* line 48, ../css/sass/partials/print.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  /* line 52, ../css/sass/partials/print.scss */
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  /* line 57, ../css/sass/partials/print.scss */
+  img {
+    max-width: 100% !important; }
+
+  /* line 61, ../css/sass/partials/print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  /* line 68, ../css/sass/partials/print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid; } }

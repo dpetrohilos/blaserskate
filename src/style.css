@@ -5,19 +5,14 @@ Author: Dylan Petrohilos
 Author URI: repeater.digital
 Description: Blaser css Grid     
 */
-
 /**
  * styles.scss
  * ---
  * Main `sass` file. Import here `sass` files
  */
-
-// Modules
 @use "modules/variables";
 @use "modules/mixins";
 @use "modules/fonts";
-
-// Partials
 @use "partials/reset";
 @use "partials/wordpress";
 @use "partials/utils";
@@ -29,4 +24,3 @@ Description: Blaser css Grid
 @use "partials/print";
 @use "partials/type";
 @use "partials/grid";
-
