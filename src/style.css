@@ -24,3 +24,4 @@ Description: Blaser css Grid
 @use "partials/print";
 @use "partials/type";
 @use "partials/grid";
+@use "partials/woocommerce.scss";
