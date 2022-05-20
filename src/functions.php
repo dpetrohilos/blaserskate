@@ -463,28 +463,3 @@ function html5_shortcode_demo( $atts, $content = null ) {
 function html5_shortcode_demo_2( $atts, $content = null ) {
     return '<h2>' . $content . '</h2>';
 }
-
-// woo commerce 
-
-function my_theme_wrapper_start() {
-    echo '<section id="main">';
-}
-
-function my_theme_wrapper_end() {
-    echo '</section>';
-}
-
-
-function mytheme_add_woocommerce_support() {
-    add_theme_support( 'woocommerce' );
-}
-
-add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
-
-
-
-add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
-
-
-add_filter( 'woocommerce_enqueue_styles', '__return_false' );
-
