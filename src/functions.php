@@ -514,3 +514,5 @@ remove_theme_support( 'wc-product-gallery-zoom' );
 remove_theme_support( 'wc-product-gallery-lightbox' );
 remove_theme_support( 'wc-product-gallery-slider' );
 
+add_filter( 'woocommerce_enqueue_styles', '__return_false' );
+
