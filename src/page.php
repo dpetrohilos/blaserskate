@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content">
+	<main class="grid" id="main" role="main" aria-label="Content">
 		<!-- section -->
 		<section>
 
