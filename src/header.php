@@ -28,7 +28,7 @@
 
 		<!-- wrapper -->
 		<div class="wrapper">
-			<br><p>punk rock</p>
+			<br><p>ok one more time</p>
 
 			<!-- header -->
 			<header class="header clear" role="banner">
