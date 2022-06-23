@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/blaserskateboard/public_html/wp-content/themes/blaser_boards
+    - /bin/cp -R src $DEPLOYPATH
