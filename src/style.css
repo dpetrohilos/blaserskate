@@ -3,25 +3,24 @@ Theme Name: Blaser Skate Boards
 Theme URI: https://github.com/dpetrohilos/hoco_solar   
 Author: Dylan Petrohilos 
 Author URI: repeater.digital
-Description: Blaser css Grid     
+Description: Blaser css Grid, based on HTML5 Blank Theme
 */
 /**
  * styles.scss
  * ---
  * Main `sass` file. Import here `sass` files
  */
-@use "modules/variables";
-@use "modules/mixins";
-@use "modules/fonts";
-@use "partials/reset";
-@use "partials/wordpress";
-@use "partials/utils";
-@use "partials/wrapper";
-@use "partials/header";
-@use "partials/nav";
-@use "partials/sidebar";
-@use "partials/footer";
-@use "partials/print";
-@use "partials/type";
-@use "partials/grid";
-@use "partials/woocommerce.scss";
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/fonts";
+@import "partials/reset";
+@import "partials/wordpress";
+@import "partials/utils";
+@import "partials/wrapper";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/sidebar";
+@import "partials/footer";
+@import "partials/print";
+@import "partials/type";
+@import "partials/grid";
