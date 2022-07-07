@@ -124,7 +124,9 @@
   "dependencies": {
     "modernizr": "^3.5.0",
     "normalize.css": "^7.0.0",
-    "npm": "^8.13.2"
+    "npm": "^8.13.2",
+    "source-map-url": "^0.4.1",
+    "urix": "^0.1.0"
   },
   "devDependencies": {
     "del": "^3.0.0",
