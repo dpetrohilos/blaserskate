@@ -122,6 +122,8 @@
     "modernizr": "gulp modernizr"
   },
   "dependencies": {
+    "chokidar": "^3.5.3",
+    "gulp-update": "^0.0.2",
     "modernizr": "^3.5.0",
     "normalize.css": "^7.0.0",
     "npm": "^8.13.2",
