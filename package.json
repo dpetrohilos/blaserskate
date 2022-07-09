@@ -42,7 +42,9 @@
   },
   "dependencies": {
     "chokidar": "^3.5.3",
+    "fsevents": "^2.3.2",
     "glob-parent": "^6.0.2",
+    "glob-watcher": "^5.0.5",
     "modernizr": "^3.12.0",
     "normalize.css": "8.0.1",
     "npm": "^8.13.2",
