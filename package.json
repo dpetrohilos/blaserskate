@@ -1,142 +1,56 @@
 {
-  "name": "HTML5Blank",
+  "name": "html5blank",
   "description": "Powerful shell for rapidly deploying your WordPress projects",
   "license": "MIT",
   "version": "1.5.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/html5blank/html5blank.git"
+    "url": "git+https://github.com/html5blank/html5blank.git"
   },
   "author": "Todd Motto",
   "contributors": [
-    {
-      "name": "toddmotto",
-      "url": "https://github.com/toddmotto"
-    },
-    {
-      "name": "robertdevore",
-      "url": "https://github.com/robertdevore"
-    },
-    {
-      "name": "J-Rabe",
-      "url": "https://github.com/J-Rabe"
-    },
-    {
-      "name": "scottaohara",
-      "url": "https://github.com/scottaohara"
-    },
-    {
-      "name": "Munnday",
-      "url": "https://github.com/Munnday"
-    },
-    {
-      "name": "FreDeRoover",
-      "url": "https://github.com/FreDeRoover"
-    },
-    {
-      "name": "beat84",
-      "url": "https://github.com/beat84"
-    },
-    {
-      "name": "floq-design",
-      "url": "https://github.com/floq-design"
-    },
-    {
-      "name": "georgestephanis",
-      "url": "https://github.com/georgestephanis"
-    },
-    {
-      "name": "oriSomething",
-      "url": "https://github.com/oriSomething"
-    },
-    {
-      "name": "pgerochi",
-      "url": "https://github.com/pgerochi"
-    },
-    {
-      "name": "alorence",
-      "url": "https://github.com/alorence"
-    },
-    {
-      "name": "elkebirmed",
-      "url": "https://github.com/elkebirmed"
-    },
-    {
-      "name": "lregla",
-      "url": "https://github.com/lregla"
-    },
-    {
-      "name": "staceycordoni",
-      "url": "https://github.com/staceycordoni"
-    },
-    {
-      "name": "cle-ment",
-      "url": "https://github.com/cle-ment"
-    },
-    {
-      "name": "fxbenard",
-      "url": "https://github.com/fxbenard"
-    },
-    {
-      "name": "CoeusCC",
-      "url": "https://github.com/CoeusCC"
-    },
-    {
-      "name": "ssteinerx",
-      "url": "https://github.com/ssteinerx"
-    },
-    {
-      "name": "matchboxhq",
-      "url": "https://github.com/matchboxhq"
-    },
-    {
-      "name": "chrisdl",
-      "url": "https://github.com/chrisdl"
-    },
-    {
-      "name": "toxicdog",
-      "url": "https://github.com/toxicdog"
-    },
-    {
-      "name": "grischka",
-      "url": "https://github.com/grischka"
-    },
-    {
-      "name": "fanuneza",
-      "url": "https://github.com/fanuneza"
-    },
-    {
-      "name": "anthonycreek",
-      "url": "https://github.com/anthonycreek"
-    },
-    {
-      "name": "Grsmto",
-      "url": "https://github.com/Grsmto"
-    },
-    {
-      "name": "weslleih",
-      "url": "https://github.com/weslleih"
-    }
+    "toddmotto (https://github.com/toddmotto)",
+    "robertdevore (https://github.com/robertdevore)",
+    "J-Rabe (https://github.com/J-Rabe)",
+    "scottaohara (https://github.com/scottaohara)",
+    "Munnday (https://github.com/Munnday)",
+    "FreDeRoover (https://github.com/FreDeRoover)",
+    "beat84 (https://github.com/beat84)",
+    "floq-design (https://github.com/floq-design)",
+    "georgestephanis (https://github.com/georgestephanis)",
+    "oriSomething (https://github.com/oriSomething)",
+    "pgerochi (https://github.com/pgerochi)",
+    "alorence (https://github.com/alorence)",
+    "elkebirmed (https://github.com/elkebirmed)",
+    "lregla (https://github.com/lregla)",
+    "staceycordoni (https://github.com/staceycordoni)",
+    "cle-ment (https://github.com/cle-ment)",
+    "fxbenard (https://github.com/fxbenard)",
+    "CoeusCC (https://github.com/CoeusCC)",
+    "ssteinerx (https://github.com/ssteinerx)",
+    "matchboxhq (https://github.com/matchboxhq)",
+    "chrisdl (https://github.com/chrisdl)",
+    "toxicdog (https://github.com/toxicdog)",
+    "grischka (https://github.com/grischka)",
+    "fanuneza (https://github.com/fanuneza)",
+    "anthonycreek (https://github.com/anthonycreek)",
+    "Grsmto (https://github.com/Grsmto)",
+    "weslleih (https://github.com/weslleih)"
   ],
   "scripts": {
     "modernizr": "gulp modernizr"
   },
   "dependencies": {
     "chokidar": "^3.5.3",
-    "gulp-update": "0.0.2",
-    "modernizr": "^3.5.0",
+    "modernizr": "^3.12.0",
     "normalize.css": "8.0.1",
     "npm": "^8.13.2",
-    "resolve-url": "^0.2.1",
-    "source-map-resolve": "^0.6.0",
-    "source-map-url": "^0.4.1",
-    "urix": "^0.1.0"
+    "source-map": "^0.7.4"
   },
   "devDependencies": {
     "del": "^6.1.1",
-    "gulp": "4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-concat": "^2.3.4",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
     "gulp-jshint": "^2.1.0",
     "gulp-livereload": "^4.0.2",
@@ -144,12 +58,17 @@
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "3.0.0",
     "gulp-template": "^5.0.0",
-    "gulp-uglify": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
     "jquery": "^3.6.0",
-    "jshint": "^2.9.4",
+    "jshint": "^2.13.5",
     "jshint-stylish": "^2.2.1"
   },
   "engines": {
     "node": ">=0.10.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/html5blank/html5blank/issues"
+  },
+  "homepage": "https://github.com/html5blank/html5blank#readme",
+  "main": "gulpfile.js"
 }
