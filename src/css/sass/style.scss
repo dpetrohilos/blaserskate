@@ -11,13 +11,13 @@ Description: Blaser css Grid, based on Html5 Blank Theme, awesome
  * ---
  * Main `sass` file. Import here `sass` files
  */
-
-// Modules
+ 
 @import "modules/variables";
 @import "modules/mixins";
 @import "modules/fonts";
 
-// Partials
+
+
 @import "partials/reset";
 @import "partials/wordpress";
 @import "partials/utils";
