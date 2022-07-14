@@ -1,6 +1,5 @@
 /*
 Theme Name: Blaser Skate Boards   
-Theme URI: https://github.com/dpetrohilos/hoco_solar   
 Author: Dylan Petrohilos 
 Author URI: repeater.digital 
 Description: Blaser css Grid, based on Html5 Blank Theme, awesome      
@@ -29,8 +28,8 @@ Description: Blaser css Grid, based on Html5 Blank Theme, awesome
  */
 @font-face {
   font-family: "kent";
-  src: url("fonts/font-name.eot");
-  src: url("fonts/font-name.eot?#iefix") format("embedded-opentype"), url("fonts/font-name.woff") format("woff"), url("fonts/font-name.ttf") format("truetype"), url("fonts/font-name.svg#font-name") format("svg");
+  src: url("fonts/Kent-4F-Printed-Shadowed.eot");
+  src: url("fonts/Kent-4F-Printed-Shadowed.eot?#iefix") format("embedded-opentype"), url("fonts/Kent-4F-Printed-Shadowed.woff") format("woff"), url("fonts/Kent-4F-Printed-Shadowed.ttf") format("truetype"), url("fonts/Kent-4F-Printed-Shadowed.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal;
 }
