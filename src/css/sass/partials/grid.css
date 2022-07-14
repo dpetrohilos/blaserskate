@@ -29,21 +29,15 @@
 
 .product-grid {
   display: grid;
-  grid-template-row: 1fr 1fr 1fr ;
+  grid-template-row: 1fr 1fr 1fr;
 }
 
 .card {
-
-display: grid;
-
+  display: grid;
 }
 
 .card-image {
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
   width: 100%;
   object-fit: cover;
-}
-
-.featured {
-
 }

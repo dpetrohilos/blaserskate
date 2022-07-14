@@ -27,10 +27,9 @@
 	<body <?php body_class(); ?>>
 
 		<!-- wrapper -->
-		<div class="wrapper">
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class="header grid" role="banner">
 
 					<!-- logo -->
 					<div class="logo">
@@ -51,7 +50,3 @@
 			<!-- /header -->
 
 
-			<h1>We the punk</h1>
-			<h2>We the punks, we the, we the, we the punks</h2>
-
-			<p>does this ever work?</p>
