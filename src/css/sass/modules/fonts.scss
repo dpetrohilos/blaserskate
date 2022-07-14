@@ -5,9 +5,9 @@
  */
 
 
-/*
+
 @font-face {
-  font-family: "Font-Name";
+  font-family: "kent";
   src: url("fonts/font-name.eot");
   src: url("fonts/font-name.eot?#iefix") format("embedded-opentype"),
     url("fonts/font-name.woff") format("woff"),
@@ -16,4 +16,10 @@
   font-weight: normal;
   font-style: normal;
 }
-*/
+
+
+h1,h2,h3,h4,h5,h6 {
+
+  font-family: "kent", Arial, Helvetica, sans-serif;
+
+}
