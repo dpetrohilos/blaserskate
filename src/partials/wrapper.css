@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$wrapper-width".
-        on line 8 of /Users/dylanpetrohilos/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/wrapper.scss
+        on line 8 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/wrapper.scss
 
 3:  * ---
 4:  *\/
@@ -12,9 +12,10 @@ Error: Undefined variable: "$wrapper-width".
 10:   margin: 0 auto;
 11:   position: relative;
 12: }
+13: 
 
 Backtrace:
-/Users/dylanpetrohilos/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/wrapper.scss:8
+/Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/wrapper.scss:8
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -67,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$wrapper-width\".\A         on line 8 of /Users/dylanpetrohilos/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/wrapper.scss\A \A 3:  * ---\A 4:  */\A 5: \A 6: \A 7: .wrapper {\A 8:   max-width: $wrapper-width;\A 9:   padding: 0 $margin-horizontal-large;\A 10:   margin: 0 auto;\A 11:   position: relative;\A 12: }"; }
+  content: "Error: Undefined variable: \"$wrapper-width\".\A         on line 8 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/wrapper.scss\A \A 3:  * ---\A 4:  */\A 5: \A 6: \A 7: .wrapper {\A 8:   max-width: $wrapper-width;\A 9:   padding: 0 $margin-horizontal-large;\A 10:   margin: 0 auto;\A 11:   position: relative;\A 12: }\A 13: "; }
