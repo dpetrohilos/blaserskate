@@ -25,20 +25,21 @@
   background-size: 100% 0rem;
   background-position: 0 0;
   transition: background-size 0.25s ease-in;
+  background-repeat: no-repeat;
 }
-/* line 32, ../css/sass/partials/nav.scss */
+/* line 33, ../css/sass/partials/nav.scss */
 .menu li a:hover, .menu li a:focus {
   text-decoration: none;
   background-size: 100% 30%;
   background-position: 0 30%;
 }
 
-/* line 47, ../css/sass/partials/nav.scss */
+/* line 48, ../css/sass/partials/nav.scss */
 .sub-menu {
   list-style: none;
 }
 
-/* line 52, ../css/sass/partials/nav.scss */
+/* line 53, ../css/sass/partials/nav.scss */
 .menu-item {
   list-style: none;
 }
