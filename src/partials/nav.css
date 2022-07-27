@@ -3,3 +3,17 @@
  * ---
  * Menus
  */
+/* line 8, ../css/sass/partials/nav.scss */
+.nav {
+  display: inline-flex;
+}
+
+/* line 18, ../css/sass/partials/nav.scss */
+.sub-menu {
+  list-style: none;
+}
+
+/* line 23, ../css/sass/partials/nav.scss */
+.menu-item {
+  list-style: none;
+}

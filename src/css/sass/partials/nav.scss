@@ -5,10 +5,23 @@
  */
 
 
-.nav {}
+.nav {
 
-.menu {}
+display: inline-flex;
 
-.sub-menu {}
+}
 
-.menu-item {}
+.menu {
+
+}
+
+.sub-menu {
+
+    list-style: none;
+}
+
+.menu-item {
+
+list-style: none;
+
+}

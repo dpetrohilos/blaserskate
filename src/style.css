@@ -570,20 +570,26 @@ input[type="search"] {
   display: block;
 }
 
-/* line 24, css/sass/partials/header.scss */
-.nav {
-  display: flex;
-}
-/* line 28, css/sass/partials/header.scss */
-.nav li {
-  list-style: none;
-}
-
 /**
  * partials/nav
  * ---
  * Menus
  */
+/* line 8, css/sass/partials/nav.scss */
+.nav {
+  display: inline-flex;
+}
+
+/* line 18, css/sass/partials/nav.scss */
+.sub-menu {
+  list-style: none;
+}
+
+/* line 23, css/sass/partials/nav.scss */
+.menu-item {
+  list-style: none;
+}
+
 /**
  * partials/sidebar
  * ---

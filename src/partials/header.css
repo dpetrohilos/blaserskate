@@ -13,12 +13,3 @@
   max-width: 34.8rem;
   display: block;
 }
-
-/* line 24, ../css/sass/partials/header.scss */
-.nav {
-  display: flex;
-}
-/* line 28, ../css/sass/partials/header.scss */
-.nav li {
-  list-style: none;
-}
