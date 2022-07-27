@@ -595,23 +595,22 @@ input[type="search"] {
   font-size: 2.2rem;
   background-image: linear-gradient(120deg, #84fab0 0%, #5BE498 100%);
   background-size: 100% 0rem;
-  background-position: 0 0;
-  transition: background-size 0.25s ease-in;
+  background-position: 0 44%;
   background-repeat: no-repeat;
 }
-/* line 33, css/sass/partials/nav.scss */
+/* line 32, css/sass/partials/nav.scss */
 .menu li a:hover, .menu li a:focus {
   text-decoration: none;
   background-size: 100% 30%;
-  background-position: 0 30%;
+  background-position: 0 44%;
 }
 
-/* line 48, css/sass/partials/nav.scss */
+/* line 47, css/sass/partials/nav.scss */
 .sub-menu {
   list-style: none;
 }
 
-/* line 53, css/sass/partials/nav.scss */
+/* line 52, css/sass/partials/nav.scss */
 .menu-item {
   list-style: none;
 }
