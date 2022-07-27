@@ -25,18 +25,18 @@ display: inline-flex;
             background-size: 100% 0rem;
             background-position: 0 0;
             transition: background-size 0.25s ease-in;
-}
 
 
 
-            &:hover {
+
+            &:hover, &:focus {
 
                 text-decoration: none;
                 background-size: 100% 30%;
                 background-position: 0 30%;
 
 
-            }
+            }}
 
         }
     
