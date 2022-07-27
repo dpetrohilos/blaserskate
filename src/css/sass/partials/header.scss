@@ -5,7 +5,11 @@
 
 
 // Header container
-.header {}
+.header {
+background: #FAFAFA; 
+display: flex;
+
+}
 
 // Logo
 .logo {
@@ -17,7 +21,7 @@
 .logo-img {}
 
 
-.menu {
+.nav {
 
     display: flex;
 

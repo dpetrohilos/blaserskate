@@ -2,14 +2,19 @@
  * partials/header
  * ---
  */
+.header {
+  background: #FAFAFA;
+  display: flex;
+}
+
 .logo {
   max-width: 34.8rem;
   display: block;
 }
 
-.menu {
+.nav {
   display: flex;
 }
-.menu li {
+.nav li {
   list-style: none;
 }
