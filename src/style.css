@@ -17,6 +17,31 @@ Description: Blaser css Grid, based on Html5 Blank Theme
 /**
  * Grid
  */
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(2.8rem, 2fr));
+  max-width: 100vw;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  grid-column-gap: 1.6rem;
+  grid-row-gap: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+.sub-grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.v-align {
+  align-items: center;
+}
+
 /**
  * modules/mixins
  * ---
@@ -162,37 +187,6 @@ input[type=search] {
   margin: 0;
 }
 
-.grid {
-  display: grid;
-}
-
-.card {
-  display: grid;
-  grid-template: "img title" min-content "img content" auto/1fr 3fr;
-  grid-column-gap: 1.5em;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
-  padding: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-.card-img {
-  grid-area: img;
-  max-width: 100%;
-}
-
-.card-title {
-  grid-area: title;
-  margin: 0;
-  font-weight: 300;
-}
-
-.card-content {
-  grid-area: content;
-}
-.card-content a {
-  font-size: 1.1em;
-}
-
 /**
  * partials/wrapper
  * ---
@@ -216,6 +210,13 @@ input[type=search] {
 .logo {
   max-width: 34.8rem;
   display: block;
+}
+
+.menu {
+  display: flex;
+}
+.menu li {
+  list-style: none;
 }
 
 /**
@@ -289,4 +290,47 @@ h3 {
 h3 {
     page-break-after: avoid;
   }
+}
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(2.8rem, 2fr));
+  max-width: 100vw;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  grid-column-gap: 1.6rem;
+  grid-row-gap: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+.sub-grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.v-align {
+  align-items: center;
+}
+
+.h-center {
+  justify-content: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-row: 1fr 1fr 1fr;
+}
+
+.card {
+  display: grid;
+}
+
+.card-image {
+  aspect-ratio: 1/1;
+  width: 100%;
+  object-fit: cover;
 }
