@@ -24,6 +24,7 @@ display: inline-flex;
             background-image: linear-gradient(120deg, #84fab0 0%, #5BE498 100%);
             background-size: 100% 0rem;
             background-position: 0 44%;
+            transition: background-size 0.25s ease-in;
             background-repeat: no-repeat;
 
 
