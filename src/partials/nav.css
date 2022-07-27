@@ -8,12 +8,21 @@
   display: inline-flex;
 }
 
+/* line 16, ../css/sass/partials/nav.scss */
+.menu ul {
+  display: inline-flex;
+}
 /* line 18, ../css/sass/partials/nav.scss */
+.menu li {
+  list-style: none;
+}
+
+/* line 22, ../css/sass/partials/nav.scss */
 .sub-menu {
   list-style: none;
 }
 
-/* line 23, ../css/sass/partials/nav.scss */
+/* line 27, ../css/sass/partials/nav.scss */
 .menu-item {
   list-style: none;
 }

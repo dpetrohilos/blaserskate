@@ -13,6 +13,10 @@ display: inline-flex;
 
 .menu {
 
+    ul {display: inline-flex;}
+
+    li {list-style: none;}
+
 }
 
 .sub-menu {
