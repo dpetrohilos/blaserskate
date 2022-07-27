@@ -16,13 +16,19 @@
 .menu li {
   list-style: none;
 }
+/* line 20, ../css/sass/partials/nav.scss */
+.menu li a {
+  padding: .6rem 1.2rem;
+  font-family: "kent", Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+}
 
-/* line 22, ../css/sass/partials/nav.scss */
+/* line 31, ../css/sass/partials/nav.scss */
 .sub-menu {
   list-style: none;
 }
 
-/* line 27, ../css/sass/partials/nav.scss */
+/* line 36, ../css/sass/partials/nav.scss */
 .menu-item {
   list-style: none;
 }
