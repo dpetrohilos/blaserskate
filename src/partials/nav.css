@@ -27,14 +27,15 @@
   background: #5BE498;
   height: .4rem;
   background-position: -.6rem;
+  text-decoration: none;
 }
 
-/* line 38, ../css/sass/partials/nav.scss */
+/* line 39, ../css/sass/partials/nav.scss */
 .sub-menu {
   list-style: none;
 }
 
-/* line 43, ../css/sass/partials/nav.scss */
+/* line 44, ../css/sass/partials/nav.scss */
 .menu-item {
   list-style: none;
 }
