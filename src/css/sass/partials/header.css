@@ -2,19 +2,23 @@
  * partials/header
  * ---
  */
+/* line 8, header.scss */
 .header {
   background: #FAFAFA;
   display: flex;
 }
 
+/* line 15, header.scss */
 .logo {
   max-width: 34.8rem;
   display: block;
 }
 
+/* line 24, header.scss */
 .nav {
   display: flex;
 }
+/* line 28, header.scss */
 .nav li {
   list-style: none;
 }
