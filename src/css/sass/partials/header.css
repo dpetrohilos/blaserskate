@@ -6,3 +6,10 @@
   max-width: 34.8rem;
   display: block;
 }
+
+.menu {
+  display: flex;
+}
+.menu li {
+  list-style: none;
+}
