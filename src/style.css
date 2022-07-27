@@ -594,13 +594,19 @@ input[type="search"] {
   font-family: "kent", Arial, Helvetica, sans-serif;
   font-size: 2.2rem;
 }
+/* line 25, css/sass/partials/nav.scss */
+.menu li a:hover {
+  background: #5BE498;
+  height: .4rem;
+  background-position: -.6rem;
+}
 
-/* line 31, css/sass/partials/nav.scss */
+/* line 38, css/sass/partials/nav.scss */
 .sub-menu {
   list-style: none;
 }
 
-/* line 36, css/sass/partials/nav.scss */
+/* line 43, css/sass/partials/nav.scss */
 .menu-item {
   list-style: none;
 }
