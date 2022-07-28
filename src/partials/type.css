@@ -1,5 +1,5 @@
 /* line 2, ../css/sass/partials/type.scss */
-.headline {
+.section-title {
   font-size: clamp(2.2rem, 7.2rem, 9.4rem);
 }
 
