@@ -1,6 +1,22 @@
+/* line 2, ../css/sass/partials/type.scss */
+.headline {
+  font-size: clamp(2.2rem, 7.2rem, 9.4rem);
+}
+
+/* line 3, ../css/sass/partials/type.scss */
+.subhead {
+  font-size: clamp(2rem, 4.8rem, 6rem);
+}
+
+/* line 4, ../css/sass/partials/type.scss */
+.card > .title {
+  font-size: clamp(1.8rem, 2.2rem, 3.6rem);
+}
+
 /* line 7, ../css/sass/partials/type.scss */
 p, ul, ol, li {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: clamp(1.2rem, 1.6rem, 1.8rem);
 }
 
 /* line 16, ../css/sass/partials/type.scss */
