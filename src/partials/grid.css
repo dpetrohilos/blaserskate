@@ -70,8 +70,3 @@
   aspect-ratio: 2 / 1;
   width: 100%;
 }
-
-/* line 76, ../css/sass/partials/grid.scss */
-p, ul, ol, li {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-}

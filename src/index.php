@@ -5,7 +5,7 @@
 <hr/> <div class="over-text">2022</div>
 <h1 class="title">New Collection</h1>
 <p>Louisville, KY is known for two things. Very strong baseball bats, and lovingly handcrafted skateboards. Come shred with us!</p>
-<a class="button b1" href="/store">Explore</a>
+<a class="button primary" href="/store">Explore</a>
 
 </header>
 </section>
@@ -56,8 +56,8 @@ Founder, Louisville, KY </cite>
 <div class="grid-item-1 col-1">
 <h3 class="section-title">Our Store </h3>
 <p>Put simply, Blaser Boards are made from the strongest wood you can get. Sustainably sourced, slow grown, American maple from Northern Wisconsin gives each board has its own unique signature. Perfect for every free spirited adventurer who can’t be tamed.</p>
-<a href="/decks" class="buttons bt2">Decks</a>
-<a href="/clothing" class="buttons bt2">Clothing</a>
+<a href="/decks" class="buttons secondary">Decks</a>
+<a href="/clothing" class="buttons secondary">Clothing</a>
 </div>
 <div class="grid-item-2 col-2"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_5.jpg"/>
 </div>
