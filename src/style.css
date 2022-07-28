@@ -32,6 +32,7 @@ Description: Blaser css Grid, based on Html5 Blank Theme
   src: url("fonts/Kent-4F-Printed-Shadowed.eot?#iefix") format("embedded-opentype"), url("fonts/Kent-4F-Printed-Shadowed.woff") format("woff"), url("fonts/Kent-4F-Printed-Shadowed.ttf") format("truetype"), url("fonts/Kent-4F-Printed-Shadowed.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* cyrillic-ext */
 @font-face {
@@ -353,7 +354,7 @@ Description: Blaser css Grid, based on Html5 Blank Theme
   src: url(https://fonts.gstatic.com/s/opensans/v29/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/* line 342, css/sass/modules/fonts.scss */
+/* line 343, css/sass/modules/fonts.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "kent", Arial, Helvetica, sans-serif;
 }
