@@ -694,7 +694,7 @@ p, ul, ol, li {
 
 /* line 16, css/sass/partials/type.scss */
 .button {
-  font-family: 'kent', Arial, Helvetica, sans-serif;
+  font-family: 'kent', Arial, Helvetica, sans-serif !important;
   border-radius: .4rem;
   display: block;
   width: fit-content;
