@@ -1,14 +1,25 @@
 .grid {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(2.8rem, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr));
   max-width: 100vw;
   width: 100%;
   margin: 0 auto;
   padding: 0;
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
+  grid-template-areas: 
+  "title" "col-1" "col-2"; 
+
+
 }
+
+.title {grid-area: 1 / 1 / 1 / 1}
+
+.col-1 {grid-area: 2 / 1 / 2 / 1}
+
+.col-2 {grid-area: 2 / 2 / 1 / 1}
+
 
 .sub-grid {
   display: grid;
@@ -53,5 +64,17 @@ display: grid;
   aspect-ratio: 2 / 1;
   width: 100%;
 
+
+}
+
+
+.headline {}
+.subhead {}
+.card > .title {}
+
+
+p,ul,ol,li {
+
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 
 }

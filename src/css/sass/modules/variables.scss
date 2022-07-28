@@ -36,36 +36,3 @@ $margin-vertical-base: 6px;
 $margin-horizontal-large: 12px;
 $margin-vertical-large: 12px;
 
-// grid items 
-
-.grid {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(2.8rem, 2fr));
-  max-width: 100vw;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  grid-column-gap: 1.6rem;
-  grid-row-gap: 1.6rem;
-  margin-top: 1.6rem;
- }
-
-.sub-grid {
-display: grid;
-
-}
-
-
- .sub-item {
-
-
- }
-
- .flex { display: flex; 
- }
-
- .v-align {
-  align-items: center;
-
- }

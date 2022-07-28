@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="hero grid grid-row-1">
-<section class="grid-item-1">
+<section class="grid-item-1 col-1">
 <header>
 <hr/> <div class="over-text">2022</div>
 <h1 class="title">New Collection</h1>
@@ -10,7 +10,7 @@
 </header>
 </section>
 
-<div class="grid-item-2">
+<div class="grid-item-2 col-2">
 
 
 <img class="hero-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/BlaserBoardHero.jpg"/>
@@ -23,10 +23,10 @@
 
 
 <div class="grid grid-row-2">
-<div class="grid-item-1">
+<div class="grid-item-1 col-1">
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_1.jpg"/>
 </div>
-<div class="grid-item-2">
+<div class="grid-item-2 col-2">
 <blockquote>
 We do this for the love of skateboarding. Blaser Boards was founded in 2022 by a group of friends. Each deck is hand drawn, hand painted and lovingly handcrafted.
 </blockquote>
@@ -36,12 +36,12 @@ Louisville, KY </cite>
 </div>
 </div>
 <div class="grid grid-row-3">
-<header class="grid-item-1">
+<header class="grid-item-1 title">
 <h2 class="section-title">Shred The Gnar </h2>
 </header>
-<div class="grid-item-2"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_2.jpg"/>
+<div class="grid-item-2 col-1"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_2.jpg"/>
 </div>
-<div class="grid-item-3"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_3.jpg"/></div>
+<div class="grid-item-3 col-2"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_3.jpg"/></div>
 </div>
 </div>
 <div class="grid grid-row-4">

@@ -334,8 +334,3 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "kent", Arial, Helvetica, sans-serif;
 }
-
-/* line 353, ../css/sass/modules/fonts.scss */
-p, ul, ol, li {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-}
