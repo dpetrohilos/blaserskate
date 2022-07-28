@@ -698,7 +698,7 @@ input[type="search"] {
 
 /* line 21, css/sass/partials/grid.scss */
 .col-2 {
-  grid-area: 2 / 2 / 1 / 1;
+  grid-area: 2 / 2 / 2 / 2;
 }
 
 /* line 24, css/sass/partials/grid.scss */
