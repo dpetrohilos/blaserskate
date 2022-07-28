@@ -717,48 +717,47 @@ input[type="search"] {
   padding: 0;
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
-  margin-top: 1.6rem;
 }
 
-/* line 14, css/sass/partials/grid.scss */
+/* line 13, css/sass/partials/grid.scss */
 .sub-grid {
   display: grid;
 }
 
-/* line 18, css/sass/partials/grid.scss */
+/* line 17, css/sass/partials/grid.scss */
 .flex {
   display: flex;
 }
 
-/* line 22, css/sass/partials/grid.scss */
+/* line 21, css/sass/partials/grid.scss */
 .v-align {
   align-items: center;
 }
 
-/* line 26, css/sass/partials/grid.scss */
+/* line 25, css/sass/partials/grid.scss */
 .h-center {
   justify-content: center;
 }
 
-/* line 30, css/sass/partials/grid.scss */
+/* line 29, css/sass/partials/grid.scss */
 .product-grid {
   display: grid;
   grid-template-row: 1fr 1fr 1fr;
 }
 
-/* line 35, css/sass/partials/grid.scss */
+/* line 34, css/sass/partials/grid.scss */
 .card {
   display: grid;
 }
 
-/* line 41, css/sass/partials/grid.scss */
+/* line 40, css/sass/partials/grid.scss */
 .card-image {
   aspect-ratio: 1 / 1;
   width: 100%;
   object-fit: cover;
 }
 
-/* line 52, css/sass/partials/grid.scss */
+/* line 51, css/sass/partials/grid.scss */
 .grid-item-half {
   aspect-ratio: 2 / 1;
   width: 100%;
