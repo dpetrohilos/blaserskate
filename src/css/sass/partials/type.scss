@@ -14,21 +14,23 @@ p,ul,ol,li {
 
 .button {  font-family: 'kent', Arial, Helvetica, sans-serif;
 border-radius: .4rem;
+display: block;
 }
 
 .primary {
 
     font-size: 2.2rem; 
-    padding: 2.4rem 1.2rem; 
+    padding: 4.4rem 1.2rem; 
     background: #000; 
     color: #fff;
     border: transparent .2rem solid;  
+    
 
     &:hover {
 
         text-decoration: none;
         border: .2rem solid #000; 
-        color: #000; 
+        color: #fff; 
 
 
     }
@@ -47,6 +49,7 @@ border-radius: .4rem;
         background: #000; 
         color: #fff;
         border: black .2rem solid;  
+        text-decoration: none;
     
 
 }

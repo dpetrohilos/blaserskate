@@ -681,24 +681,25 @@ p, ul, ol, li {
 .button {
   font-family: 'kent', Arial, Helvetica, sans-serif;
   border-radius: .4rem;
+  display: block;
 }
 
-/* line 19, css/sass/partials/type.scss */
+/* line 20, css/sass/partials/type.scss */
 .primary {
   font-size: 2.2rem;
-  padding: 2.4rem 1.2rem;
+  padding: 4.4rem 1.2rem;
   background: #000;
   color: #fff;
   border: transparent .2rem solid;
 }
-/* line 27, css/sass/partials/type.scss */
+/* line 29, css/sass/partials/type.scss */
 .primary:hover {
   text-decoration: none;
   border: .2rem solid #000;
-  color: #000;
+  color: #fff;
 }
 
-/* line 37, css/sass/partials/type.scss */
+/* line 39, css/sass/partials/type.scss */
 .secondary {
   font-size: 2.2rem;
   padding: 2.4rem 1.2rem;
@@ -706,11 +707,12 @@ p, ul, ol, li {
   border: .2rem solid #000;
   color: #000;
 }
-/* line 45, css/sass/partials/type.scss */
+/* line 47, css/sass/partials/type.scss */
 .secondary:hover {
   background: #000;
   color: #fff;
   border: black .2rem solid;
+  text-decoration: none;
 }
 
 /* line 1, css/sass/partials/grid.scss */
