@@ -11,16 +11,19 @@ p,ul,ol,li {
 }
 
 
+// buttons type 
 
 .button {  font-family: 'kent', Arial, Helvetica, sans-serif;
 border-radius: .4rem;
 display: block;
+width: fit-content;
+
 }
 
 .primary {
 
     font-size: 2.2rem; 
-    padding: 4.4rem 1.2rem; 
+    padding: 1.2rem 2.4rem; 
     background: #000; 
     color: #fff;
     border: transparent .2rem solid;  
@@ -39,7 +42,7 @@ display: block;
 .secondary {
 
     font-size: 2.2rem; 
-    padding: 2.4rem 1.2rem; 
+    padding: 1.2rem 2.4rem; 
     text-decoration: none;
     border: .2rem solid #000; 
     color: #000; 
@@ -50,9 +53,25 @@ display: block;
         color: #fff;
         border: black .2rem solid;  
         text-decoration: none;
-    
+    }
 
 }
+
+.third {
+
+    font-size: 1.6rem;
+    padding: .4rem .8rem;
+    border: .2rem solid #000; 
+    color: #000; 
+
+    &:hover {
+
+        background: #000; 
+        color: #fff;
+        border: black .2rem solid;  
+        text-decoration: none;
+    }
+
 
 
 }
