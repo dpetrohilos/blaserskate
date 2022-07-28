@@ -11,7 +11,7 @@ p,ul,ol,li {
 }
 
 
-// buttons type 
+// button
 
 .button {  font-family: 'kent', Arial, Helvetica, sans-serif;
 border-radius: .4rem;
@@ -33,7 +33,9 @@ width: fit-content;
 
         text-decoration: none;
         border: .2rem solid #000; 
-        color: #fff; 
+        color: #000; 
+        background: transparent;
+        
 
 
     }

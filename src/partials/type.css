@@ -23,10 +23,11 @@ p, ul, ol, li {
 .primary:hover {
   text-decoration: none;
   border: .2rem solid #000;
-  color: #fff;
+  color: #000;
+  background: transparent;
 }
 
-/* line 42, ../css/sass/partials/type.scss */
+/* line 44, ../css/sass/partials/type.scss */
 .secondary {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
@@ -34,7 +35,7 @@ p, ul, ol, li {
   border: .2rem solid #000;
   color: #000;
 }
-/* line 50, ../css/sass/partials/type.scss */
+/* line 52, ../css/sass/partials/type.scss */
 .secondary:hover {
   background: #000;
   color: #fff;
@@ -42,14 +43,14 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 60, ../css/sass/partials/type.scss */
+/* line 62, ../css/sass/partials/type.scss */
 .third {
   font-size: 1.6rem;
   padding: .4rem .8rem;
   border: .2rem solid #000;
   color: #000;
 }
-/* line 67, ../css/sass/partials/type.scss */
+/* line 69, ../css/sass/partials/type.scss */
 .third:hover {
   background: #000;
   color: #fff;
