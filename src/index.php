@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="hero grid grid-row-1">
+<div class="hero grid grid-row-1 wrapper">
 <section class="grid-item-1 col-1">
 <header>
 <hr/> <div class="over-text">2022</div>
@@ -52,7 +52,7 @@ A lot of people buy a surfboard because their favorite shapers made it, not beca
 Founder, Louisville, KY </cite>
 </div>
 </div>
-<div class="grid grid-row-3">
+<div class="grid grid-row-3 wrapper">
 <div class="grid-item-1 col-1 section-title">
 <h3 class="title">Our Store </h3>
 <p>Put simply, Blaser Boards are made from the strongest wood you can get. Sustainably sourced, slow grown, American maple from Northern Wisconsin gives each board has its own unique signature. Perfect for every free spirited adventurer who can’t be tamed.</p>
