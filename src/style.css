@@ -691,18 +691,23 @@ input[type="search"] {
   font-size: clamp(1.8rem, 1vw, 2rem);
 }
 
-/* line 16, css/sass/partials/type.scss */
+/* line 15, css/sass/partials/type.scss */
+.kent {
+  font-family: 'kent', Arial, Helvetica, sans-serif;
+}
+
+/* line 19, css/sass/partials/type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'kent', Arial, Helvetica, sans-serif;
 }
 
-/* line 22, css/sass/partials/type.scss */
+/* line 25, css/sass/partials/type.scss */
 p, ul, ol, li {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: clamp(1.2rem, 1.6rem, 1.8rem);
 }
 
-/* line 31, css/sass/partials/type.scss */
+/* line 34, css/sass/partials/type.scss */
 .button {
   font-family: 'kent', Arial, Helvetica, sans-serif;
   border-radius: .4rem;
@@ -710,7 +715,7 @@ p, ul, ol, li {
   width: fit-content;
 }
 
-/* line 39, css/sass/partials/type.scss */
+/* line 42, css/sass/partials/type.scss */
 .primary {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
@@ -718,7 +723,7 @@ p, ul, ol, li {
   color: #fff;
   border: transparent .2rem solid;
 }
-/* line 48, css/sass/partials/type.scss */
+/* line 51, css/sass/partials/type.scss */
 .primary:hover {
   text-decoration: none;
   border: .2rem solid #000;
@@ -726,7 +731,7 @@ p, ul, ol, li {
   background: transparent;
 }
 
-/* line 60, css/sass/partials/type.scss */
+/* line 63, css/sass/partials/type.scss */
 .secondary {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
@@ -734,7 +739,7 @@ p, ul, ol, li {
   border: .2rem solid #000;
   color: #000;
 }
-/* line 68, css/sass/partials/type.scss */
+/* line 71, css/sass/partials/type.scss */
 .secondary:hover {
   background: #000;
   color: #fff;
@@ -742,14 +747,14 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 78, css/sass/partials/type.scss */
+/* line 81, css/sass/partials/type.scss */
 .third {
   font-size: 1.6rem;
   padding: .4rem .8rem;
   border: .2rem solid #000;
   color: #000;
 }
-/* line 85, css/sass/partials/type.scss */
+/* line 88, css/sass/partials/type.scss */
 .third:hover {
   background: #000;
   color: #fff;
