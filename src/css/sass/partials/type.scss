@@ -30,7 +30,8 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'kent', Arial, Helvetica, sans-serif;
     margin: 0 0 1.2rem 0;
-    padding: 0; 
+    padding: 0;
+    line-height: 1;  
     
 }
 
@@ -40,6 +41,7 @@ p,ul,ol,li {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: clamp(1.2rem, 1.6rem, 1.8rem);
   margin: 0 0 1.2rem 0;
+  line-height: 1.35;
 
 }
 
