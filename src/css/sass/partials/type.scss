@@ -1,3 +1,22 @@
+
+.section-title {
+    font-size: clamp(2.2rem, 8vw, 7.2rem);
+}
+
+.sub-title {
+    font-size: clamp(2rem, 3vw, 3.6rem);
+
+} 
+
+.post-title {
+    font-size: clamp(1.8rem, 1vw, 2rem);
+}
+
+
+
+
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'kent', Arial, Helvetica, sans-serif;
     
