@@ -500,15 +500,15 @@ input[type="search"] {
  * partials/wrapper
  * ---
  */
-/* line 7, css/sass/partials/wrapper.scss */
+/* line 8, css/sass/partials/wrapper.scss */
 .wrapper {
-  max-width: 100vw;
+  max-width: 140rem;
   padding: 0 12px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 14, css/sass/partials/wrapper.scss */
+/* line 15, css/sass/partials/wrapper.scss */
 .grid {
   display: grid;
   grid-row-start: auto;
