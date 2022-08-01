@@ -12,4 +12,5 @@
 .logo {
   max-width: 18rem;
   display: block;
+  grid-area: 1 / 1 / 1 / 1;
 }

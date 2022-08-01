@@ -6,6 +6,7 @@
 /* line 8, ../css/sass/partials/nav.scss */
 .nav {
   display: inline-flex;
+  grid-area: 2 / 1 / 1 / 1;
 }
 
 /* line 16, ../css/sass/partials/nav.scss */
