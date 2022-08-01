@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'kent', Arial, Helvetica, sans-serif !important;
+    font-family: 'kent', Arial, Helvetica, sans-serif;
     
 }
 
@@ -13,7 +13,8 @@ p,ul,ol,li {
 
 // button
 
-.button {  font-family: 'kent', Arial, Helvetica, sans-serif !important;
+.button {  
+font-family: 'kent', Arial, Helvetica, sans-serif;
 border-radius: .4rem;
 display: block;
 width: fit-content;
