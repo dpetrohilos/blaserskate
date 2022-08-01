@@ -29,7 +29,7 @@
 		<!-- wrapper -->
 
 			<!-- header -->
-			<header class="header grid" role="banner">
+			<header class="header" role="banner">
 
 					<!-- logo -->
 					<div class="logo">
