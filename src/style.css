@@ -681,13 +681,18 @@ input[type="search"] {
     page-break-after: avoid;
   }
 }
-/* line 2, css/sass/partials/type.scss */
+/* line 1, css/sass/partials/type.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'kent', Arial, Helvetica, sans-serif !important;
+}
+
+/* line 7, css/sass/partials/type.scss */
 p, ul, ol, li {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: clamp(1.2rem, 1.6rem, 1.8rem);
 }
 
-/* line 11, css/sass/partials/type.scss */
+/* line 16, css/sass/partials/type.scss */
 .button {
   font-family: 'kent', Arial, Helvetica, sans-serif !important;
   border-radius: .4rem;
@@ -695,7 +700,7 @@ p, ul, ol, li {
   width: fit-content;
 }
 
-/* line 18, css/sass/partials/type.scss */
+/* line 23, css/sass/partials/type.scss */
 .primary {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
@@ -703,7 +708,7 @@ p, ul, ol, li {
   color: #fff;
   border: transparent .2rem solid;
 }
-/* line 27, css/sass/partials/type.scss */
+/* line 32, css/sass/partials/type.scss */
 .primary:hover {
   text-decoration: none;
   border: .2rem solid #000;
@@ -711,7 +716,7 @@ p, ul, ol, li {
   background: transparent;
 }
 
-/* line 39, css/sass/partials/type.scss */
+/* line 44, css/sass/partials/type.scss */
 .secondary {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
@@ -719,7 +724,7 @@ p, ul, ol, li {
   border: .2rem solid #000;
   color: #000;
 }
-/* line 47, css/sass/partials/type.scss */
+/* line 52, css/sass/partials/type.scss */
 .secondary:hover {
   background: #000;
   color: #fff;
@@ -727,14 +732,14 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 57, css/sass/partials/type.scss */
+/* line 62, css/sass/partials/type.scss */
 .third {
   font-size: 1.6rem;
   padding: .4rem .8rem;
   border: .2rem solid #000;
   color: #000;
 }
-/* line 64, css/sass/partials/type.scss */
+/* line 69, css/sass/partials/type.scss */
 .third:hover {
   background: #000;
   color: #fff;
