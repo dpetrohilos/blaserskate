@@ -16,6 +16,17 @@
     font-family: 'kent', Arial, Helvetica, sans-serif;
 }
 
+.over-text {
+    
+    &::before {
+
+        width: 10vw;
+        height: 1px; 
+        background: #444; 
+
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'kent', Arial, Helvetica, sans-serif;
     
