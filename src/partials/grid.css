@@ -1,54 +1,85 @@
-/*
-Error: Invalid CSS after "max-width": expected ";", was ": $wrapper-width;"
-        on line 18 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss
+/**
+ * modules/variables
+ * ---
+ */
+/**
+ * Typography
+ */
+/**
+ * Colors
+ */
+/**
+ * Grid
+ */
+/* line 4, ../css/sass/partials/grid.scss */
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr));
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  grid-column-gap: 1.6rem;
+  grid-row-gap: 1.6rem;
+  grid-template-areas: "title" "col-1" "col-2";
+}
 
-13:   grid-template-areas: 
-14:   "title" "col-1" "col-2"; 
-15: }
-16: 
-17: .title {grid-area: 1 / 1 / 1 / 1
-18: max-width: $wrapper-width;
-19: }
-20: 
-21: .col-1 {grid-area: 2 / 1 / 2 / 1}
-22: 
-23: .col-2 {grid-area: 2 / 2 / 2 / 2}
+/* line 17, ../css/sass/partials/grid.scss */
+.title {
+  grid-area: 1 / 1 / 1 / 1;
+  max-width: 140rem;
+}
 
-Backtrace:
-/Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss:18
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:786:in `block in try_declaration'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1183:in `rethrow'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:791:in `try_declaration'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:720:in `declaration_or_ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"max-width\": expected \";\", was \": $wrapper-width;\"\A         on line 18 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss\A \A 13:   grid-template-areas: \A 14:   \"title\" \"col-1\" \"col-2\"; \A 15: }\A 16: \A 17: .title {grid-area: 1 / 1 / 1 / 1\A 18: max-width: $wrapper-width;\A 19: }\A 20: \A 21: .col-1 {grid-area: 2 / 1 / 2 / 1}\A 22: \A 23: .col-2 {grid-area: 2 / 2 / 2 / 2}"; }
+/* line 21, ../css/sass/partials/grid.scss */
+.col-1 {
+  grid-area: 2 / 1 / 2 / 1;
+}
+
+/* line 23, ../css/sass/partials/grid.scss */
+.col-2 {
+  grid-area: 2 / 2 / 2 / 2;
+}
+
+/* line 26, ../css/sass/partials/grid.scss */
+.sub-grid {
+  display: grid;
+}
+
+/* line 30, ../css/sass/partials/grid.scss */
+.flex {
+  display: flex;
+}
+
+/* line 34, ../css/sass/partials/grid.scss */
+.v-align {
+  align-items: center;
+}
+
+/* line 38, ../css/sass/partials/grid.scss */
+.h-center {
+  justify-content: center;
+}
+
+/* line 42, ../css/sass/partials/grid.scss */
+.product-grid {
+  display: grid;
+  grid-template-row: 1fr 1fr 1fr;
+}
+
+/* line 47, ../css/sass/partials/grid.scss */
+.card {
+  display: grid;
+}
+
+/* line 53, ../css/sass/partials/grid.scss */
+.card-image {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* line 64, ../css/sass/partials/grid.scss */
+.grid-item-half {
+  aspect-ratio: 2 / 1;
+  width: 100%;
+}
