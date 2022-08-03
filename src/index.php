@@ -71,16 +71,21 @@ Founder, Louisville, KY </cite>
 		</section>
 		<!-- /section -->
 	</main>
-<div class="grid-row-5 grid wrapper">
-<header class="grid-item-1 title">
+
+	<div class="grid-row-5 grid wrapper">
+
+	<header class="grid-item-1 title">
 <h5 class="section-title">The Squad
 </h5>
+
 </header>
-<div class="grid-item-2" >
+
+<div class="grid-item-2 col-1" >
 <p class="sub-title">Korey Blaser</p>
 <p class="sub-title">Sar Rats </p>
 <p class="sub-title">KRIN Fernandez</p>
 </div>
+
 <div class="grid-item-3 kent col-2">
 <p class="sub-title">Justin Cornett</p>
 <p class="sub-title">Holden Turner</p>
