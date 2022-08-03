@@ -16,7 +16,16 @@
 
 .title {grid-area: 1 / 1 / 1 / 1;
 max-width: $wrapper-width;
+margin: 0 auto;
 }
+
+.wrapper > .title {
+
+margin: 0; 
+
+}
+
+
 
 .col-1 {grid-area: 2 / 1 / 2 / 1;}
 

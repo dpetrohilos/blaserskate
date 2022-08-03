@@ -28,57 +28,63 @@
 .title {
   grid-area: 1 / 1 / 1 / 1;
   max-width: 140rem;
+  margin: 0 auto;
 }
 
-/* line 21, ../css/sass/partials/grid.scss */
+/* line 22, ../css/sass/partials/grid.scss */
+.wrapper > .title {
+  margin: 0;
+}
+
+/* line 30, ../css/sass/partials/grid.scss */
 .col-1 {
   grid-area: 2 / 1 / 2 / 1;
 }
 
-/* line 23, ../css/sass/partials/grid.scss */
+/* line 32, ../css/sass/partials/grid.scss */
 .col-2 {
   grid-area: 2 / 2 / 2 / 2;
 }
 
-/* line 26, ../css/sass/partials/grid.scss */
+/* line 35, ../css/sass/partials/grid.scss */
 .sub-grid {
   display: grid;
 }
 
-/* line 30, ../css/sass/partials/grid.scss */
+/* line 39, ../css/sass/partials/grid.scss */
 .flex {
   display: flex;
 }
 
-/* line 34, ../css/sass/partials/grid.scss */
+/* line 43, ../css/sass/partials/grid.scss */
 .v-align {
   align-items: center;
 }
 
-/* line 38, ../css/sass/partials/grid.scss */
+/* line 47, ../css/sass/partials/grid.scss */
 .h-center {
   justify-content: center;
 }
 
-/* line 42, ../css/sass/partials/grid.scss */
+/* line 51, ../css/sass/partials/grid.scss */
 .product-grid {
   display: grid;
   grid-template-row: 1fr 1fr 1fr;
 }
 
-/* line 47, ../css/sass/partials/grid.scss */
+/* line 56, ../css/sass/partials/grid.scss */
 .card {
   display: grid;
 }
 
-/* line 53, ../css/sass/partials/grid.scss */
+/* line 62, ../css/sass/partials/grid.scss */
 .card-image {
   aspect-ratio: 1 / 1;
   width: 100%;
   object-fit: cover;
 }
 
-/* line 64, ../css/sass/partials/grid.scss */
+/* line 73, ../css/sass/partials/grid.scss */
 .grid-item-half {
   aspect-ratio: 2 / 1;
   width: 100%;

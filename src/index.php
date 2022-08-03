@@ -36,7 +36,7 @@ Louisville, KY </cite>
 </div>
 </div>
 <div class="grid grid-row-3">
-<header class="grid-item-1">
+<header class="grid-item-1 title">
 <h2 class="section-title">Shred The Gnar </h2>
 </header>
 <div class="grid-item-2 col-1"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_2.jpg"/>
@@ -53,8 +53,8 @@ Founder, Louisville, KY </cite>
 </div>
 </div>
 <div class="grid grid-row-3 wrapper">
-<div class="grid-item-1 col-1 section-title">
-<h3 class="title">Our Store </h3>
+<div class="grid-item-1 col-1 title">
+<h3 class="section-title">Our Store </h3>
 <p>Put simply, Blaser Boards are made from the strongest wood you can get. Sustainably sourced, slow grown, American maple from Northern Wisconsin gives each board has its own unique signature. Perfect for every free spirited adventurer who can’t be tamed.</p>
 <a href="/decks" class="button secondary">Decks</a>
 <a href="/clothing" class="button secondary">Clothing</a>
@@ -64,8 +64,8 @@ Founder, Louisville, KY </cite>
 </div>
 <main role="main" aria-label="Content" class="grid-row-4 grid wrapper">
 		<!-- section replace loop with store -->
-		<section>
-			<h4 class="section-title">In Stock</h4>
+		<section><header class="title">
+			<h4 class="section-title">In Stock</h4></header>
 			<?php get_template_part( 'loop' ); ?>
 			<?php get_template_part( 'pagination' ); ?>
 		</section>
