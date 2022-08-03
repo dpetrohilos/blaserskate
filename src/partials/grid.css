@@ -1,21 +1,21 @@
 /*
 Error: Invalid CSS after "max-width": expected ";", was ": $wrapper-width;"
-        on line 17 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss
+        on line 18 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss
 
-12:   grid-template-areas: 
-13:   "title" "col-1" "col-2"; 
-14: }
-15: 
-16: .title {grid-area: 1 / 1 / 1 / 1
-17: max-width: $wrapper-width;
-18: }
-19: 
-20: .col-1 {grid-area: 2 / 1 / 2 / 1}
-21: 
-22: .col-2 {grid-area: 2 / 2 / 2 / 2}
+13:   grid-template-areas: 
+14:   "title" "col-1" "col-2"; 
+15: }
+16: 
+17: .title {grid-area: 1 / 1 / 1 / 1
+18: max-width: $wrapper-width;
+19: }
+20: 
+21: .col-1 {grid-area: 2 / 1 / 2 / 1}
+22: 
+23: .col-2 {grid-area: 2 / 2 / 2 / 2}
 
 Backtrace:
-/Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss:17
+/Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss:18
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
@@ -51,4 +51,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"max-width\": expected \";\", was \": $wrapper-width;\"\A         on line 17 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss\A \A 12:   grid-template-areas: \A 13:   \"title\" \"col-1\" \"col-2\"; \A 14: }\A 15: \A 16: .title {grid-area: 1 / 1 / 1 / 1\A 17: max-width: $wrapper-width;\A 18: }\A 19: \A 20: .col-1 {grid-area: 2 / 1 / 2 / 1}\A 21: \A 22: .col-2 {grid-area: 2 / 2 / 2 / 2}"; }
+  content: "Error: Invalid CSS after \"max-width\": expected \";\", was \": $wrapper-width;\"\A         on line 18 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss\A \A 13:   grid-template-areas: \A 14:   \"title\" \"col-1\" \"col-2\"; \A 15: }\A 16: \A 17: .title {grid-area: 1 / 1 / 1 / 1\A 18: max-width: $wrapper-width;\A 19: }\A 20: \A 21: .col-1 {grid-area: 2 / 1 / 2 / 1}\A 22: \A 23: .col-2 {grid-area: 2 / 2 / 2 / 2}"; }

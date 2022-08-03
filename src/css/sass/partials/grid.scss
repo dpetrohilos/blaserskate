@@ -1,4 +1,5 @@
-$wrapper-width: 140rem; 
+@import "modules/variables";
+$wrapper-width: 140rem;
 
 .grid {
   display: grid;
