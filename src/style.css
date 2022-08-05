@@ -923,7 +923,7 @@ p, ul, ol, li {
   width: 100%;
 }
 
-@media (min-width: 60em) {
+@media (max-width: 60em) {
   /* line 84, css/sass/partials/grid.scss */
   .title {
     grid-area: 1 / 1 / 1 / 1;
