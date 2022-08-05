@@ -938,11 +938,11 @@ p, ul, ol, li {
 
   /* line 98, css/sass/partials/grid.scss */
   .col-1 {
-    grid-area: 2 / 1 / 2 / 1;
+    grid-area: 1 / 1 / 1 / 1;
   }
 
   /* line 100, css/sass/partials/grid.scss */
   .col-2 {
-    grid-area: 2 / 2 / 2 / 2;
+    grid-area: 1 / 1 / 1 / 1;
   }
 }
