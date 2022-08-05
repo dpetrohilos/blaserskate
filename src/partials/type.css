@@ -1,4 +1,13 @@
-/* line 2, ../css/sass/partials/type.scss */
+/* line 1, ../css/sass/partials/type.scss */
+.header >
+.section-title {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* line 12, ../css/sass/partials/type.scss */
 .section-title {
   font-size: clamp(2.2rem, 8vw, 7.2rem);
   font-family: 'kent', Arial, Helvetica, sans-serif;
@@ -9,21 +18,21 @@
   margin-top: 12rem;
 }
 
-/* line 14, ../css/sass/partials/type.scss */
+/* line 24, ../css/sass/partials/type.scss */
 .sub-title {
   font-size: clamp(2rem, 3vw, 3.6rem);
   font-family: 'kent', Arial, Helvetica, sans-serif;
   letter-spacing: -.1rem;
 }
 
-/* line 22, ../css/sass/partials/type.scss */
+/* line 32, ../css/sass/partials/type.scss */
 .post-title {
   font-size: clamp(1.8rem, 1vw, 2rem);
   font-family: 'kent', Arial, Helvetica, sans-serif;
   letter-spacing: -.1rem;
 }
 
-/* line 29, ../css/sass/partials/type.scss */
+/* line 39, ../css/sass/partials/type.scss */
 .pq {
   font-size: clamp(2rem, 3vw, 3.6rem);
   font-family: 'kent', Arial, Helvetica, sans-serif;
@@ -33,7 +42,7 @@
   padding-right: clamp(1rem, 2.4rem, 3.6rem);
   letter-spacing: -.1rem;
 }
-/* line 40, ../css/sass/partials/type.scss */
+/* line 50, ../css/sass/partials/type.scss */
 .pq::before {
   content: open-quote;
   position: absolute;
@@ -41,7 +50,7 @@
   margin-top: -3.6rem;
   font-size: 6rem;
 }
-/* line 49, ../css/sass/partials/type.scss */
+/* line 59, ../css/sass/partials/type.scss */
 .pq::after {
   content: close-quote;
   position: absolute;
@@ -50,19 +59,19 @@
   font-size: 6rem;
 }
 
-/* line 64, ../css/sass/partials/type.scss */
+/* line 74, ../css/sass/partials/type.scss */
 .kent {
   font-family: 'kent', Arial, Helvetica, sans-serif;
 }
 
-/* line 70, ../css/sass/partials/type.scss */
+/* line 80, ../css/sass/partials/type.scss */
 .over-text::before {
   width: 10vw;
   height: 1px;
   background: #444;
 }
 
-/* line 79, ../css/sass/partials/type.scss */
+/* line 89, ../css/sass/partials/type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'kent', Arial, Helvetica, sans-serif;
   margin: 0 0 1.2rem 0;
@@ -71,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.1rem;
 }
 
-/* line 89, ../css/sass/partials/type.scss */
+/* line 99, ../css/sass/partials/type.scss */
 p, ul, ol, li {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: clamp(1.2rem, 1.6rem, 1.8rem);
@@ -80,7 +89,7 @@ p, ul, ol, li {
   letter-spacing: -.1rem;
 }
 
-/* line 103, ../css/sass/partials/type.scss */
+/* line 113, ../css/sass/partials/type.scss */
 .button {
   font-family: 'kent', Arial, Helvetica, sans-serif;
   border-radius: .4rem;
@@ -88,7 +97,7 @@ p, ul, ol, li {
   width: fit-content;
 }
 
-/* line 111, ../css/sass/partials/type.scss */
+/* line 121, ../css/sass/partials/type.scss */
 .primary {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
@@ -96,7 +105,7 @@ p, ul, ol, li {
   color: #fff;
   border: transparent .2rem solid;
 }
-/* line 120, ../css/sass/partials/type.scss */
+/* line 130, ../css/sass/partials/type.scss */
 .primary:hover {
   text-decoration: none;
   border: .2rem solid #000;
@@ -104,7 +113,7 @@ p, ul, ol, li {
   background: transparent;
 }
 
-/* line 132, ../css/sass/partials/type.scss */
+/* line 142, ../css/sass/partials/type.scss */
 .secondary {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
@@ -112,7 +121,7 @@ p, ul, ol, li {
   border: .2rem solid #000;
   color: #000;
 }
-/* line 140, ../css/sass/partials/type.scss */
+/* line 150, ../css/sass/partials/type.scss */
 .secondary:hover {
   background: #000;
   color: #fff;
@@ -120,14 +129,14 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 150, ../css/sass/partials/type.scss */
+/* line 160, ../css/sass/partials/type.scss */
 .third {
   font-size: 1.6rem;
   padding: .4rem .8rem;
   border: .2rem solid #000;
   color: #000;
 }
-/* line 157, ../css/sass/partials/type.scss */
+/* line 167, ../css/sass/partials/type.scss */
 .third:hover {
   background: #000;
   color: #fff;
