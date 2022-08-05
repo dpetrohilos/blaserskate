@@ -3,6 +3,9 @@
     font-size: clamp(2.2rem, 8vw, 7.2rem);
     font-family: 'kent', Arial, Helvetica, sans-serif;
     letter-spacing: -.1rem;
+    border-bottom: #444 1.2rem solid;
+    padding-bottom: clamp(1rem, 2.4rem, 3.6rem);
+    margin-block-end: clamp(1rem, 2.4rem, 3.6rem);
 
 
 }
