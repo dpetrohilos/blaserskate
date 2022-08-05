@@ -105,11 +105,11 @@
 
   /* line 97, ../css/sass/partials/grid.scss */
   .col-1 {
-    grid-area: 1 / 1 / 1 / 1;
+    grid-area: 1 / 2 / 1 / 1;
   }
 
   /* line 99, ../css/sass/partials/grid.scss */
   .col-2 {
-    grid-area: 1 / 1 / 1 / 1;
+    grid-area: 1 / 3 / 1 / 1;
   }
 }
