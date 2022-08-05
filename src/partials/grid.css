@@ -91,24 +91,24 @@
 }
 
 @media (min-width: 60em) {
-  /* line 85, ../css/sass/partials/grid.scss */
+  /* line 84, ../css/sass/partials/grid.scss */
   .title {
     grid-area: 1 / 1 / 1 / 1;
     max-width: 140rem;
     margin: 0 auto;
   }
 
-  /* line 90, ../css/sass/partials/grid.scss */
+  /* line 89, ../css/sass/partials/grid.scss */
   .wrapper > .title {
     margin: 0;
   }
 
-  /* line 98, ../css/sass/partials/grid.scss */
+  /* line 97, ../css/sass/partials/grid.scss */
   .col-1 {
     grid-area: 1 / 1 / 1 / 1;
   }
 
-  /* line 100, ../css/sass/partials/grid.scss */
+  /* line 99, ../css/sass/partials/grid.scss */
   .col-2 {
     grid-area: 1 / 1 / 1 / 1;
   }
