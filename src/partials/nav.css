@@ -44,3 +44,348 @@
 .menu-item {
   list-style: none;
 }
+
+/* BASIC SETUP */
+/* line 62, ../css/sass/partials/nav.scss */
+.page-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+/* line 67, ../css/sass/partials/nav.scss */
+.nav-wrapper {
+  width: 100%;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+/* line 75, ../css/sass/partials/nav.scss */
+.grad-bar {
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: gradbar 15s ease infinite;
+  -moz-animation: gradbar 15s ease infinite;
+  animation: gradbar 15s ease infinite;
+}
+
+/* NAVIGATION */
+/* line 87, ../css/sass/partials/nav.scss */
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  height: 50px;
+  overflow: hidden;
+}
+
+/* line 95, ../css/sass/partials/nav.scss */
+.navbar img {
+  height: 16px;
+  width: auto;
+  justify-self: start;
+  margin-left: 20px;
+}
+
+/* line 102, ../css/sass/partials/nav.scss */
+.navbar ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-self: end;
+}
+
+/* line 110, ../css/sass/partials/nav.scss */
+.nav-item a {
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+}
+
+/* line 118, ../css/sass/partials/nav.scss */
+.nav-item a:hover {
+  color: #3498db;
+}
+
+/* SECTIONS */
+/* line 124, ../css/sass/partials/nav.scss */
+.headline {
+  width: 100%;
+  height: 50vh;
+  min-height: 350px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/jPLiQ-9/mountains-background-for-titles-intro-projects-and-etc_ew22rur3l__F0000.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 135, ../css/sass/partials/nav.scss */
+.features {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 50px 20px;
+  justify-content: space-around;
+}
+
+/* line 144, ../css/sass/partials/nav.scss */
+.feature-container {
+  flex-basis: 30%;
+  margin-top: 10px;
+}
+
+/* line 149, ../css/sass/partials/nav.scss */
+.feature-container p {
+  color: #000;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+/* line 156, ../css/sass/partials/nav.scss */
+.feature-container img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* SEARCH FUNCTION */
+/* line 163, ../css/sass/partials/nav.scss */
+#search-icon {
+  font-size: 0.9rem;
+  margin-top: 3px;
+  margin-left: 15px;
+  transition: color 0.3s ease-out;
+}
+
+/* line 170, ../css/sass/partials/nav.scss */
+#search-icon:hover {
+  color: #3498db;
+  cursor: pointer;
+}
+
+/* line 175, ../css/sass/partials/nav.scss */
+.search {
+  transform: translate(-35%);
+  -webkit-transform: translate(-35%);
+  transition: transform 0.7s ease-in-out;
+  color: #3498db;
+}
+
+/* line 182, ../css/sass/partials/nav.scss */
+.no-search {
+  transform: translate(0);
+  transition: transform 0.7s ease-in-out;
+}
+
+/* line 187, ../css/sass/partials/nav.scss */
+.search-input {
+  position: absolute;
+  top: -4px;
+  right: -125px;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.6s ease;
+}
+
+/* line 196, ../css/sass/partials/nav.scss */
+.search-active {
+  opacity: 1;
+  z-index: 0;
+}
+
+/* line 201, ../css/sass/partials/nav.scss */
+input {
+  border: 0;
+  border-left: 1px solid #ccc;
+  border-radius: 0;
+  /* FOR SAFARI */
+  outline: 0;
+  padding: 5px;
+}
+
+/* MOBILE MENU & ANIMATION */
+/* line 211, ../css/sass/partials/nav.scss */
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #3f3f3f;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 221, ../css/sass/partials/nav.scss */
+.menu-toggle {
+  justify-self: end;
+  margin-right: 25px;
+  display: none;
+}
+
+/* line 227, ../css/sass/partials/nav.scss */
+.menu-toggle:hover {
+  cursor: pointer;
+}
+
+/* line 231, ../css/sass/partials/nav.scss */
+#mobile-menu.is-active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+/* line 235, ../css/sass/partials/nav.scss */
+#mobile-menu.is-active .bar:nth-child(1) {
+  -webkit-transform: translateY(8px) rotate(45deg);
+  -ms-transform: translateY(8px) rotate(45deg);
+  -o-transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+}
+
+/* line 242, ../css/sass/partials/nav.scss */
+#mobile-menu.is-active .bar:nth-child(3) {
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+  -ms-transform: translateY(-8px) rotate(-45deg);
+  -o-transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* KEYFRAME ANIMATIONS */
+@-webkit-keyframes gradbar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradbar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradbar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* Media Queries */
+/* Mobile Devices - Phones/Tablets */
+@media only screen and (max-width: 720px) {
+  /* line 292, ../css/sass/partials/nav.scss */
+  .features {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  /* MOBILE HEADINGS */
+  /* line 299, ../css/sass/partials/nav.scss */
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  /* line 303, ../css/sass/partials/nav.scss */
+  h2 {
+    font-size: 1rem;
+  }
+
+  /* line 307, ../css/sass/partials/nav.scss */
+  p {
+    font-size: 0.8rem;
+  }
+
+  /* MOBILE NAVIGATION */
+  /* line 313, ../css/sass/partials/nav.scss */
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: start;
+    top: 55px;
+    background-color: #fff;
+    width: 100%;
+    height: calc(100vh - 55px);
+    transform: translate(-101%);
+    text-align: center;
+    overflow: hidden;
+  }
+
+  /* line 327, ../css/sass/partials/nav.scss */
+  .navbar li {
+    padding: 15px;
+  }
+
+  /* line 331, ../css/sass/partials/nav.scss */
+  .navbar li:first-child {
+    margin-top: 50px;
+  }
+
+  /* line 335, ../css/sass/partials/nav.scss */
+  .navbar li a {
+    font-size: 1rem;
+  }
+
+  /* line 339, ../css/sass/partials/nav.scss */
+  .menu-toggle, .bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  /* line 344, ../css/sass/partials/nav.scss */
+  .mobile-nav {
+    transform: translate(0%) !important;
+  }
+
+  /* SECTIONS */
+  /* line 350, ../css/sass/partials/nav.scss */
+  .headline {
+    height: 20vh;
+  }
+
+  /* line 354, ../css/sass/partials/nav.scss */
+  .feature-container p {
+    margin-bottom: 25px;
+  }
+
+  /* line 358, ../css/sass/partials/nav.scss */
+  .feature-container {
+    margin-top: 20px;
+  }
+
+  /* line 362, ../css/sass/partials/nav.scss */
+  .feature-container:nth-child(2) {
+    order: -1;
+  }
+
+  /* SEARCH DISABLED ON MOBILE */
+  /* line 368, ../css/sass/partials/nav.scss */
+  #search-icon {
+    display: none;
+  }
+
+  /* line 372, ../css/sass/partials/nav.scss */
+  .search-input {
+    display: none;
+  }
+}
