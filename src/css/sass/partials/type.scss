@@ -28,15 +28,23 @@
     padding-right: clamp(1rem, 2.4rem, 3.6rem); 
 
 
-
 &::before {
-    content: open-quote;  
+    content: open-quote; 
+    position: absolute;
+    margin-left: -2.4rem;
+    margin-top: -2.4rem;
+    font-size: 6rem;  
 
 }
 
 &::after {
 
     content: close-quote;
+    position: absolute;
+    margin-left: 2.4rem;
+    margin-top: 2.4rem;
+    font-size: 6rem;  
+
 }
 
 }
