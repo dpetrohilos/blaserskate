@@ -19,6 +19,31 @@
 
 }
 
+.pq {
+    font-size: clamp(2rem, 3vw, 3.6rem);
+    font-family: 'kent', Arial, Helvetica, sans-serif;
+    padding-top: clamp(1rem, 2.4rem, 3.6rem); 
+    padding-bottom: clamp(1rem, 2.4rem, 3.6rem); 
+    padding-left: clamp(1.2rem, 2.4rem, 3.6rem); 
+    padding-right: clamp(1rem, 2.4rem, 3.6rem); 
+
+
+
+&::before {
+    content: "&ldquo;";  
+
+}
+
+&::after {
+
+    content: "&rdquo;";
+}
+
+}
+
+
+
+
 .kent {
     font-family: 'kent', Arial, Helvetica, sans-serif;
 }
