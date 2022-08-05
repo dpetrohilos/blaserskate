@@ -718,7 +718,11 @@ input[type="search"] {
 }
 /* line 32, css/sass/partials/type.scss */
 .pq::before {
-  content: "" ";  \a \a}\a \a&::after {\a \a     content: " "";
+  content: open-quote;
+}
+/* line 37, css/sass/partials/type.scss */
+.pq::after {
+  content: close-quote;
 }
 
 /* line 47, css/sass/partials/type.scss */

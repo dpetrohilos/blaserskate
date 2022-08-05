@@ -30,13 +30,13 @@
 
 
 &::before {
-    content: """;  
+    content: open-quote;  
 
 }
 
 &::after {
 
-    content: """;
+    content: close-quote;
 }
 
 }
