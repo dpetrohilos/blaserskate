@@ -53,11 +53,11 @@ Founder, Louisville, KY </cite>
 </div>
 </div>
 <div class="grid grid-row-3 wrapper">
-<div class="grid-item-1 col-1 title">
+<div class="grid-item-1 col-1">
 <h3 class="section-title">Our Store </h3>
 <p>Put simply, Blaser Boards are made from the strongest wood you can get. Sustainably sourced, slow grown, American maple from Northern Wisconsin gives each board has its own unique signature. Perfect for every free spirited adventurer who can’t be tamed.</p>
-<a href="/decks" class="button secondary">Decks</a>
-<a href="/clothing" class="button secondary">Clothing</a>
+<div class="inline"><a href="/decks" class="button secondary">Decks</a>
+<a href="/clothing" class="button secondary">Clothing</a></div>
 </div>
 <div class="grid-item-2 col-2"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_5.jpg"/>
 </div>
@@ -75,7 +75,7 @@ Founder, Louisville, KY </cite>
 	<div class="grid-row-5 grid wrapper">
 
 	<header class="grid-item-1 title">
-<h5 class="section-title">The Squad
+<h5 class="section-title">The Crew
 </h5>
 
 </header>
