@@ -718,11 +718,7 @@ input[type="search"] {
 }
 /* line 32, css/sass/partials/type.scss */
 .pq::before {
-  content: "&ldquo;";
-}
-/* line 37, css/sass/partials/type.scss */
-.pq::after {
-  content: "&rdquo;";
+  content: "" ";  \a \a}\a \a&::after {\a \a     content: " "";
 }
 
 /* line 47, css/sass/partials/type.scss */
