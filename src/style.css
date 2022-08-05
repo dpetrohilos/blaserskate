@@ -848,7 +848,7 @@ p, ul, ol, li {
 .grid {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   width: 100%;
   margin: 0 auto;
   padding: 0;
@@ -921,4 +921,28 @@ p, ul, ol, li {
 .grid-item-half {
   aspect-ratio: 2 / 1;
   width: 100%;
+}
+
+@media (min-width: 60em) {
+  /* line 85, css/sass/partials/grid.scss */
+  .title {
+    grid-area: 1 / 1 / 1 / 1;
+    max-width: 140rem;
+    margin: 0 auto;
+  }
+
+  /* line 90, css/sass/partials/grid.scss */
+  .wrapper > .title {
+    margin: 0;
+  }
+
+  /* line 98, css/sass/partials/grid.scss */
+  .col-1 {
+    grid-area: 2 / 1 / 2 / 1;
+  }
+
+  /* line 100, css/sass/partials/grid.scss */
+  .col-2 {
+    grid-area: 2 / 2 / 2 / 2;
+  }
 }

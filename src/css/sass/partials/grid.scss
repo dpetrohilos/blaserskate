@@ -4,7 +4,7 @@
 .grid {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   width: 100%;
   margin: 0 auto;
   padding: 0;
@@ -78,3 +78,27 @@ display: grid;
 
 }
 
+// smaller than 600px 
+
+@media (min-width: 60em) {
+
+  .title {grid-area: 1 / 1 / 1 / 1;
+    max-width: $wrapper-width;
+    margin: 0 auto;
+    }
+    
+    .wrapper > .title {
+    
+    margin: 0; 
+    
+    }
+    
+    
+    
+    .col-1 {grid-area: 2 / 1 / 2 / 1;}
+    
+    .col-2 {grid-area: 2 / 2 / 2 / 2;}
+    
+
+
+}
