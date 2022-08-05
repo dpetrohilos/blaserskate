@@ -79,7 +79,7 @@ display: grid;
 
 // smaller than 600px 
 
-@media (min-width: 60em) {
+@media (max-width: 60em) {
 
   .title {grid-area: 1 / 1 / 1 / 1;
     max-width: $wrapper-width;
