@@ -690,40 +690,36 @@ input[type="search"] {
   }
 }
 /* line 1, css/sass/partials/type.scss */
-.header >
+.title >
 .section-title {
-  border-bottom: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-/* line 12, css/sass/partials/type.scss */
-.section-title {
-  font-size: clamp(2.2rem, 8vw, 7.2rem);
-  font-family: 'kent', Arial, Helvetica, sans-serif;
-  letter-spacing: -.1rem;
   border-bottom: #444 1.2rem solid;
   padding-bottom: 12rem;
   margin-bottom: 12rem;
   margin-top: 12rem;
 }
 
-/* line 24, css/sass/partials/type.scss */
+/* line 13, css/sass/partials/type.scss */
+.section-title {
+  font-size: clamp(2.2rem, 8vw, 7.2rem);
+  font-family: 'kent', Arial, Helvetica, sans-serif;
+  letter-spacing: -.1rem;
+}
+
+/* line 20, css/sass/partials/type.scss */
 .sub-title {
   font-size: clamp(2rem, 3vw, 3.6rem);
   font-family: 'kent', Arial, Helvetica, sans-serif;
   letter-spacing: -.1rem;
 }
 
-/* line 32, css/sass/partials/type.scss */
+/* line 28, css/sass/partials/type.scss */
 .post-title {
   font-size: clamp(1.8rem, 1vw, 2rem);
   font-family: 'kent', Arial, Helvetica, sans-serif;
   letter-spacing: -.1rem;
 }
 
-/* line 39, css/sass/partials/type.scss */
+/* line 35, css/sass/partials/type.scss */
 .pq {
   font-size: clamp(2rem, 3vw, 3.6rem);
   font-family: 'kent', Arial, Helvetica, sans-serif;
@@ -733,7 +729,7 @@ input[type="search"] {
   padding-right: clamp(1rem, 2.4rem, 3.6rem);
   letter-spacing: -.1rem;
 }
-/* line 50, css/sass/partials/type.scss */
+/* line 46, css/sass/partials/type.scss */
 .pq::before {
   content: open-quote;
   position: absolute;
@@ -741,7 +737,7 @@ input[type="search"] {
   margin-top: -3.6rem;
   font-size: 6rem;
 }
-/* line 59, css/sass/partials/type.scss */
+/* line 55, css/sass/partials/type.scss */
 .pq::after {
   content: close-quote;
   position: absolute;
@@ -750,19 +746,19 @@ input[type="search"] {
   font-size: 6rem;
 }
 
-/* line 74, css/sass/partials/type.scss */
+/* line 70, css/sass/partials/type.scss */
 .kent {
   font-family: 'kent', Arial, Helvetica, sans-serif;
 }
 
-/* line 80, css/sass/partials/type.scss */
+/* line 76, css/sass/partials/type.scss */
 .over-text::before {
   width: 10vw;
   height: 1px;
   background: #444;
 }
 
-/* line 89, css/sass/partials/type.scss */
+/* line 85, css/sass/partials/type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'kent', Arial, Helvetica, sans-serif;
   margin: 0 0 1.2rem 0;
@@ -771,7 +767,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.1rem;
 }
 
-/* line 99, css/sass/partials/type.scss */
+/* line 95, css/sass/partials/type.scss */
 p, ul, ol, li {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: clamp(1.2rem, 1.6rem, 1.8rem);
@@ -780,7 +776,7 @@ p, ul, ol, li {
   letter-spacing: -.1rem;
 }
 
-/* line 113, css/sass/partials/type.scss */
+/* line 109, css/sass/partials/type.scss */
 .button {
   font-family: 'kent', Arial, Helvetica, sans-serif;
   border-radius: .4rem;
@@ -788,7 +784,7 @@ p, ul, ol, li {
   width: fit-content;
 }
 
-/* line 121, css/sass/partials/type.scss */
+/* line 117, css/sass/partials/type.scss */
 .primary {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
@@ -796,7 +792,7 @@ p, ul, ol, li {
   color: #fff;
   border: transparent .2rem solid;
 }
-/* line 130, css/sass/partials/type.scss */
+/* line 126, css/sass/partials/type.scss */
 .primary:hover {
   text-decoration: none;
   border: .2rem solid #000;
@@ -804,7 +800,7 @@ p, ul, ol, li {
   background: transparent;
 }
 
-/* line 142, css/sass/partials/type.scss */
+/* line 138, css/sass/partials/type.scss */
 .secondary {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
@@ -812,7 +808,7 @@ p, ul, ol, li {
   border: .2rem solid #000;
   color: #000;
 }
-/* line 150, css/sass/partials/type.scss */
+/* line 146, css/sass/partials/type.scss */
 .secondary:hover {
   background: #000;
   color: #fff;
@@ -820,14 +816,14 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 160, css/sass/partials/type.scss */
+/* line 156, css/sass/partials/type.scss */
 .third {
   font-size: 1.6rem;
   padding: .4rem .8rem;
   border: .2rem solid #000;
   color: #000;
 }
-/* line 167, css/sass/partials/type.scss */
+/* line 163, css/sass/partials/type.scss */
 .third:hover {
   background: #000;
   color: #fff;

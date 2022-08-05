@@ -1,10 +1,11 @@
-.header > 
+.title > 
 .section-title {
 
-    border-bottom: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 0; 
+    border-bottom: #444 1.2rem solid;
+    padding-bottom: 12rem;
+    margin-bottom: 12rem;
+    margin-top: 12rem; 
+
 
 }
 
@@ -13,11 +14,6 @@
     font-size: clamp(2.2rem, 8vw, 7.2rem);
     font-family: 'kent', Arial, Helvetica, sans-serif;
     letter-spacing: -.1rem;
-    border-bottom: #444 1.2rem solid;
-    padding-bottom: 12rem;
-    margin-bottom: 12rem;
-    margin-top: 12rem; 
-
 
 }
 
