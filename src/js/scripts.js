@@ -5,7 +5,6 @@
 		// DOM ready, take it away
 	});
 
-} ( this, jQuery ));
 
 
 $("#search-icon").click(function() {
@@ -18,4 +17,4 @@ $("#search-icon").click(function() {
 	 $(".nav").toggleClass("mobile-nav");
 	 $(this).toggleClass("is-active");
   });
-  
+} ( this, jQuery ));
