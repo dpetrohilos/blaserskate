@@ -70,7 +70,7 @@ function html5blank_nav() {
         'theme_location'  => 'header-menu',
         'menu'            => '',
         'container'       => 'nav',
-        'container_class' => 'menu-{menu slug}-container main-navigation',
+        'container_class' => 'main-navigation',
         'container_id'    => 'site-navigation',
         'menu_class'      => 'nav-menu',
         'menu_id'         => 'primary-menu',
@@ -85,7 +85,10 @@ function html5blank_nav() {
         'walker'          => '',
         'add_li_class'  => 'page_item', 
         'wrap_class' => 'nav-menu',
-        'wrap_id' => 'primary-menu'
+        'wrap_id' => 'primary-menu',
+        'class' => 'nav-menu',
+        'id' => 'primary-menu'
+
 
 
         )
