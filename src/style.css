@@ -533,7 +533,7 @@ input[type="search"] {
  */
 /* line 8, css/sass/partials/header.scss */
 .header {
-  background: #ececec;
+  background: #000;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr));
