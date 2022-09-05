@@ -46,13 +46,8 @@
 
     <button class="menu-toggle" tabindex="0" aria-label="Menu" aria-controls="primary-menu">Menu<span>toggle menu</span></button>
 
-    <nav id="site-navigation" class="main-navigation">
-      <ul id="primary-menu" class="nav-menu">
-        <li class=" page-item-703"><a href="#">Blog</a></li>
                 <?php html5blank_nav(); ?>
-                </ul>
 
-    </nav>
 
   </div>
 
