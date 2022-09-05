@@ -498,3 +498,6 @@ remove_theme_support( 'wc-product-gallery-zoom' );
 remove_theme_support( 'wc-product-gallery-lightbox' );
 remove_theme_support( 'wc-product-gallery-slider' );
 add_filter( 'woocommerce_enqueue_styles', '__return_false' );
+
+
+remove_all_filters( 'wp_nav_menu_args' );
