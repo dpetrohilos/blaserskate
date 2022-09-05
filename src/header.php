@@ -48,6 +48,7 @@
 
                 <?php html5blank_nav(); ?>
 
+    </nav>
 
   </div>
 
