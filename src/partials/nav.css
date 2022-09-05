@@ -45,347 +45,440 @@
   list-style: none;
 }
 
-/* BASIC SETUP */
-/* line 62, ../css/sass/partials/nav.scss */
-.page-wrapper {
+/* line 58, ../css/sass/partials/nav.scss */
+.main-navigation {
+  clear: both;
+  display: block;
+  float: none;
   width: 100%;
-  height: auto;
+  position: relative;
 }
 
-/* line 67, ../css/sass/partials/nav.scss */
-.nav-wrapper {
-  width: 100%;
-  position: -webkit-sticky;
-  /* Safari */
-  position: sticky;
-  top: 0;
-  background-color: #fff;
+@media (min-width: 1000px) {
+  /* line 67, ../css/sass/partials/nav.scss */
+  .main-navigation {
+    display: inline-block;
+    float: right;
+    width: auto;
+  }
+}
+/* line 74, ../css/sass/partials/nav.scss */
+.main-navigation ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  position: relative;
+  z-index: 100;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.3s 0s ease-in-out;
+  transition: max-height 0.3s 0s ease-in-out;
 }
 
-/* line 75, ../css/sass/partials/nav.scss */
-.grad-bar {
-  width: 100%;
-  height: 5px;
-  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-  background-size: 400% 400%;
-  -webkit-animation: gradbar 15s ease infinite;
-  -moz-animation: gradbar 15s ease infinite;
-  animation: gradbar 15s ease infinite;
-}
-
-/* NAVIGATION */
 /* line 87, ../css/sass/partials/nav.scss */
-.navbar {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  align-items: center;
-  height: 50px;
+.main-navigation ul ul {
+  background-color: #e7e7e7;
+}
+
+@media (min-width: 1000px) {
+  /* line 92, ../css/sass/partials/nav.scss */
+  .main-navigation ul {
+    max-height: inherit;
+    overflow: visible;
+  }
+
+  /* line 96, ../css/sass/partials/nav.scss */
+  .main-navigation ul ul {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: -999em;
+    z-index: 99999;
+  }
+
+  /* line 104, ../css/sass/partials/nav.scss */
+  .main-navigation ul ul ul {
+    left: -999em;
+    top: 0;
+  }
+
+  /* line 108, ../css/sass/partials/nav.scss */
+  .main-navigation ul ul li {
+    display: block;
+    margin: 0;
+  }
+
+  /* line 112, ../css/sass/partials/nav.scss */
+  .main-navigation ul ul li:hover > ul,
+  .main-navigation ul ul li.focus > ul {
+    left: 100%;
+  }
+
+  /* line 116, ../css/sass/partials/nav.scss */
+  .main-navigation ul ul a {
+    min-width: 100px;
+    line-height: 40px;
+  }
+}
+/* line 122, ../css/sass/partials/nav.scss */
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+  left: auto;
+}
+
+/* line 127, ../css/sass/partials/nav.scss */
+.main-navigation li {
+  display: block;
+  position: relative;
+  border-top: 1px solid #e7e7e7;
+}
+
+/* line 133, ../css/sass/partials/nav.scss */
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
+  background-color: #e7e7e7;
+  color: red;
+}
+
+/* line 139, ../css/sass/partials/nav.scss */
+.main-navigation li:last-of-type {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1000px) {
+  /* line 144, ../css/sass/partials/nav.scss */
+  .main-navigation li:last-of-type {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1000px) {
+  /* line 150, ../css/sass/partials/nav.scss */
+  .main-navigation li {
+    display: inline-block;
+    border: none;
+  }
+
+  /* line 154, ../css/sass/partials/nav.scss */
+  .main-navigation li + li {
+    margin-left: 10px;
+  }
+}
+/* line 159, ../css/sass/partials/nav.scss */
+.main-navigation li.active a {
+  background-color: red;
+}
+
+/* line 163, ../css/sass/partials/nav.scss */
+.main-navigation a {
+  display: block;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+@media (min-width: 1000px) {
+  /* line 170, ../css/sass/partials/nav.scss */
+  .main-navigation a {
+    line-height: 60px;
+    padding: 0;
+  }
+}
+/* line 176, ../css/sass/partials/nav.scss */
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current-menu-ancestor > a {
+  color: red;
+}
+
+/* line 183, ../css/sass/partials/nav.scss */
+.sub-nav-toggle {
+  height: 40px;
+  width: 40px;
+  display: block;
+  text-align: center;
+  z-index: 200;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  text-indent: 100%;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (min-width: 1000px) {
+  /* line 200, ../css/sass/partials/nav.scss */
+  .sub-nav-toggle {
+    top: 50%;
+    margin-top: -10px;
+    height: 20px;
+    width: 18.00180018px;
+  }
+}
+/* line 208, ../css/sass/partials/nav.scss */
+.sub-nav-toggle:after {
+  content: '';
+  position: absolute;
+  top: 16.6666666667px;
+  left: 13.3333333333px;
+  width: 0;
+  height: 0;
+  border: 6.6666666667px solid transparent;
+  border-top-color: royalblue;
+}
+
+@media (min-width: 1000px) {
+  /* line 220, ../css/sass/partials/nav.scss */
+  .sub-nav-toggle:after {
+    top: 8.6666666667px;
+    left: 5.1282051282px;
+    border-width: 4px;
+  }
+
+  /* line 225, ../css/sass/partials/nav.scss */
+  .children .sub-nav-toggle:after {
+    left: 8.3333333333px;
+    top: 6.25px;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+}
+/* line 234, ../css/sass/partials/nav.scss */
+.sub-nav-toggle.active {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  background-color: #e7e7e7;
+}
+
+@media (min-width: 1000px) {
+  /* line 242, ../css/sass/partials/nav.scss */
+  .sub-nav-toggle.active {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+/* line 249, ../css/sass/partials/nav.scss */
+.main-navigation.toggled ul.nav-menu {
+  max-height: 1000px;
+}
+
+@media (min-width: 1000px) {
+  /* line 254, ../css/sass/partials/nav.scss */
+  .main-navigation.toggled ul.nav-menu {
+    overflow: visible;
+  }
+}
+/* line 259, ../css/sass/partials/nav.scss */
+.page_item_has_children > a {
+  padding-right: 40px;
+}
+
+@media (min-width: 1000px) {
+  /* line 264, ../css/sass/partials/nav.scss */
+  .page_item_has_children > a {
+    padding-right: 18.00180018px;
+  }
+}
+/* line 269, ../css/sass/partials/nav.scss */
+.children {
+  max-height: 0;
   overflow: hidden;
 }
 
-/* line 95, ../css/sass/partials/nav.scss */
-.navbar img {
-  height: 16px;
-  width: auto;
-  justify-self: start;
-  margin-left: 20px;
+/* line 274, ../css/sass/partials/nav.scss */
+.children.active {
+  max-height: 1000px;
 }
 
-/* line 102, ../css/sass/partials/nav.scss */
-.navbar ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  justify-self: end;
+/* line 278, ../css/sass/partials/nav.scss */
+.children li:first-of-type {
+  margin-top: 0;
 }
 
-/* line 110, ../css/sass/partials/nav.scss */
-.nav-item a {
-  color: #000;
-  font-size: 0.9rem;
-  font-weight: 400;
-  text-decoration: none;
-  transition: color 0.3s ease-out;
+/* line 282, ../css/sass/partials/nav.scss */
+.children li:last-of-type {
+  margin-bottom: 0;
 }
 
-/* line 118, ../css/sass/partials/nav.scss */
-.nav-item a:hover {
-  color: #3498db;
+/* line 286, ../css/sass/partials/nav.scss */
+.children a {
+  white-space: nowrap;
 }
 
-/* SECTIONS */
-/* line 124, ../css/sass/partials/nav.scss */
-.headline {
-  width: 100%;
-  height: 50vh;
-  min-height: 350px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/jPLiQ-9/mountains-background-for-titles-intro-projects-and-etc_ew22rur3l__F0000.png");
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* line 135, ../css/sass/partials/nav.scss */
-.features {
-  width: 100%;
-  height: auto;
-  background-color: #f1f1f1;
-  display: flex;
-  padding: 50px 20px;
-  justify-content: space-around;
-}
-
-/* line 144, ../css/sass/partials/nav.scss */
-.feature-container {
-  flex-basis: 30%;
-  margin-top: 10px;
-}
-
-/* line 149, ../css/sass/partials/nav.scss */
-.feature-container p {
-  color: #000;
-  text-align: center;
-  line-height: 1.4;
-  margin-bottom: 15px;
-}
-
-/* line 156, ../css/sass/partials/nav.scss */
-.feature-container img {
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-/* SEARCH FUNCTION */
-/* line 163, ../css/sass/partials/nav.scss */
-#search-icon {
-  font-size: 0.9rem;
-  margin-top: 3px;
-  margin-left: 15px;
-  transition: color 0.3s ease-out;
-}
-
-/* line 170, ../css/sass/partials/nav.scss */
-#search-icon:hover {
-  color: #3498db;
-  cursor: pointer;
-}
-
-/* line 175, ../css/sass/partials/nav.scss */
-.search {
-  transform: translate(-35%);
-  -webkit-transform: translate(-35%);
-  transition: transform 0.7s ease-in-out;
-  color: #3498db;
-}
-
-/* line 182, ../css/sass/partials/nav.scss */
-.no-search {
-  transform: translate(0);
-  transition: transform 0.7s ease-in-out;
-}
-
-/* line 187, ../css/sass/partials/nav.scss */
-.search-input {
-  position: absolute;
-  top: -4px;
-  right: -125px;
-  opacity: 0;
-  z-index: -1;
-  transition: opacity 0.6s ease;
-}
-
-/* line 196, ../css/sass/partials/nav.scss */
-.search-active {
-  opacity: 1;
-  z-index: 0;
-}
-
-/* line 201, ../css/sass/partials/nav.scss */
-input {
-  border: 0;
-  border-left: 1px solid #ccc;
+/*--------------------------------------------------------------
+## Hamburger menu
+--------------------------------------------------------------*/
+/* line 294, ../css/sass/partials/nav.scss */
+button.menu-toggle {
+  display: block;
+  z-index: 9000;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 60px;
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
   border-radius: 0;
-  /* FOR SAFARI */
-  outline: 0;
-  padding: 5px;
-}
-
-/* MOBILE MENU & ANIMATION */
-/* line 211, ../css/sass/partials/nav.scss */
-.menu-toggle .bar {
-  width: 25px;
-  height: 3px;
-  background-color: #3f3f3f;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-/* line 221, ../css/sass/partials/nav.scss */
-.menu-toggle {
-  justify-self: end;
-  margin-right: 25px;
-  display: none;
-}
-
-/* line 227, ../css/sass/partials/nav.scss */
-.menu-toggle:hover {
+  border: none;
   cursor: pointer;
+  float: right;
+  position: relative;
+  background-color: transparent;
+  /* active state, i.e. menu open */
 }
 
-/* line 231, ../css/sass/partials/nav.scss */
-#mobile-menu.is-active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-/* line 235, ../css/sass/partials/nav.scss */
-#mobile-menu.is-active .bar:nth-child(1) {
-  -webkit-transform: translateY(8px) rotate(45deg);
-  -ms-transform: translateY(8px) rotate(45deg);
-  -o-transform: translateY(8px) rotate(45deg);
-  transform: translateY(8px) rotate(45deg);
-}
-
-/* line 242, ../css/sass/partials/nav.scss */
-#mobile-menu.is-active .bar:nth-child(3) {
-  -webkit-transform: translateY(-8px) rotate(-45deg);
-  -ms-transform: translateY(-8px) rotate(-45deg);
-  -o-transform: translateY(-8px) rotate(-45deg);
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-/* KEYFRAME ANIMATIONS */
-@-webkit-keyframes gradbar {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@-moz-keyframes gradbar {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes gradbar {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-/* Media Queries */
-/* Mobile Devices - Phones/Tablets */
-@media only screen and (max-width: 720px) {
-  /* line 292, ../css/sass/partials/nav.scss */
-  .features {
-    flex-direction: column;
-    padding: 50px;
-  }
-
-  /* MOBILE HEADINGS */
-  /* line 299, ../css/sass/partials/nav.scss */
-  h1 {
-    font-size: 1.9rem;
-  }
-
-  /* line 303, ../css/sass/partials/nav.scss */
-  h2 {
-    font-size: 1rem;
-  }
-
-  /* line 307, ../css/sass/partials/nav.scss */
-  p {
-    font-size: 0.8rem;
-  }
-
-  /* MOBILE NAVIGATION */
-  /* line 313, ../css/sass/partials/nav.scss */
-  .navbar ul {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    justify-content: start;
-    top: 55px;
-    background-color: #fff;
-    width: 100%;
-    height: calc(100vh - 55px);
-    transform: translate(-101%);
-    text-align: center;
-    overflow: hidden;
-  }
-
-  /* line 327, ../css/sass/partials/nav.scss */
-  .navbar li {
-    padding: 15px;
-  }
-
-  /* line 331, ../css/sass/partials/nav.scss */
-  .navbar li:first-child {
-    margin-top: 50px;
-  }
-
-  /* line 335, ../css/sass/partials/nav.scss */
-  .navbar li a {
-    font-size: 1rem;
-  }
-
-  /* line 339, ../css/sass/partials/nav.scss */
-  .menu-toggle, .bar {
-    display: block;
-    cursor: pointer;
-  }
-
-  /* line 344, ../css/sass/partials/nav.scss */
-  .mobile-nav {
-    transform: translate(0%) !important;
-  }
-
-  /* SECTIONS */
-  /* line 350, ../css/sass/partials/nav.scss */
-  .headline {
-    height: 20vh;
-  }
-
-  /* line 354, ../css/sass/partials/nav.scss */
-  .feature-container p {
-    margin-bottom: 25px;
-  }
-
-  /* line 358, ../css/sass/partials/nav.scss */
-  .feature-container {
-    margin-top: 20px;
-  }
-
-  /* line 362, ../css/sass/partials/nav.scss */
-  .feature-container:nth-child(2) {
-    order: -1;
-  }
-
-  /* SEARCH DISABLED ON MOBILE */
-  /* line 368, ../css/sass/partials/nav.scss */
-  #search-icon {
+@media (min-width: 1000px) {
+  /* line 318, ../css/sass/partials/nav.scss */
+  button.menu-toggle {
     display: none;
   }
+}
+/* line 323, ../css/sass/partials/nav.scss */
+button.menu-toggle:focus {
+  outline: none;
+}
 
-  /* line 372, ../css/sass/partials/nav.scss */
-  .search-input {
-    display: none;
+/* line 327, ../css/sass/partials/nav.scss */
+button.menu-toggle:hover, button.menu-toggle:focus {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+/* line 333, ../css/sass/partials/nav.scss */
+button.menu-toggle.is-active span {
+  background-color: teal;
+  -webkit-transform: rotate(-225deg);
+  -ms-transform: rotate(-225deg);
+  transform: rotate(-225deg);
+}
+
+/* line 340, ../css/sass/partials/nav.scss */
+button.menu-toggle.is-active span::before {
+  background-color: teal;
+  top: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 348, ../css/sass/partials/nav.scss */
+button.menu-toggle.is-active span::after {
+  background-color: transparent;
+  bottom: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/* line 356, ../css/sass/partials/nav.scss */
+button.menu-toggle.is-active span::before,
+button.menu-toggle.is-active span::after {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 362, ../css/sass/partials/nav.scss */
+button.menu-toggle span {
+  display: block;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #000;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+/* line 374, ../css/sass/partials/nav.scss */
+button.menu-toggle span::before, button.menu-toggle span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  content: "";
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+/* line 386, ../css/sass/partials/nav.scss */
+button.menu-toggle span::before {
+  top: -9px;
+  -webkit-transition-property: top, -webkit-transform;
+  transition-property: top, -webkit-transform;
+  transition-property: top, transform;
+  transition-property: top, transform, -webkit-transform;
+}
+
+/* line 394, ../css/sass/partials/nav.scss */
+button.menu-toggle span::after {
+  bottom: -9px;
+  -webkit-transition-property: bottom, -webkit-transform;
+  transition-property: bottom, -webkit-transform;
+  transition-property: bottom, transform;
+  transition-property: bottom, transform, -webkit-transform;
+}
+
+/* line 404, ../css/sass/partials/nav.scss */
+.site-header {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e7e7e7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 415, ../css/sass/partials/nav.scss */
+.site-navbar {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  /* line 425, ../css/sass/partials/nav.scss */
+  .site-navbar {
+    max-width: 800px;
   }
+}
+@media (min-width: 1000px) {
+  /* line 431, ../css/sass/partials/nav.scss */
+  .site-navbar {
+    max-width: 1000px;
+  }
+}
+/* line 436, ../css/sass/partials/nav.scss */
+.site-branding {
+  display: inline-block;
+}
+
+/* line 440, ../css/sass/partials/nav.scss */
+.site-title {
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 300;
+}
+
+/* line 446, ../css/sass/partials/nav.scss */
+.site-title a {
+  text-decoration: none;
 }
