@@ -80,17 +80,9 @@ function html5blank_nav() {
         'after'           => '',
         'link_before'     => '',
         'link_after'      => '',
-        'items_wrap'      => '<ul id="primary-menu" class="nav-menu">%3$s</ul>',
+        'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
         'depth'           => 0,
-        'walker'          => '',
-        'add_li_class'  => 'page_item', 
-        'wrap_class' => 'nav-menu',
-        'wrap_id' => 'primary-menu',
-        'class' => 'nav-menu',
-        'id' => 'primary-menu'
-
-
-
+        'walker'          => ''
         )
     );
 }
