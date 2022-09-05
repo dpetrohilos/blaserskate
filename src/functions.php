@@ -70,10 +70,10 @@ function html5blank_nav() {
         'theme_location'  => 'header-menu',
         'menu'            => '',
         'container'       => 'div',
-        'container_class' => 'menu-{menu slug}-container',
-        'container_id'    => '',
-        'menu_class'      => 'menu',
-        'menu_id'         => '',
+        'container_class' => 'menu-{menu slug}-container menu nav-menu',
+        'container_id'    => 'pimary-menu',
+        'menu_class'      => 'menu nav-menu',
+        'menu_id'         => 'primary-menu',
         'echo'            => true,
         'fallback_cb'     => 'wp_page_menu',
         'before'          => '',
@@ -102,6 +102,8 @@ function html5blank_header_scripts() {
 
             // Modernizr
             wp_register_script( 'modernizr', get_template_directory_uri() . '/js/lib/modernizr.js', array(), '2.8.3' );
+
+
 
             // Custom scripts
             wp_register_script(
