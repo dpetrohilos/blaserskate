@@ -5,17 +5,14 @@
 		// DOM ready, take it away
 	});
 
-
-function menuOnClick() {
-  document.getElementById("menu-bar").classList.toggle("change");
-  document.getElementById("nav").classList.toggle("change");
-  document.getElementById("menu-bg").classList.toggle("change-bg");
-}
-
-document.addEventListener('keydown', function(event){
-	if(event.key === "Escape"){
-  document.getElementById("menu-bar").classList.remove("change");
-  document.getElementById("nav").classList.remove("change");
-  document.getElementById("menu-bg").classList.remove("change-bg");
-	}
-});
+  $("#search-icon").click(function() {
+    $(".nav").toggleClass("search");
+    $(".nav").toggleClass("no-search");
+    $(".search-input").toggleClass("search-active");
+  });
+  
+  $('.menu-toggle').click(function(){
+     $(".nav").toggleClass("mobile-nav");
+     $(this).toggleClass("is-active");
+  });
+  
