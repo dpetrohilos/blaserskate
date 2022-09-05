@@ -87,7 +87,6 @@ function html5blank_nav() {
     );
 }
 
-// Load HTML5 Blank scripts (header.php)
 
 // Load HTML5 Blank scripts (header.php)
 function html5blank_header_scripts() {
