@@ -35,20 +35,11 @@
   <div class="site-navbar">
     <button class="menu-toggle" tabindex="0" aria-label="Menu" aria-controls="primary-menu">Menu<span>toggle menu</span></button>
 
-    <nav id="site-navigation" class="main-navigation">
     <?php html5blank_nav(); ?>
-
- 
-      
-    </nav>
 
   </div>
 
 </header>
-
-<div class="content-area">
-  <p>Resize window to less than 1000px wide to see the mobile menu</p>
-</div>
 
 <script>
 
