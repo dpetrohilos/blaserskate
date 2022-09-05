@@ -46,11 +46,17 @@
 
     <button class="menu-toggle" tabindex="0" aria-label="Menu" aria-controls="primary-menu">Menu<span>toggle menu</span></button>
 
-      <?php html5blank_nav(array('menu_class'=> 'nav-menu', 'menu_ID'=> 'primary-menu')); ?>
+    <nav id="site-navigation" class="main-navigation">
+      
+      <ul id="primary-menu" class="nav-menu">
 
 
 
 
+
+    </ul>
+      
+    </nav>
 
   </div>
 
