@@ -45,18 +45,13 @@
     </div>
 
     <button class="menu-toggle" tabindex="0" aria-label="Menu" aria-controls="primary-menu">Menu<span>toggle menu</span></button>
-
-    <nav id="site-navigation" class="main-navigation">
       
-      <ul id="primary-menu" class="nav-menu">
+
+      <?php html5blank_nav(); ?>
 
 
 
 
-
-    </ul>
-      
-    </nav>
 
   </div>
 
