@@ -27,24 +27,65 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<!-- wrapper -->
-  <div class="nav-wrapper">
-  <nav class="navbar" role="navigation">
-    <div class="menu-toggle" id="mobile-menu">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
+
+
+
+  <header id="masthead" class="site-header">
+
+  <div class="site-navbar">
+
+    <div class="site-branding">
+      <span class="site-title"><a href="#/" rel="home">Site Title</a></span>
     </div>
-    <ul class="nav no-search">
-    <?php html5blank_nav(); ?>
-    </ul>
-  </nav>
+
+    <button class="menu-toggle" tabindex="0" aria-label="Menu" aria-controls="primary-menu">Menu<span>toggle menu</span></button>
+
+    <nav id="site-navigation" class="main-navigation">
+      
+      <ul id="primary-menu" class="nav-menu">
+        <li class="page_item page-item-703"><a href="#">Blog</a></li>
+        <li class="page_item"><a href="#">Front Page</a></li>
+        <li class="page_item"><a href="#">Sample Page</a></li>
+        <li class="page_item page_item_has_children"><a href="#">About The Tests</a>
+          <ul class="children">
+            <li class="page_item"><a href="#">Page Image Alignment</a></li>
+            <li class="page_item"><a href="#">Page Markup And Formatting</a></li>
+            <li class="page_item"><a href="#">Clearing Floats</a></li>
+            <li class="page_item"><a href="#">Page with comments</a></li>
+            <li class="page_item"><a href="#">Page with comments disabled</a></li>
+          </ul>
+        </li>
+        <li class="page_item page_item_has_children"><a href="#">Level 1</a>
+          <ul class="children">
+            <li class="page_item page_item_has_children"><a href="#">Level 2</a>
+              <ul class="children">
+                <li class="page_item"><a href="#">Level 3</a></li>
+                <li class="page_item"><a href="#">Level 3a</a></li>
+                <li class="page_item"><a href="#">Level 3b</a></li>
+              </ul>
+            </li>
+            <li class="page_item"><a href="#">Level 2a</a></li>
+            <li class="page_item page-item-744"><a href="#">Level 2b</a></li>
+          </ul>
+        </li>
+        <li class="page_item"><a href="#">Lorem Ipsum</a></li>
+        <li class="page_item"><a href="#">Page A</a></li>
+        <li class="page_item"><a href="#">Page B</a></li>
+      </ul>
+      
+    </nav>
+
   </div>
 
+</header>
 
-         
+<div class="content-area">
+  <p>Resize window to less than 1000px wide to see the mobile menu</p>
+</div>
 
-			<!-- header -->
+
+
+
 			<header class="header" role="banner">
 
 					<!-- logo -->
