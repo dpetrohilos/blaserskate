@@ -1,10 +1,3 @@
-(function( root, $, undefined ) {
-	"use strict";
-
-	$(function () {
-		// DOM ready, take it away
-	});
-
 /**
 * CLASS HELPERS
 * Plain JavaScript functions to add, remove, toggle, and check for classes, no jQuery required
@@ -115,4 +108,3 @@ if (window.innerWidth > 999) {
   navMenu.setAttribute( 'aria-expanded', 'false' );
 }
 }
-
