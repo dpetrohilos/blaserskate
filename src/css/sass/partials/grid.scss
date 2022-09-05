@@ -29,9 +29,21 @@ margin: 0;
 
 
 
-.col-1 {grid-area: 2 / 1 / 2 / 1;}
+.col-1 {grid-area: 2 / 1 / 2 / 1;
 
-.col-2 {grid-area: 2 / 2 / 2 / 2;}
+  p {
+    max-width: 46rem; 
+    width: 100%;
+  }
+}
+
+.col-2 {grid-area: 2 / 2 / 2 / 2;
+
+  p {
+    max-width: 46rem; 
+    width: 100%;
+  }
+}
 
 
 .sub-grid {
