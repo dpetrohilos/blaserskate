@@ -394,7 +394,7 @@ add_filter( 'widget_text', 'shortcode_unautop' ); // Remove <p> tags in Dynamic 
 // add_filter( 'nav_menu_css_class', 'my_css_attributes_filter', 100, 1 ); // Remove Navigation <li> // injected classes (Commented out by default)
 // important do not comment out 
 add_filter( 'nav_menu_item_id', 'my_css_attributes_filter', 100, 1 ); // Remove Navigation <li> // injected ID (Commented out by default)
-//add_filter( 'page_css_class', 'my_css_attributes_filter', 100, 1 ); // Remove Navigation <li> // Page ID's (Commented out by default)
+// add_filter( 'page_css_class', 'my_css_attributes_filter', 100, 1 ); // Remove Navigation <li> // Page ID's (Commented out by default)
 add_filter( 'the_category', 'remove_category_rel_from_category_list' ); // Remove invalid rel attribute
 add_filter( 'the_excerpt', 'shortcode_unautop' ); // Remove auto <p> tags in Excerpt (Manual Excerpts only)
 add_filter( 'the_excerpt', 'do_shortcode' ); // Allows Shortcodes to be executed in Excerpt (Manual Excerpts only)
