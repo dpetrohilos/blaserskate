@@ -72,7 +72,7 @@ function html5blank_nav() {
         'container'       => 'nav',
         'container_class' => 'menu-{menu slug}-container main-navigation',
         'container_id'    => 'site-navigation',
-        'menu_class'      => 'main-navigation',
+        'menu_class'      => 'nav-menu',
         'menu_id'         => 'primary-menu',
         'echo'            => true,
         'fallback_cb'     => 'wp_page_menu',
