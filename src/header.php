@@ -24,18 +24,38 @@
 		</script>
 
     <script>
-$("#search-icon").click(function() {
-  $(".nav").toggleClass("search");
-  $(".nav").toggleClass("no-search");
-  $(".search-input").toggleClass("search-active");
+const io = new IntersectionObserver((entries) =>
+            entries.forEach((entry) => {
+                // set image source only when it is in the viewport
+                if (entry.isIntersecting) {
+                    const image = entry.target;
+                    // setting image source from the dataset
+                    image.src = image.dataset.src;
+
+                    // when image is loaded, we do not need to observe it any more
+                    io.unobserve(image);
+                }
+            })
+        );
+
+        document.querySelectorAll(".lazy").forEach((element) => io.observe(element));
+
+function menuOnClick() {
+  document.getElementById("menu-bar").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+}
+
+document.addEventListener('keydown', function(event){
+	if(event.key === "Escape"){
+  document.getElementById("mobile-menu").classList.remove("change");
+  document.getElementById("nav").classList.remove("change");
+  document.getElementById("menu-bg").classList.remove("nav");
+	}
 });
 
-$('.menu-toggle').click(function(){
-   $(".nav").toggleClass("mobile-nav");
-   $(this).toggleClass("is-active");
-});
 
-    </script>
+</script>
 
 	</head>
 	<body <?php body_class(); ?>>
@@ -46,7 +66,7 @@ $('.menu-toggle').click(function(){
   <div class="grad-bar"></div>
   <nav class="navbar">
     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Bluestar_%28bus_company%29_logo.svg/1280px-Bluestar_%28bus_company%29_logo.svg.png" alt="Company Logo">
-    <div class="menu-toggle" id="mobile-menu">
+    <div class="menu-toggle nav" id="mobile-menu">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
