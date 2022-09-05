@@ -50,8 +50,8 @@
       
       <ul id="primary-menu" class="nav-menu">
         <li class=" page-item-703"><a href="#">Blog</a></li>
-      </ul>
                 <?php html5blank_nav(); ?>
+                </ul>
 
     </nav>
 
