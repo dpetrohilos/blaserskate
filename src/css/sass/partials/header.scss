@@ -23,9 +23,13 @@ grid-row-gap: 1.6rem;
 // Logo
 .logo {
 
-    max-width: 19rem;
+    max-width: 60rem;
     display: block;
-    grid-area: 1 / 1 / 1 / 1; 
+    grid-area: 1 / 1 / 1 / 1;
+    width: 100%; 
+    margin: 0 auto; 
+    
+    
 }
 
 .logo-img {}
