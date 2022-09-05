@@ -94,26 +94,30 @@
 .inline {
   display: inline-flex;
 }
+/* line 85, ../css/sass/partials/grid.scss */
+.inline a {
+  margin-right: 1.8rem;
+}
 
 @media (max-width: 60em) {
-  /* line 91, ../css/sass/partials/grid.scss */
+  /* line 95, ../css/sass/partials/grid.scss */
   .title {
     grid-area: 1 / 1 / 1 / 1;
     max-width: 140rem;
     margin: 0 auto;
   }
 
-  /* line 96, ../css/sass/partials/grid.scss */
+  /* line 100, ../css/sass/partials/grid.scss */
   .wrapper > .title {
     margin: 0;
   }
 
-  /* line 104, ../css/sass/partials/grid.scss */
+  /* line 108, ../css/sass/partials/grid.scss */
   .col-1 {
     grid-area: 2 / 1 / 2 / 1;
   }
 
-  /* line 106, ../css/sass/partials/grid.scss */
+  /* line 110, ../css/sass/partials/grid.scss */
   .col-2 {
     grid-area: 3 / 1 / 3 / 1;
   }
