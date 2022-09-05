@@ -74,7 +74,7 @@ function html5blank_nav() {
         'container_id'    => 'site-navigation',
         'menu_class'      => 'nav-menu',
         'menu_id'         => 'primary-menu',
-        'echo'            => false,
+        'echo'            => true,
         'fallback_cb'     => 'wp_page_menu',
         'before'          => '',
         'after'           => '',
