@@ -33,6 +33,17 @@
   <header id="masthead" class="site-header">
 
   <div class="site-navbar">
+
+    <div class="site-branding">
+      <span class="site-title">						
+        
+            <a href="<?php echo esc_url( home_url() ); ?>">
+							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_ill.svg" alt="Logo" class="site-brand">
+						</a>
+</span>
+    </div>
+
     <button class="menu-toggle" tabindex="0" aria-label="Menu" aria-controls="primary-menu">Menu<span>toggle menu</span></button>
 
     <nav id="site-navigation" class="main-navigation">
@@ -73,6 +84,10 @@
   </div>
 
 </header>
+
+<div class="content-area">
+  <p>Resize window to less than 1000px wide to see the mobile menu</p>
+</div>
 
 <script>
 
