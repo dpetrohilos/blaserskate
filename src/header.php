@@ -23,15 +23,6 @@
 		});
 		</script>
 
-    <script>
-
-
-$('.menu-toggle').click(function(){
-   $(".nav").toggleClass("mobile-nav");
-   $(this).toggleClass("is-active");
-});
-
-    </script>
 
 	</head>
 	<body <?php body_class(); ?>>
