@@ -533,7 +533,7 @@ input[type="search"] {
  */
 /* line 8, css/sass/partials/header.scss */
 .header {
-  background: #000;
+  background: url(img/board_bg.jpg);
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr));
