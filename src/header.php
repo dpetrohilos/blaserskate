@@ -56,11 +56,6 @@
   </div>
 
 </header>
-
-<div class="content-area">
-  <p>Resize window to less than 1000px wide to see the mobile menu</p>
-</div>
-
 			<header class="header" role="banner">
 
 					<!-- logo -->
@@ -78,17 +73,6 @@
 
 			</header>
 			<!-- /header -->
-
-<div id="menu" role="navigation" class="grid top-menu">
-  
-    
-  
-    
-    
-    
-</div>
-
-<div class="menu-bg" id="menu-bg"></div>
 
 
 
