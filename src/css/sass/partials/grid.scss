@@ -94,7 +94,7 @@ margin-block-end: 1rem;
 
 @media (max-width: 60em) {
 
-  .title {grid-area: 1 / 1 / 1 / 1;
+  .title {grid-area: 1 / 1 / 1 / span 2 ;
     max-width: $wrapper-width;
     margin: 0 auto;
     }

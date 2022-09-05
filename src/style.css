@@ -1284,7 +1284,7 @@ p, ul, ol, li {
 @media (max-width: 60em) {
   /* line 97, css/sass/partials/grid.scss */
   .title {
-    grid-area: 1 / 1 / 1 / 1;
+    grid-area: 1/1/1/span 2;
     max-width: 140rem;
     margin: 0 auto;
   }
