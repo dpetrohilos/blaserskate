@@ -83,10 +83,7 @@ function html5blank_nav() {
         'items_wrap'      => '',
         'depth'           => 0,
         'walker'          => '',
-        'add_li_class'  => 'page_item',
-        'add_ul_class'  => 'main-navigation',
-        'add_ul_id'  => 'primary-menu'
-
+        'add_li_class'  => 'page_item'
 
         )
     );
