@@ -39,15 +39,24 @@
         
             <a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img width="64" heigh="64" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_ill.svg" alt="Logo" class="site-brand">
+							<img width="64" heigh="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_ill.svg" alt="Logo" class="site-brand">
 						</a>
 </span>
     </div>
 
     <button class="menu-toggle" tabindex="0" aria-label="Menu" aria-controls="primary-menu">Menu<span>toggle menu</span></button>
 
-                <?php html5blank_nav(); ?>
+    <nav id="site-navigation" class="main-navigation">
+      
+      <ul id="primary-menu" class="nav-menu">
 
+      <?php html5blank_nav(); ?>
+
+
+
+
+    </ul>
+      
     </nav>
 
   </div>
