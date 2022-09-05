@@ -85,7 +85,7 @@ function html5blank_nav() {
         'walker'          => '',
         'add_li_class'  => 'page_item', 
         'wrap_class' => 'nav-menu',
-        'wrap_id' => 'primary-menu',
+        'wrap_id' => 'primary-menu'
 
 
         )
