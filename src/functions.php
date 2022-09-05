@@ -69,9 +69,9 @@ function html5blank_nav() {
     array(
         'theme_location'  => 'header-menu',
         'menu'            => '',
-        'container'       => '',
-        'container_class' => '',
-        'container_id'    => '',
+        'container'       => 'ul',
+        'container_class' => 'nav-menu',
+        'container_id'    => 'primary-menu',
         'menu_class'      => 'main-navigation',
         'menu_id'         => 'site-navigation',
         'echo'            => true,
