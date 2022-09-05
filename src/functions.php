@@ -68,7 +68,7 @@ function html5blank_nav() {
     wp_nav_menu(
     array(
         'theme_location'  => 'header-menu',
-        'menu'            => 'menu',
+        'menu'            => '',
         'container'       => 'nav',
         'container_class' => 'menu-{menu slug}-container main-navigation',
         'container_id'    => 'site-navigation',
@@ -177,7 +177,7 @@ function register_html5_menu() {
 
 // Remove the <div> surrounding the dynamic navigation to cleanup markup
 function my_wp_nav_menu_args( $args = '' ) {
-    $args['container'] = false;
+    $args['container'] = true;
     return $args;
 }
 
@@ -395,8 +395,8 @@ add_filter( 'avatar_defaults', 'html5blankgravatar' ); // Custom Gravatar in Set
 add_filter( 'body_class', 'add_slug_to_body_class' ); // Add slug to body class (Starkers build)
 add_filter( 'widget_text', 'do_shortcode' ); // Allow shortcodes in Dynamic Sidebar
 add_filter( 'widget_text', 'shortcode_unautop' ); // Remove <p> tags in Dynamic Sidebars (better!)
-add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' ); // Remove surrounding <div> from WP Navigation
-//add_filter( 'nav_menu_css_class', 'my_css_attributes_filter', 100, 1 ); // Remove Navigation <li> // injected classes (Commented out by default)
+// add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' ); // Remove surrounding <div> from WP Navigation
+add_filter( 'nav_menu_css_class', 'my_css_attributes_filter', 100, 1 ); // Remove Navigation <li> // injected classes (Commented out by default)
 //add_filter( 'nav_menu_item_id', 'my_css_attributes_filter', 100, 1 ); // Remove Navigation <li> // injected ID (Commented out by default)
 //add_filter( 'page_css_class', 'my_css_attributes_filter', 100, 1 ); // Remove Navigation <li> // Page ID's (Commented out by default)
 add_filter( 'the_category', 'remove_category_rel_from_category_list' ); // Remove invalid rel attribute
