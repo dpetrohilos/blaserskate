@@ -68,22 +68,25 @@ function html5blank_nav() {
     wp_nav_menu(
     array(
         'theme_location'  => 'header-menu',
-        'menu'            => '',
+        'menu'            => 'menu',
         'container'       => 'nav',
         'container_class' => 'menu-{menu slug}-container main-navigation',
         'container_id'    => 'site-navigation',
-        'menu_class'      => 'menu main-navigation',
+        'menu_class'      => 'main-navigation',
         'menu_id'         => 'primary-menu',
         'echo'            => true,
         'fallback_cb'     => 'wp_page_menu',
-        'before'          => '<ul id="primary-menu" class="nav-menu">',
-        'after'           => '</ul>',
+        'before'          => '',
+        'after'           => '',
         'link_before'     => '',
         'link_after'      => '',
         'items_wrap'      => '',
         'depth'           => 0,
         'walker'          => '',
         'add_li_class'  => 'page_item'
+        'add_ul_class'  => 'main-navigation'
+        'add_ul_id'  => 'primary-menu'
+
 
         )
     );
