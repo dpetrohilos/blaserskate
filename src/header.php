@@ -25,11 +25,11 @@
 
 	</head>
 	<body <?php body_class(); ?>>
+  <div class="page-wrapper">
 
 		<!-- wrapper -->
   <div class="nav-wrapper">
-  <div class="grad-bar"></div>
-  <nav class="navbar">
+  <nav class="navbar" role="navigation">
     <div class="menu-toggle" id="mobile-menu">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -41,9 +41,6 @@
   </nav>
   </div>
 
-
-    <nav class="nav" role="navigation">
-					</nav>
 
          
 
