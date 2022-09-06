@@ -1253,15 +1253,15 @@ p, ul, ol, li {
 .primary {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
-  background: #232323;
+  background: #444444;
   color: #fff;
   border: transparent .2rem solid;
 }
 /* line 126, css/sass/partials/type.scss */
 .primary:hover {
   text-decoration: none;
-  border: .2rem solid #232323;
-  color: #232323;
+  border: .2rem solid #444444;
+  color: #444444;
   background: transparent;
 }
 
@@ -1270,14 +1270,14 @@ p, ul, ol, li {
   font-size: 2.2rem;
   padding: 1.2rem 2.4rem;
   text-decoration: none;
-  border: .2rem solid #232323;
-  color: #232323;
+  border: .2rem solid #444444;
+  color: #444444;
 }
 /* line 146, css/sass/partials/type.scss */
 .secondary:hover {
-  background: #232323;
+  background: #444444;
   color: #fff;
-  border: black .2rem solid;
+  border: #444444 .2rem solid;
   text-decoration: none;
 }
 
@@ -1285,12 +1285,12 @@ p, ul, ol, li {
 .third {
   font-size: 1.6rem;
   padding: .4rem .8rem;
-  border: .2rem solid #232323;
-  color: #232323;
+  border: .2rem solid #444444;
+  color: #444444;
 }
 /* line 163, css/sass/partials/type.scss */
 .third:hover {
-  background: #232323;
+  background: #444444;
   color: #fff;
   border: black .2rem solid;
   text-decoration: none;
