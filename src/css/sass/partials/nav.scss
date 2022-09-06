@@ -132,6 +132,28 @@ list-style: none;
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
+
+    padding: .6rem 1.2rem; 
+    font-family: "kent", Arial, Helvetica, sans-serif;
+    font-size: 2.2rem; 
+    background-image: linear-gradient(120deg, #84fab0 0%, #5BE498 100%);
+    background-size: 100% 0rem;
+    background-position: 0 44%;
+    transition: background-size 0.25s ease-in;
+    background-repeat: no-repeat;
+
+
+
+
+    &:hover, &:focus {
+
+        text-decoration: none;
+        background-size: 100% 30%;
+        background-position: 0 44%;
+
+
+    }
+
 }
 
 .main-navigation li:last-of-type {
@@ -402,7 +424,7 @@ button.menu-toggle span::after {
 .site-header {
   background-color: #fff;
   border-top: 1px solid #e7e7e7;
-  position: sticky;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -411,7 +433,7 @@ button.menu-toggle span::after {
 
 
 .site-navbar {
-  position: sticky;
+  position: relative;
   box-sizing: border-box;
   width: 100%;
   max-width: 100%;
