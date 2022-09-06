@@ -28,7 +28,7 @@
 	<body <?php body_class(); ?>>
 
 
-	<header class="header" role="banner">
+<header class="header" role="banner">
 
 
 			
@@ -49,7 +49,7 @@
 <!-- /header -->
 
 
-  <header id="masthead" class="site-header">
+  <header id="masthead" class="site-header grid nav">
 
   <div class="site-navbar">
 
