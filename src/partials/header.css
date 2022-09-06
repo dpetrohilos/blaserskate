@@ -4,7 +4,7 @@
  */
 /* line 8, ../css/sass/partials/header.scss */
 .header {
-  background: #fff;
+  background: #f5f5f5;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr));
@@ -18,7 +18,7 @@
 
 /* line 27, ../css/sass/partials/header.scss */
 .logo {
-  max-width: 30rem;
+  max-width: 9rem;
   display: block;
   grid-area: 1 / 1 / 1 / 1;
   width: 100%;
