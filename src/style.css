@@ -1023,7 +1023,7 @@ button.menu-toggle span::after {
   background: #fff;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 80em) {
   /* line 447, css/sass/partials/nav.scss */
   .site-navbar {
     max-width: 800px;
@@ -1034,10 +1034,10 @@ button.menu-toggle span::after {
     position: sticky;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 100em) {
   /* line 460, css/sass/partials/nav.scss */
   .site-navbar, .site-navbar {
-    max-width: 1000px;
+    max-width: 144rem;
   }
 
   /* line 463, css/sass/partials/nav.scss */
@@ -1323,7 +1323,7 @@ p, ul, ol, li {
 /* line 18, css/sass/partials/grid.scss */
 .title {
   grid-area: 1/1/1/span 2;
-  max-width: 140rem;
+  max-width: 144rem;
   margin: 0 auto;
   width: 100%;
 }
@@ -1415,7 +1415,7 @@ p, ul, ol, li {
   /* line 110, css/sass/partials/grid.scss */
   .title {
     grid-area: 1/1/1/span 2;
-    max-width: 140rem;
+    max-width: 144rem;
     margin: 0 auto;
   }
 

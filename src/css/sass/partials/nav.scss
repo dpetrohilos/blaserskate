@@ -443,7 +443,7 @@ button.menu-toggle span::after {
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 80em) {
   .site-navbar {
     max-width: 800px;
 
@@ -456,9 +456,9 @@ button.menu-toggle span::after {
       }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 100em) {
   .site-navbar, .site-navbar {
-    max-width: 1000px;
+    max-width: 144rem;
   }
   .site-header {
     
