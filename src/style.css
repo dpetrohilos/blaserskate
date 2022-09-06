@@ -991,9 +991,9 @@ button.menu-toggle span::after {
 
 /* line 404, css/sass/partials/nav.scss */
 .site-header {
-  background-color: #f4f4f4;
-  border-bottom: 1px solid #e7e7e7;
-  position: absolute;
+  background-color: #fff;
+  border-top: 1px solid #e7e7e7;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -1002,7 +1002,7 @@ button.menu-toggle span::after {
 
 /* line 415, css/sass/partials/nav.scss */
 .site-navbar {
-  position: relative;
+  position: sticky;
   box-sizing: border-box;
   width: 100%;
   max-width: 100%;
