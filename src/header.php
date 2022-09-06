@@ -49,9 +49,15 @@
 
 
 <nav class="help top-menu">
+<ul class="top-small-menu">
 
-      <?php html5blank_nav('top-menu'); ?>
-	</nav>
+<li>Help</li>
+<li>Contact</li>
+<li>Sign In</li>
+
+</ul>
+
+</div>
 
 </header>
 <!-- /header -->
@@ -75,7 +81,7 @@
       
 	
 <nav class="main-navigation" id="site-navigation">
-      <?php html5blank_nav('header-menu'); ?>
+      <?php html5blank_nav(); ?>
   </nav>
 
 

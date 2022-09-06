@@ -85,50 +85,7 @@ function html5blank_nav() {
         'walker'          => ''
                 )
     );
-
-    wp_nav_menu(
-        array(
-            'theme_location'  => 'top-menu',
-            'menu'            => '',
-            'container'       => 'ul',
-            'container_class' => '',
-            'container_id'    => '',
-            'menu_class'      => 'nav-menu',
-            'menu_id'         => 'primary-menu',
-            'echo'            => true,
-            'fallback_cb'     => 'wp_page_menu',
-            'before'          => '',
-            'after'           => '',
-            'link_before'     => '',
-            'link_after'      => '',
-            'items_wrap'      => '<ul id="primary-menu" class="nav-menu">%3$s</ul>',
-            'depth'           => 0,
-            'walker'          => ''
-                    )
-        );
-
-
-        wp_nav_menu(
-            array(
-                'theme_location'  => 'footer',
-                'menu'            => '',
-                'container'       => 'ul',
-                'container_class' => '',
-                'container_id'    => '',
-                'menu_class'      => 'nav-menu-footer',
-                'menu_id'         => 'primary-menu-footer',
-                'echo'            => true,
-                'fallback_cb'     => 'wp_page_menu',
-                'before'          => '',
-                'after'           => '',
-                'link_before'     => '',
-                'link_after'      => '',
-                'items_wrap'      => '<ul id="primary-menu" class="nav-menu">%3$s</ul>',
-                'depth'           => 0,
-                'walker'          => ''
-                        )
-            );
-
+    
 }
 
 
@@ -157,9 +114,7 @@ function html5blank_styles() {
 function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
         'header-menu'  => esc_html( 'Header Menu', 'html5blank' ), // Main Navigation
-        'top-menu'   => esc_html( 'Top Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
-        'footer-menu'   => esc_html( 'Footer Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
-
+        'extra-menu'   => esc_html( 'Extra Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
     ) );
 }
 
