@@ -464,7 +464,14 @@ button.menu-toggle span::after {
   display: inline-block;
 }
 
-/* line 441, ../css/sass/partials/nav.scss */
+/* line 438, ../css/sass/partials/nav.scss */
+.site-title {
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 300;
+}
+
+/* line 444, ../css/sass/partials/nav.scss */
 .site-title a {
   text-decoration: none;
 }
