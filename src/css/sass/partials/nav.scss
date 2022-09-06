@@ -428,7 +428,7 @@ button.menu-toggle span::after {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 999;
 }
 
 
@@ -439,6 +439,8 @@ button.menu-toggle span::after {
   max-width: 100%;
   padding: 0 20px;
   margin: 0 auto;
+  z-index: 999;
+
 }
 
 @media (min-width: 800px) {

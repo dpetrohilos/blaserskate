@@ -455,7 +455,7 @@ button.menu-toggle span::after {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 999;
 }
 
 /* line 435, ../css/sass/partials/nav.scss */
@@ -466,43 +466,44 @@ button.menu-toggle span::after {
   max-width: 100%;
   padding: 0 20px;
   margin: 0 auto;
+  z-index: 999;
 }
 
 @media (min-width: 800px) {
-  /* line 445, ../css/sass/partials/nav.scss */
+  /* line 447, ../css/sass/partials/nav.scss */
   .site-navbar {
     max-width: 800px;
   }
 
-  /* line 451, ../css/sass/partials/nav.scss */
+  /* line 453, ../css/sass/partials/nav.scss */
   .site-header, .site-navbar {
     position: sticky;
   }
 }
 @media (min-width: 1000px) {
-  /* line 458, ../css/sass/partials/nav.scss */
+  /* line 460, ../css/sass/partials/nav.scss */
   .site-navbar, .site-navbar {
     max-width: 1000px;
   }
 
-  /* line 461, ../css/sass/partials/nav.scss */
+  /* line 463, ../css/sass/partials/nav.scss */
   .site-header {
     position: sticky;
   }
 }
-/* line 467, ../css/sass/partials/nav.scss */
+/* line 469, ../css/sass/partials/nav.scss */
 .site-branding {
   display: inline-block;
 }
 
-/* line 471, ../css/sass/partials/nav.scss */
+/* line 473, ../css/sass/partials/nav.scss */
 .site-title {
   font-size: 20px;
   line-height: 60px;
   font-weight: 300;
 }
 
-/* line 477, ../css/sass/partials/nav.scss */
+/* line 479, ../css/sass/partials/nav.scss */
 .site-title a {
   text-decoration: none;
 }
