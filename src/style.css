@@ -691,42 +691,35 @@ input[type="search"] {
   border-top: 1px solid #e7e7e7;
 }
 
-/* line 133, css/sass/partials/nav.scss */
-.main-navigation li:hover > a,
-.main-navigation li.focus > a {
-  background-color: #e7e7e7;
-  color: red;
-}
-
-/* line 139, css/sass/partials/nav.scss */
+/* line 137, css/sass/partials/nav.scss */
 .main-navigation li:last-of-type {
   margin-bottom: 10px;
 }
 
 @media (min-width: 1000px) {
-  /* line 144, css/sass/partials/nav.scss */
+  /* line 142, css/sass/partials/nav.scss */
   .main-navigation li:last-of-type {
     margin-bottom: 0;
   }
 }
 @media (min-width: 1000px) {
-  /* line 150, css/sass/partials/nav.scss */
+  /* line 148, css/sass/partials/nav.scss */
   .main-navigation li {
     display: inline-block;
     border: none;
   }
 
-  /* line 154, css/sass/partials/nav.scss */
+  /* line 152, css/sass/partials/nav.scss */
   .main-navigation li + li {
     margin-left: 10px;
   }
 }
-/* line 159, css/sass/partials/nav.scss */
+/* line 157, css/sass/partials/nav.scss */
 .main-navigation li.active a {
   background-color: red;
 }
 
-/* line 163, css/sass/partials/nav.scss */
+/* line 161, css/sass/partials/nav.scss */
 .main-navigation a {
   display: block;
   text-decoration: none;
@@ -734,13 +727,13 @@ input[type="search"] {
 }
 
 @media (min-width: 1000px) {
-  /* line 170, css/sass/partials/nav.scss */
+  /* line 168, css/sass/partials/nav.scss */
   .main-navigation a {
     line-height: 60px;
     padding: 0;
   }
 }
-/* line 176, css/sass/partials/nav.scss */
+/* line 174, css/sass/partials/nav.scss */
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a,
@@ -748,7 +741,7 @@ input[type="search"] {
   color: red;
 }
 
-/* line 183, css/sass/partials/nav.scss */
+/* line 181, css/sass/partials/nav.scss */
 .sub-nav-toggle {
   height: 40px;
   width: 40px;
@@ -766,7 +759,7 @@ input[type="search"] {
 }
 
 @media (min-width: 1000px) {
-  /* line 200, css/sass/partials/nav.scss */
+  /* line 198, css/sass/partials/nav.scss */
   .sub-nav-toggle {
     top: 50%;
     margin-top: -10px;
@@ -774,7 +767,7 @@ input[type="search"] {
     width: 18.00180018px;
   }
 }
-/* line 208, css/sass/partials/nav.scss */
+/* line 206, css/sass/partials/nav.scss */
 .sub-nav-toggle:after {
   content: '';
   position: absolute;
@@ -787,14 +780,14 @@ input[type="search"] {
 }
 
 @media (min-width: 1000px) {
-  /* line 220, css/sass/partials/nav.scss */
+  /* line 218, css/sass/partials/nav.scss */
   .sub-nav-toggle:after {
     top: 8.6666666667px;
     left: 5.1282051282px;
     border-width: 4px;
   }
 
-  /* line 225, css/sass/partials/nav.scss */
+  /* line 223, css/sass/partials/nav.scss */
   .children .sub-nav-toggle:after {
     left: 8.3333333333px;
     top: 6.25px;
@@ -803,7 +796,7 @@ input[type="search"] {
     transform: rotate(-90deg);
   }
 }
-/* line 234, css/sass/partials/nav.scss */
+/* line 232, css/sass/partials/nav.scss */
 .sub-nav-toggle.active {
   -webkit-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
@@ -812,57 +805,57 @@ input[type="search"] {
 }
 
 @media (min-width: 1000px) {
-  /* line 242, css/sass/partials/nav.scss */
+  /* line 240, css/sass/partials/nav.scss */
   .sub-nav-toggle.active {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 }
-/* line 249, css/sass/partials/nav.scss */
+/* line 247, css/sass/partials/nav.scss */
 .main-navigation.toggled ul.nav-menu {
   max-height: 1000px;
 }
 
 @media (min-width: 1000px) {
-  /* line 254, css/sass/partials/nav.scss */
+  /* line 252, css/sass/partials/nav.scss */
   .main-navigation.toggled ul.nav-menu {
     overflow: visible;
   }
 }
-/* line 259, css/sass/partials/nav.scss */
+/* line 257, css/sass/partials/nav.scss */
 .page_item_has_children > a {
   padding-right: 40px;
 }
 
 @media (min-width: 1000px) {
-  /* line 264, css/sass/partials/nav.scss */
+  /* line 262, css/sass/partials/nav.scss */
   .page_item_has_children > a {
     padding-right: 18.00180018px;
   }
 }
-/* line 269, css/sass/partials/nav.scss */
+/* line 267, css/sass/partials/nav.scss */
 .children {
   max-height: 0;
   overflow: hidden;
 }
 
-/* line 274, css/sass/partials/nav.scss */
+/* line 272, css/sass/partials/nav.scss */
 .children.active {
   max-height: 1000px;
 }
 
-/* line 278, css/sass/partials/nav.scss */
+/* line 276, css/sass/partials/nav.scss */
 .children li:first-of-type {
   margin-top: 0;
 }
 
-/* line 282, css/sass/partials/nav.scss */
+/* line 280, css/sass/partials/nav.scss */
 .children li:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 286, css/sass/partials/nav.scss */
+/* line 284, css/sass/partials/nav.scss */
 .children a {
   white-space: nowrap;
 }
@@ -870,7 +863,7 @@ input[type="search"] {
 /*--------------------------------------------------------------
 ## Hamburger menu
 --------------------------------------------------------------*/
-/* line 294, css/sass/partials/nav.scss */
+/* line 292, css/sass/partials/nav.scss */
 button.menu-toggle {
   display: block;
   z-index: 9000;
@@ -895,24 +888,24 @@ button.menu-toggle {
 }
 
 @media (min-width: 1000px) {
-  /* line 318, css/sass/partials/nav.scss */
+  /* line 316, css/sass/partials/nav.scss */
   button.menu-toggle {
     display: none;
   }
 }
-/* line 323, css/sass/partials/nav.scss */
+/* line 321, css/sass/partials/nav.scss */
 button.menu-toggle:focus {
   outline: none;
 }
 
-/* line 327, css/sass/partials/nav.scss */
+/* line 325, css/sass/partials/nav.scss */
 button.menu-toggle:hover, button.menu-toggle:focus {
   background-color: transparent;
   border-color: transparent;
   box-shadow: none;
 }
 
-/* line 333, css/sass/partials/nav.scss */
+/* line 331, css/sass/partials/nav.scss */
 button.menu-toggle.is-active span {
   background-color: teal;
   -webkit-transform: rotate(-225deg);
@@ -920,7 +913,7 @@ button.menu-toggle.is-active span {
   transform: rotate(-225deg);
 }
 
-/* line 340, css/sass/partials/nav.scss */
+/* line 338, css/sass/partials/nav.scss */
 button.menu-toggle.is-active span::before {
   background-color: teal;
   top: 0;
@@ -929,7 +922,7 @@ button.menu-toggle.is-active span::before {
   transform: rotate(90deg);
 }
 
-/* line 348, css/sass/partials/nav.scss */
+/* line 346, css/sass/partials/nav.scss */
 button.menu-toggle.is-active span::after {
   background-color: transparent;
   bottom: 0;
@@ -938,14 +931,14 @@ button.menu-toggle.is-active span::after {
   transform: rotate(0deg);
 }
 
-/* line 356, css/sass/partials/nav.scss */
+/* line 354, css/sass/partials/nav.scss */
 button.menu-toggle.is-active span::before,
 button.menu-toggle.is-active span::after {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* line 362, css/sass/partials/nav.scss */
+/* line 360, css/sass/partials/nav.scss */
 button.menu-toggle span {
   display: block;
   position: absolute;
@@ -958,7 +951,7 @@ button.menu-toggle span {
   transition-duration: 0.3s;
 }
 
-/* line 374, css/sass/partials/nav.scss */
+/* line 372, css/sass/partials/nav.scss */
 button.menu-toggle span::before, button.menu-toggle span::after {
   position: absolute;
   display: block;
@@ -971,7 +964,7 @@ button.menu-toggle span::before, button.menu-toggle span::after {
   transition-duration: 0.3s;
 }
 
-/* line 386, css/sass/partials/nav.scss */
+/* line 384, css/sass/partials/nav.scss */
 button.menu-toggle span::before {
   top: -9px;
   -webkit-transition-property: top, -webkit-transform;
@@ -980,7 +973,7 @@ button.menu-toggle span::before {
   transition-property: top, transform, -webkit-transform;
 }
 
-/* line 394, css/sass/partials/nav.scss */
+/* line 392, css/sass/partials/nav.scss */
 button.menu-toggle span::after {
   bottom: -9px;
   -webkit-transition-property: bottom, -webkit-transform;
@@ -989,7 +982,7 @@ button.menu-toggle span::after {
   transition-property: bottom, transform, -webkit-transform;
 }
 
-/* line 404, css/sass/partials/nav.scss */
+/* line 402, css/sass/partials/nav.scss */
 .site-header {
   background-color: #fff;
   border-top: 1px solid #e7e7e7;
@@ -1000,7 +993,7 @@ button.menu-toggle span::after {
   z-index: 10;
 }
 
-/* line 415, css/sass/partials/nav.scss */
+/* line 413, css/sass/partials/nav.scss */
 .site-navbar {
   position: sticky;
   box-sizing: border-box;
@@ -1011,30 +1004,23 @@ button.menu-toggle span::after {
 }
 
 @media (min-width: 800px) {
-  /* line 425, css/sass/partials/nav.scss */
+  /* line 423, css/sass/partials/nav.scss */
   .site-navbar {
     max-width: 800px;
   }
 }
 @media (min-width: 1000px) {
-  /* line 431, css/sass/partials/nav.scss */
+  /* line 429, css/sass/partials/nav.scss */
   .site-navbar {
     max-width: 1000px;
   }
 }
-/* line 436, css/sass/partials/nav.scss */
+/* line 434, css/sass/partials/nav.scss */
 .site-branding {
   display: inline-block;
 }
 
-/* line 440, css/sass/partials/nav.scss */
-.site-title {
-  font-size: 20px;
-  line-height: 60px;
-  font-weight: 300;
-}
-
-/* line 446, css/sass/partials/nav.scss */
+/* line 441, css/sass/partials/nav.scss */
 .site-title a {
   text-decoration: none;
 }

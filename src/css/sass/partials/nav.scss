@@ -132,8 +132,6 @@ list-style: none;
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
-  background-color: #e7e7e7;
-  color: red;
 }
 
 .main-navigation li:last-of-type {
@@ -438,9 +436,6 @@ button.menu-toggle span::after {
 }
 
 .site-title {
-  font-size: 20px;
-  line-height: 60px;
-  font-weight: 300;
 }
 
 .site-title a {
