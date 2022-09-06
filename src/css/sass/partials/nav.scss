@@ -424,7 +424,7 @@ button.menu-toggle span::after {
 .site-header {
   background-color: #fff;
   border-top: 1px solid #e7e7e7;
-  position: sticky;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -433,7 +433,7 @@ button.menu-toggle span::after {
 
 
 .site-navbar {
-  position: sticky;
+  position: absolute;
   box-sizing: border-box;
   width: 100%;
   max-width: 100%;
@@ -444,14 +444,23 @@ button.menu-toggle span::after {
 @media (min-width: 800px) {
   .site-navbar {
     max-width: 800px;
+
+
   }
+
+  .site-header, .site-navbar {
+    
+    position: sticky;
+      }
 }
 
 @media (min-width: 1000px) {
-  .site-navbar {
+  .site-navbar, .site-navbar {
     max-width: 1000px;
   }
   .site-header {
+    
+position: sticky;
   }
 }
 
