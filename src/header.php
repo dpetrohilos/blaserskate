@@ -49,7 +49,7 @@
 <!-- /header -->
 
 
-  <header id="masthead" class="site-header grid nav">
+  <header id="masthead" class="site-header nav">
 
   <div class="site-navbar">
 
