@@ -20,7 +20,16 @@
 .logo {
   max-width: 9rem;
   display: block;
-  grid-area: 1 / 1 / 1 / 1;
+  grid-area: 1 / 2 / 2 / 1;
   width: 100%;
   margin: 0 auto;
+}
+
+/* line 41, ../css/sass/partials/header.scss */
+.icon-wrapper {
+  grid-area: 1 / 1 / 1 / 1;
+}
+/* line 45, ../css/sass/partials/header.scss */
+.icon-wrapper .icon-link {
+  margin-left: 0.6rem;
 }
