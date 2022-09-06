@@ -51,7 +51,7 @@
 
   <header id="masthead" class="site-header">
 
-  <div class="site-navbar nav">
+  <div class="site-navbar">
 
 <div class="site-branding">
       <span class="site-title">						
