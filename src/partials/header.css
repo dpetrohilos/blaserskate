@@ -4,7 +4,7 @@
  */
 /* line 8, ../css/sass/partials/header.scss */
 .header {
-  background: url(img/board_bg.jpg);
+  background: #7ADB75;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr));
