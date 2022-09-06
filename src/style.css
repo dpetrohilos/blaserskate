@@ -543,11 +543,12 @@ input[type="search"] {
   padding: 0;
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
+  align-items: center;
   justify-content: space-between;
   padding: .6rem .3rem;
 }
 
-/* line 29, css/sass/partials/header.scss */
+/* line 30, css/sass/partials/header.scss */
 .logo {
   max-width: 9rem;
   display: block;
@@ -556,24 +557,26 @@ input[type="search"] {
   margin: 0 auto;
 }
 
-/* line 43, css/sass/partials/header.scss */
+/* line 44, css/sass/partials/header.scss */
 .icon-wrapper {
   grid-area: 1 / 1 / 1 / 1;
 }
-/* line 45, css/sass/partials/header.scss */
+/* line 46, css/sass/partials/header.scss */
 .icon-wrapper .icon-link {
   margin-left: 0.6rem;
 }
 
-/* line 53, css/sass/partials/header.scss */
+/* line 54, css/sass/partials/header.scss */
 .top-menu-wrapper {
   grid-area: 1 / 2 / 1 / 2;
   font-size: 1rem;
   list-style: none;
-  padding-top: 0.6rem li;
-  padding-top-list-style: none;
-  padding-top-margin-right: .6rem;
-  padding-top-display: inline-flex;
+}
+/* line 60, css/sass/partials/header.scss */
+.top-menu-wrapper li {
+  list-style: none;
+  margin-right: .6rem;
+  display: inline-flex;
 }
 
 /**
