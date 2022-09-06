@@ -48,7 +48,7 @@
 </div>
 
 
-<nav class="help top-menu">
+<nav class="help top-menu inline-flex box-wrap icon-wrapper">
 <ul class="top-small-menu">
 
 <li>Help</li>
