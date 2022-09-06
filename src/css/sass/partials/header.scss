@@ -28,7 +28,7 @@ grid-row-gap: 1.6rem;
     
     max-width: 9rem;
     display: block;
-    grid-area: 1 / 2 / 2 / 1;
+    grid-area: 1 / 1 / 1 / 1;
     width: 100%; 
     margin: 0 auto; 
     
@@ -40,11 +40,23 @@ grid-row-gap: 1.6rem;
 
 .icon-wrapper {
     grid-area: 1 / 1 / 1 / 1;
-
-
     .icon-link {margin-left: .6rem 
 }
 
 
 }
 
+
+
+.top-menu-wrapper {
+    grid-area: 1 / 2 / 1 / 2; 
+    
+    font-size: 1.2rem; 
+    list-style: none;
+  
+    li {list-style: none;
+    margin-right: .6rem;
+    display: inline-flex;
+  }
+
+}

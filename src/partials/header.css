@@ -20,7 +20,7 @@
 .logo {
   max-width: 9rem;
   display: block;
-  grid-area: 1 / 2 / 2 / 1;
+  grid-area: 1 / 1 / 1 / 1;
   width: 100%;
   margin: 0 auto;
 }
@@ -29,7 +29,20 @@
 .icon-wrapper {
   grid-area: 1 / 1 / 1 / 1;
 }
-/* line 45, ../css/sass/partials/header.scss */
+/* line 43, ../css/sass/partials/header.scss */
 .icon-wrapper .icon-link {
   margin-left: 0.6rem;
+}
+
+/* line 51, ../css/sass/partials/header.scss */
+.top-menu-wrapper {
+  grid-area: 1 / 2 / 1 / 2;
+  font-size: 1.2rem;
+  list-style: none;
+}
+/* line 57, ../css/sass/partials/header.scss */
+.top-menu-wrapper li {
+  list-style: none;
+  margin-right: .6rem;
+  display: inline-flex;
 }
