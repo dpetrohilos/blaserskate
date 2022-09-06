@@ -31,9 +31,11 @@
 <header class="header" role="banner">
 
 <div class="inline-flex box-wrap">
-	<a href="/decks">		<img width="24" height="24" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/decks.svg" alt="Decks" class="logo-img">
+	<a class="icon-link" href="/decks">		<img width="24" height="24" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/decks.svg" alt="Decks" class="icons">
 </a>
-<a href="/gear">		<img width="24" height="24" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/gear.svg" alt="Gear" class="logo-img">
+
+
+<a class="icon-link" href="/gear">		<img width="24" height="24" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/gear.svg" alt="Gear" class="icons">
 </a>
 </div>
 			
