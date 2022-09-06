@@ -88,59 +88,13 @@ function html5blank_nav() {
 }
 
 
-// Load HTML5 Blank scripts (header.php)
-function html5blank_header_scripts() {
-    if ( $GLOBALS['pagenow'] != 'wp-login.php' && ! is_admin() ) {
-        if ( HTML5_DEBUG ) {
-            // jQuery
-            wp_deregister_script( 'jquery' );
-            wp_register_script( 'jquery', get_template_directory_uri() . '/js/lib/jquery.min.js', array(), '3.3.1' );
-
-            // Conditionizr
-            wp_register_script( 'conditionizr', get_template_directory_uri() . '/js/lib/conditionizr-4.3.0.min.js', array(), '4.3.0' );
-
-            // Modernizr
-            wp_register_script( 'modernizr', get_template_directory_uri() . '/js/lib/modernizr.js', array(), '2.8.3' );
-
-            // Modernizr
-            wp_register_script( 'modernizr', get_template_directory_uri() . '/js/scripts.js', array(), '1' );
-
-
-
-            // Custom scripts
-            wp_register_script(
-                'html5blankscripts',
-                get_template_directory_uri() . '/js/scripts.js',
-                array(
-                    'conditionizr',
-                    'modernizr',
-                    'jquery',
-                    'scripts'
-                ),
-                '1.0.0' );
-
-            // Enqueue Scripts
-            wp_enqueue_script( 'html5blankscripts' );
-
-        // If production
-        } else {
-            // Scripts minify
-            wp_register_script( 'html5blankscripts-min', get_template_directory_uri() . '/js/scripts.min.js', array(), '1.0.0' );
-            // Enqueue Scripts
-            wp_enqueue_script( 'html5blankscripts-min' );
-        }
+function mytheme_custom_scripts(){
+    if ( is_home() || is_front_page()) {
+            $scriptSrc = get_template_directory_uri() . '/js/scripts.js';
+            wp_enqueue_script( 'script', $scriptSrc , array(), '1.0',  false );
     }
 }
-
-// Load HTML5 Blank conditional scripts
-function html5blank_conditional_scripts() {
-    if ( is_page( 'pagenamehere' ) ) {
-        // Conditional script(s)
-        wp_register_script( 'scriptname', get_template_directory_uri() . '/js/scriptname.js', array( 'jquery' ), '1.0.0' );
-        wp_enqueue_script( 'scriptname' );
-    }
-}
-
+add_action( 'wp_enqueue_scripts', 'mytheme_custom_scripts' );
 
 
 
