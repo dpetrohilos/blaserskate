@@ -16,9 +16,8 @@ margin: 0 auto;
 padding: 0;
 grid-column-gap: 1.6rem;
 grid-row-gap: 1.6rem;
-
 justify-content: space-between;
-
+padding: .6rem .3rem; 
 
 }
 
@@ -56,10 +55,12 @@ justify-content: space-between;
     
     font-size: 1rem; 
     list-style: none;
+    padding-top: .6rem
   
     li {list-style: none;
     margin-right: .6rem;
     display: inline-flex;
+
   }
 
 }
