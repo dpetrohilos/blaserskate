@@ -53,7 +53,7 @@
 
   <div class="site-navbar nav">
 
-    <div class="site-branding">
+<div class="site-branding">
       <span class="site-title">						
         
             <a href="<?php echo esc_url( home_url() ); ?>">
