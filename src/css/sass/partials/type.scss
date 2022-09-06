@@ -118,7 +118,7 @@ width: fit-content;
 
     font-size: 2.2rem; 
     padding: 1.2rem 2.4rem; 
-    background: #232323; 
+    background: #444444; 
     color: #fff;
     border: transparent .2rem solid;  
     
@@ -126,8 +126,8 @@ width: fit-content;
     &:hover {
 
         text-decoration: none;
-        border: .2rem solid #232323; 
-        color: #232323; 
+        border: .2rem solid #444444; 
+        color: #444444; 
         background: transparent;
         
 
@@ -140,14 +140,14 @@ width: fit-content;
     font-size: 2.2rem; 
     padding: 1.2rem 2.4rem; 
     text-decoration: none;
-    border: .2rem solid #232323; 
-    color: #232323; 
+    border: .2rem solid #444444; 
+    color: #444444; 
 
     &:hover {
 
-        background: #232323; 
+        background: #444444; 
         color: #fff;
-        border: black .2rem solid;  
+        border: #444444 .2rem solid;  
         text-decoration: none;
     }
 
@@ -157,12 +157,12 @@ width: fit-content;
 
     font-size: 1.6rem;
     padding: .4rem .8rem;
-    border: .2rem solid #232323; 
-    color: #232323; 
+    border: .2rem solid #444444; 
+    color: #444444; 
 
     &:hover {
 
-        background: #232323; 
+        background: #444444; 
         color: #fff;
         border: black .2rem solid;  
         text-decoration: none;
