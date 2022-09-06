@@ -87,19 +87,6 @@ function html5blank_nav() {
     );
 }
 
-
-function mytheme_custom_scripts(){
-    if ( is_home() || is_front_page()) {
-            $scriptSrc = get_template_directory_uri() . '/js/scripts.js';
-            wp_enqueue_script( 'script', $scriptSrc , array(), '1.0',  false );
-    }
-}
-add_action( 'wp_enqueue_scripts', 'mytheme_custom_scripts' );
-
-
-
-
-
 // Load HTML5 Blank styles
 function html5blank_styles() {
     if ( HTML5_DEBUG ) {
