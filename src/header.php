@@ -48,8 +48,8 @@
 </div>
 
 
-<nav class="help top-menu inline-flex box-wrap icon-wrapper">
-<ul class="top-small-menu">
+<nav class="help top-menu-wrapper">
+<ul class="top-menu">
 
 <li>Help</li>
 <li>Contact</li>
