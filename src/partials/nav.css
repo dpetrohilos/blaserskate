@@ -136,8 +136,7 @@
 }
 
 /* line 133, ../css/sass/partials/nav.scss */
-.main-navigation li:hover > a,
-.main-navigation li.focus > a {
+.main-navigation li > a {
   padding: .6rem 1.2rem;
   font-family: "kent", Arial, Helvetica, sans-serif;
   font-size: 2.2rem;
@@ -147,44 +146,42 @@
   transition: background-size 0.25s ease-in;
   background-repeat: no-repeat;
 }
-/* line 148, ../css/sass/partials/nav.scss */
-.main-navigation li:hover > a:hover, .main-navigation li:hover > a:focus,
-.main-navigation li.focus > a:hover,
-.main-navigation li.focus > a:focus {
+/* line 144, ../css/sass/partials/nav.scss */
+.main-navigation li > a:hover, .main-navigation li > a:focus {
   text-decoration: none;
   background-size: 100% 30%;
   background-position: 0 44%;
 }
 
-/* line 159, ../css/sass/partials/nav.scss */
+/* line 157, ../css/sass/partials/nav.scss */
 .main-navigation li:last-of-type {
   margin-bottom: 10px;
 }
 
 @media (min-width: 1000px) {
-  /* line 164, ../css/sass/partials/nav.scss */
+  /* line 162, ../css/sass/partials/nav.scss */
   .main-navigation li:last-of-type {
     margin-bottom: 0;
   }
 }
 @media (min-width: 1000px) {
-  /* line 170, ../css/sass/partials/nav.scss */
+  /* line 168, ../css/sass/partials/nav.scss */
   .main-navigation li {
     display: inline-block;
     border: none;
   }
 
-  /* line 174, ../css/sass/partials/nav.scss */
+  /* line 172, ../css/sass/partials/nav.scss */
   .main-navigation li + li {
     margin-left: 10px;
   }
 }
-/* line 179, ../css/sass/partials/nav.scss */
+/* line 177, ../css/sass/partials/nav.scss */
 .main-navigation li.active a {
   background-color: red;
 }
 
-/* line 183, ../css/sass/partials/nav.scss */
+/* line 181, ../css/sass/partials/nav.scss */
 .main-navigation a {
   display: block;
   text-decoration: none;
@@ -192,13 +189,13 @@
 }
 
 @media (min-width: 1000px) {
-  /* line 190, ../css/sass/partials/nav.scss */
+  /* line 188, ../css/sass/partials/nav.scss */
   .main-navigation a {
     line-height: 60px;
     padding: 0;
   }
 }
-/* line 196, ../css/sass/partials/nav.scss */
+/* line 194, ../css/sass/partials/nav.scss */
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a,
@@ -206,7 +203,7 @@
   color: red;
 }
 
-/* line 203, ../css/sass/partials/nav.scss */
+/* line 201, ../css/sass/partials/nav.scss */
 .sub-nav-toggle {
   height: 40px;
   width: 40px;
@@ -224,7 +221,7 @@
 }
 
 @media (min-width: 1000px) {
-  /* line 220, ../css/sass/partials/nav.scss */
+  /* line 218, ../css/sass/partials/nav.scss */
   .sub-nav-toggle {
     top: 50%;
     margin-top: -10px;
@@ -232,7 +229,7 @@
     width: 18.00180018px;
   }
 }
-/* line 228, ../css/sass/partials/nav.scss */
+/* line 226, ../css/sass/partials/nav.scss */
 .sub-nav-toggle:after {
   content: '';
   position: absolute;
@@ -245,14 +242,14 @@
 }
 
 @media (min-width: 1000px) {
-  /* line 240, ../css/sass/partials/nav.scss */
+  /* line 238, ../css/sass/partials/nav.scss */
   .sub-nav-toggle:after {
     top: 8.6666666667px;
     left: 5.1282051282px;
     border-width: 4px;
   }
 
-  /* line 245, ../css/sass/partials/nav.scss */
+  /* line 243, ../css/sass/partials/nav.scss */
   .children .sub-nav-toggle:after {
     left: 8.3333333333px;
     top: 6.25px;
@@ -261,7 +258,7 @@
     transform: rotate(-90deg);
   }
 }
-/* line 254, ../css/sass/partials/nav.scss */
+/* line 252, ../css/sass/partials/nav.scss */
 .sub-nav-toggle.active {
   -webkit-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
@@ -270,57 +267,57 @@
 }
 
 @media (min-width: 1000px) {
-  /* line 262, ../css/sass/partials/nav.scss */
+  /* line 260, ../css/sass/partials/nav.scss */
   .sub-nav-toggle.active {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 }
-/* line 269, ../css/sass/partials/nav.scss */
+/* line 267, ../css/sass/partials/nav.scss */
 .main-navigation.toggled ul.nav-menu {
   max-height: 1000px;
 }
 
 @media (min-width: 1000px) {
-  /* line 274, ../css/sass/partials/nav.scss */
+  /* line 272, ../css/sass/partials/nav.scss */
   .main-navigation.toggled ul.nav-menu {
     overflow: visible;
   }
 }
-/* line 279, ../css/sass/partials/nav.scss */
+/* line 277, ../css/sass/partials/nav.scss */
 .page_item_has_children > a {
   padding-right: 40px;
 }
 
 @media (min-width: 1000px) {
-  /* line 284, ../css/sass/partials/nav.scss */
+  /* line 282, ../css/sass/partials/nav.scss */
   .page_item_has_children > a {
     padding-right: 18.00180018px;
   }
 }
-/* line 289, ../css/sass/partials/nav.scss */
+/* line 287, ../css/sass/partials/nav.scss */
 .children {
   max-height: 0;
   overflow: hidden;
 }
 
-/* line 294, ../css/sass/partials/nav.scss */
+/* line 292, ../css/sass/partials/nav.scss */
 .children.active {
   max-height: 1000px;
 }
 
-/* line 298, ../css/sass/partials/nav.scss */
+/* line 296, ../css/sass/partials/nav.scss */
 .children li:first-of-type {
   margin-top: 0;
 }
 
-/* line 302, ../css/sass/partials/nav.scss */
+/* line 300, ../css/sass/partials/nav.scss */
 .children li:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 306, ../css/sass/partials/nav.scss */
+/* line 304, ../css/sass/partials/nav.scss */
 .children a {
   white-space: nowrap;
 }
@@ -328,7 +325,7 @@
 /*--------------------------------------------------------------
 ## Hamburger menu
 --------------------------------------------------------------*/
-/* line 314, ../css/sass/partials/nav.scss */
+/* line 312, ../css/sass/partials/nav.scss */
 button.menu-toggle {
   display: block;
   z-index: 9000;
@@ -353,24 +350,24 @@ button.menu-toggle {
 }
 
 @media (min-width: 1000px) {
-  /* line 338, ../css/sass/partials/nav.scss */
+  /* line 336, ../css/sass/partials/nav.scss */
   button.menu-toggle {
     display: none;
   }
 }
-/* line 343, ../css/sass/partials/nav.scss */
+/* line 341, ../css/sass/partials/nav.scss */
 button.menu-toggle:focus {
   outline: none;
 }
 
-/* line 347, ../css/sass/partials/nav.scss */
+/* line 345, ../css/sass/partials/nav.scss */
 button.menu-toggle:hover, button.menu-toggle:focus {
   background-color: transparent;
   border-color: transparent;
   box-shadow: none;
 }
 
-/* line 353, ../css/sass/partials/nav.scss */
+/* line 351, ../css/sass/partials/nav.scss */
 button.menu-toggle.is-active span {
   background-color: teal;
   -webkit-transform: rotate(-225deg);
@@ -378,7 +375,7 @@ button.menu-toggle.is-active span {
   transform: rotate(-225deg);
 }
 
-/* line 360, ../css/sass/partials/nav.scss */
+/* line 358, ../css/sass/partials/nav.scss */
 button.menu-toggle.is-active span::before {
   background-color: teal;
   top: 0;
@@ -387,7 +384,7 @@ button.menu-toggle.is-active span::before {
   transform: rotate(90deg);
 }
 
-/* line 368, ../css/sass/partials/nav.scss */
+/* line 366, ../css/sass/partials/nav.scss */
 button.menu-toggle.is-active span::after {
   background-color: transparent;
   bottom: 0;
@@ -396,14 +393,14 @@ button.menu-toggle.is-active span::after {
   transform: rotate(0deg);
 }
 
-/* line 376, ../css/sass/partials/nav.scss */
+/* line 374, ../css/sass/partials/nav.scss */
 button.menu-toggle.is-active span::before,
 button.menu-toggle.is-active span::after {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* line 382, ../css/sass/partials/nav.scss */
+/* line 380, ../css/sass/partials/nav.scss */
 button.menu-toggle span {
   display: block;
   position: absolute;
@@ -416,7 +413,7 @@ button.menu-toggle span {
   transition-duration: 0.3s;
 }
 
-/* line 394, ../css/sass/partials/nav.scss */
+/* line 392, ../css/sass/partials/nav.scss */
 button.menu-toggle span::before, button.menu-toggle span::after {
   position: absolute;
   display: block;
@@ -429,7 +426,7 @@ button.menu-toggle span::before, button.menu-toggle span::after {
   transition-duration: 0.3s;
 }
 
-/* line 406, ../css/sass/partials/nav.scss */
+/* line 404, ../css/sass/partials/nav.scss */
 button.menu-toggle span::before {
   top: -9px;
   -webkit-transition-property: top, -webkit-transform;
@@ -438,7 +435,7 @@ button.menu-toggle span::before {
   transition-property: top, transform, -webkit-transform;
 }
 
-/* line 414, ../css/sass/partials/nav.scss */
+/* line 412, ../css/sass/partials/nav.scss */
 button.menu-toggle span::after {
   bottom: -9px;
   -webkit-transition-property: bottom, -webkit-transform;
@@ -447,7 +444,7 @@ button.menu-toggle span::after {
   transition-property: bottom, transform, -webkit-transform;
 }
 
-/* line 424, ../css/sass/partials/nav.scss */
+/* line 422, ../css/sass/partials/nav.scss */
 .site-header {
   background-color: #fff;
   border-top: 1px solid #e7e7e7;
@@ -458,7 +455,7 @@ button.menu-toggle span::after {
   z-index: 999;
 }
 
-/* line 435, ../css/sass/partials/nav.scss */
+/* line 433, ../css/sass/partials/nav.scss */
 .site-navbar {
   position: absolute;
   box-sizing: border-box;
@@ -471,40 +468,40 @@ button.menu-toggle span::after {
 }
 
 @media (min-width: 800px) {
-  /* line 449, ../css/sass/partials/nav.scss */
+  /* line 447, ../css/sass/partials/nav.scss */
   .site-navbar {
     max-width: 800px;
   }
 
-  /* line 455, ../css/sass/partials/nav.scss */
+  /* line 453, ../css/sass/partials/nav.scss */
   .site-header, .site-navbar {
     position: sticky;
   }
 }
 @media (min-width: 1000px) {
-  /* line 462, ../css/sass/partials/nav.scss */
+  /* line 460, ../css/sass/partials/nav.scss */
   .site-navbar, .site-navbar {
     max-width: 1000px;
   }
 
-  /* line 465, ../css/sass/partials/nav.scss */
+  /* line 463, ../css/sass/partials/nav.scss */
   .site-header {
     position: sticky;
   }
 }
-/* line 471, ../css/sass/partials/nav.scss */
+/* line 469, ../css/sass/partials/nav.scss */
 .site-branding {
   display: inline-block;
 }
 
-/* line 475, ../css/sass/partials/nav.scss */
+/* line 473, ../css/sass/partials/nav.scss */
 .site-title {
   font-size: 20px;
   line-height: 60px;
   font-weight: 300;
 }
 
-/* line 481, ../css/sass/partials/nav.scss */
+/* line 479, ../css/sass/partials/nav.scss */
 .site-title a {
   text-decoration: none;
 }
