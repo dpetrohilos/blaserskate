@@ -66,7 +66,7 @@
     <button class="menu-toggle" tabindex="0" aria-label="Menu" aria-controls="primary-menu">Menu<span>toggle menu</span></button>
       
 	
-<nav class="main-navigation" id="site-navigation">
+<nav class="main-navigation" id="site-navigation menu">
       <?php html5blank_nav(); ?>
   </nav>
 
