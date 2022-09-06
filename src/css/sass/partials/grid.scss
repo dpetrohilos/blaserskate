@@ -62,6 +62,10 @@ margin: 0;
   justify-content: center;
 }
 
+.inline-flex {
+  display: inline-flex; 
+}
+
 .product-grid {
   display: grid;
   grid-template-row: 1fr 1fr 1fr ;
