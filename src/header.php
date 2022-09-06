@@ -46,11 +46,12 @@
 		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img">
 	</a>
 </div>
-<!-- /logo -->
 
-<!-- nav -->
 
-<!-- /nav -->
+<nav class="help top-menu">
+
+      <?php html5blank_nav('top-menu'); ?>
+	</nav>
 
 </header>
 <!-- /header -->
@@ -74,7 +75,7 @@
       
 	
 <nav class="main-navigation" id="site-navigation">
-      <?php html5blank_nav(); ?>
+      <?php html5blank_nav('header-menu'); ?>
   </nav>
 
 
