@@ -28,6 +28,25 @@
 	<body <?php body_class(); ?>>
 
 
+	<header class="header" role="banner">
+
+
+			
+<!-- logo -->
+<div class="logo">
+	<a href="<?php echo esc_url( home_url() ); ?>">
+		<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img">
+	</a>
+</div>
+<!-- /logo -->
+
+<!-- nav -->
+
+<!-- /nav -->
+
+</header>
+<!-- /header -->
 
 
   <header id="masthead" class="site-header">
@@ -57,25 +76,6 @@
   </div>
 
 </header>
-			<header class="header" role="banner">
-
-
 			
-					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo esc_url( home_url() ); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
-					</div>
-					<!-- /logo -->
-
-					<!-- nav -->
-				
-					<!-- /nav -->
-
-			</header>
-			<!-- /header -->
-
 
 
