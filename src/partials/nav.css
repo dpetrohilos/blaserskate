@@ -472,33 +472,27 @@ button.menu-toggle span::after {
   /* line 445, ../css/sass/partials/nav.scss */
   .site-navbar {
     max-width: 800px;
-    position: absolute;
   }
 }
 @media (min-width: 1000px) {
-  /* line 452, ../css/sass/partials/nav.scss */
+  /* line 451, ../css/sass/partials/nav.scss */
   .site-navbar {
     max-width: 1000px;
   }
-
-  /* line 455, ../css/sass/partials/nav.scss */
-  .site-header {
-    position: absolute;
-  }
 }
-/* line 460, ../css/sass/partials/nav.scss */
+/* line 458, ../css/sass/partials/nav.scss */
 .site-branding {
   display: inline-block;
 }
 
-/* line 464, ../css/sass/partials/nav.scss */
+/* line 462, ../css/sass/partials/nav.scss */
 .site-title {
   font-size: 20px;
   line-height: 60px;
   font-weight: 300;
 }
 
-/* line 470, ../css/sass/partials/nav.scss */
+/* line 468, ../css/sass/partials/nav.scss */
 .site-title a {
   text-decoration: none;
 }

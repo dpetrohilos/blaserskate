@@ -444,7 +444,6 @@ button.menu-toggle span::after {
 @media (min-width: 800px) {
   .site-navbar {
     max-width: 800px;
-    position: absolute;
   }
 }
 
@@ -453,7 +452,6 @@ button.menu-toggle span::after {
     max-width: 1000px;
   }
   .site-header {
-    position: absolute;
   }
 }
 
