@@ -49,9 +49,9 @@
 <!-- /header -->
 
 
-  <header id="masthead" class="site-header nav">
+  <header id="masthead" class="site-header">
 
-  <div class="site-navbar">
+  <div class="site-navbar nav">
 
     <div class="site-branding">
       <span class="site-title">						
