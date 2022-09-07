@@ -1378,7 +1378,7 @@ p, ul, ol, li {
 .hero {
   padding: 0;
   margin: 0;
-  top: -8px;
+  top: -1.2rem;
   position: relative;
 }
 
