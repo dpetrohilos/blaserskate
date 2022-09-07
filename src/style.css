@@ -388,26 +388,27 @@ body {
 img {
   max-width: 100%;
   vertical-align: middle;
+  height: auto;
 }
 
-/* line 43, css/sass/partials/reset.scss */
+/* line 44, css/sass/partials/reset.scss */
 a {
   color: #232323;
   text-decoration: none;
 }
-/* line 47, css/sass/partials/reset.scss */
+/* line 48, css/sass/partials/reset.scss */
 a:focus, a:hover {
   text-decoration: underline;
 }
 
-/* line 55, css/sass/partials/reset.scss */
+/* line 56, css/sass/partials/reset.scss */
 input[type="text"],
 input[type="search"] {
   font-size: inherit;
   line-height: inherit;
 }
 
-/* line 62, css/sass/partials/reset.scss */
+/* line 63, css/sass/partials/reset.scss */
 ::selection {
   background-color: #04A4CC;
   color: #f5f5f5;
