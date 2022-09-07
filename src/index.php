@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-<div class="hero grid grid-row-1 wrapper">
+<div class="hero grid grid-row-1">
 <section class="grid-item-1 col-1">
-<header>
+<header class="content">
 <div class="over-text kent sub-title">2022<hr/></div>
 <h1 class="section-title">New Collection</h1>
 <p>Louisville, KY is known for two things. Very strong baseball bats, and lovingly handcrafted skateboards. Come shred with us!</p>
@@ -13,7 +13,7 @@
 <div class="grid-item-2 col-2">
 
 
-<img class="hero-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/BlaserBoardHero.jpg"/>
+<img class="hero-image" alt="Skateboarder doing a trick" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/BlaserBoardHero.jpg"/>
 
 </div>
 

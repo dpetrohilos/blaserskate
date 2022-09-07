@@ -46,9 +46,23 @@ margin: 0;
 }
 
 
+.hero > .col-1 {
+
+  grid-area: 1 / 1 / 1 / 1;
+  width: $wrapper-width; 
+  margin: 0 auto; 
+
+    .content {
+      margin-top: 7.2rem;
+
+    }
+
+}
+
 .hero > .col-2 {
 
   grid-area: 1 / 1 / 1 / 1;
+  z-index: -1;
 
 }
 
