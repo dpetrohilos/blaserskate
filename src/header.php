@@ -72,10 +72,8 @@
         
             <a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img width="100" height="60" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_ill.svg" alt="Logo" class="site-brand">
-							<span class="kent>
-						Blasker Skateboards 
-						</span>
+							<img width="100" height="60" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_ill.svg" alt="Logo" class="site-brand" />
+							
 						</a>
 </span>
     </div>
