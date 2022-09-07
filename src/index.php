@@ -13,7 +13,7 @@
 <div class="grid-item-2 col-2">
 
 
-<img class="hero-image" alt="Skateboarder doing a trick" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/BlaserBoardHero.jpg"/>
+<img width="2400" height="1200" class="hero-image" alt="Skateboarder doing a trick" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/BlaserBoardHero.jpg"/>
 
 </div>
 
