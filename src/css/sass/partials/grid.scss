@@ -46,6 +46,13 @@ margin: 0;
 }
 
 
+.hero > .col-2 {
+
+  grid-area: 2 / 2 / 2 / 2;
+
+}
+
+
 .sub-grid {
   display: grid;
 }
@@ -64,6 +71,10 @@ margin: 0;
 
 .inline-flex {
   display: inline-flex; 
+}
+
+.box-wrap {
+  flex-wrap: wrap;
 }
 
 .product-grid {
