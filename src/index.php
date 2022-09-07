@@ -3,7 +3,7 @@
 <section class="grid-item-1 col-1">
 <header class="content">
 <div class="over-text kent sub-title">2022</div>
-<h1 class="section-title">Handcrafted skateboards</h1>
+<h1 class="section-title">Handcrafted decks</h1>
 <p>Louisville, KY is known for two things. Very strong baseball bats, and lovingly handcrafted skateboards. Come shred with us!</p>
 <a class="button primary" href="/store">Explore</a>
 
