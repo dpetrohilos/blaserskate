@@ -39,7 +39,7 @@
 
 /* line 32, ../css/sass/partials/grid.scss */
 .col-1 {
-  grid-area: 2 / 1 / 2 / 1;
+  grid-area: 1 / 1 / 1 / 1;
 }
 /* line 34, ../css/sass/partials/grid.scss */
 .col-1 p {
@@ -59,7 +59,7 @@
 
 /* line 49, ../css/sass/partials/grid.scss */
 .hero > .col-2 {
-  grid-area: 2 / 2 / 2 / 2;
+  grid-area: 1 / 1 / 1 / 1;
 }
 
 /* line 56, ../css/sass/partials/grid.scss */
