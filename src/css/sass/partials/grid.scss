@@ -106,9 +106,6 @@ margin: 0;
 
   }
 
-
-
-
   .featured {
     
     img{
@@ -122,11 +119,15 @@ margin: 0;
 
   .first-row {
     grid-row: 1 / span 1;
+    grid-area: 1 / 1 / 1 / 1;
+
 
   }
 
   .second-row {
     grid-row: 2 / span 1;
+    grid-area: 1 / 2 / 2 / 1;
+
 
   }
 
@@ -155,6 +156,27 @@ margin: 0;
   }
 
 
+}
+
+
+// Third Row Grid 
+
+.grid-row-3 {
+
+  .row-1 {
+    margin: 0 auto; 
+    max-width: $wrapper-width;
+
+  }
+
+  .row-2 {
+
+
+
+  }
+
+
+  
 }
 
 
