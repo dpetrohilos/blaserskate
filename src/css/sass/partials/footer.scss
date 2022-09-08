@@ -13,5 +13,13 @@
 
     a {
 
+        color: $body-bg; 
+        text-decoration: underline;
+
+        &:hover {
+
+            text-decoration: none;
+        }
+
     }
 }
