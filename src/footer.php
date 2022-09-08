@@ -1,8 +1,19 @@
 			<!-- footer -->
 			<footer class="footer grid" role="contentinfo">
 <div class="grid-item-1">
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/footer_img.jpg" alt="Logo" class="logo-img">
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/footer_img.jpg" alt="Handmade designs" class="footer design element">
 
+
+		</div>
+<div class="grid-item-2">
+				
+</div>
+
+<div classs="grid-item-3">
+        
+</div>
+
+<div class="grid-item-4">
 <!-- copyright -->
 <?php
 				    printf( '<p class="copyright">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . '</p>',
@@ -14,11 +25,8 @@
 				?>
 				<!-- /copyright -->
 
-
-		</div>
-<div class="grid-item-1">
-				
-				</div>
+<p>Designed by <a href="Repater.Digital" title="link to repeater digital website">Repeater Digital</a></p>
+</div>
 			</footer>
 			<!-- /footer -->
 
