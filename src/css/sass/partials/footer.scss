@@ -2,6 +2,16 @@
  * partials/footer
  * ---
  */
+ @import "modules/variables";
 
 
-.footer {}
+.footer {
+
+    display: grid;
+    background: $text-color; 
+    color: $body-bg; 
+
+    a {
+
+    }
+}
