@@ -1376,7 +1376,7 @@ p, ul, ol, li {
 
 /* line 26, css/sass/partials/grid.scss */
 .col-2 {
-  grid-area: 2 / 2 / 2 / 2;
+  grid-area: 2 / 2 / 2 / 1;
 }
 
 /* line 29, css/sass/partials/grid.scss */
