@@ -84,9 +84,27 @@ margin: 0;
 
 .photo-area {
   display: grid;
+  gap: 0.125rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 
-  .featuered {}
-  .card {}
+  .featuered {
+
+    aspect-ratio: 1 / 1;
+    grid-row: span 2;
+    grid-column: span 2;
+
+
+  }
+
+
+}
+
+
+@media (min-width: 60em) {
+
+  .card.featured {
+    aspect-ratio: 1 / 1.5;
+  }
 
 }
 
