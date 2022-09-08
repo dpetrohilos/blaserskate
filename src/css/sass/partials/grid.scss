@@ -21,6 +21,10 @@ margin: 0 auto;
 width: 100%; 
 }
 
+.col-1 {grid-area: 1 / 2 / 1 / 2; }
+.col-2 {grid-area: 2 / 2 / 2 / 2; }
+
+
 .wrapper > .title {
 
 margin: 0; 
@@ -28,6 +32,8 @@ margin: 0;
 }
 
 
+
+.col-wrapper {
 
 .col-1 {grid-area: 1 / 1 / 1 / 1;
 
@@ -37,13 +43,15 @@ margin: 0;
   }
 }
 
-.col-2 {grid-area: 2 / 2 / 2 / 2;
+.col-2 {grid-area: 1 / 2 / 1 / 2;
 
   p {
     max-width: 46rem; 
     width: 100%;
   }
 }
+}
+
 
 
 .hero {
@@ -70,6 +78,15 @@ margin: 0;
 
   grid-area: 1 / 1 / 1 / 1;
   z-index: -1;
+
+}
+
+
+.photo-area {
+  display: grid;
+
+  .featuered {}
+  .card {}
 
 }
 

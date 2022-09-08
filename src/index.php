@@ -26,24 +26,17 @@
 
 
 
-<div class="grid grid-row-2">
-<div class="grid-item-1 col-1 grid photo-area">
+<div class="grid grid-row-2 col-wrapper">
+<div class="grid-item-1 col-1 photo-area">
 
 <div class="col-1">
-<div class="vidoe-wrapper">	
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_1.jpg"/>
-</div>
-</div>
+<div class="vidoe-wrapper featured card">	
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_1.jpg"/></div>
 
-<div class="col-2">
-<div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_2.jpg"/>
-</div>
-<div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_3.jpg"/>
-</div>
-<div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_4.jpg"/>
-</div>
-<div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_5.jpg"/>
-</div>
+<div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_2.jpg"/></div>
+<div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_3.jpg"/></div>
+<div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_4.jpg"/></div>
+<div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_5.jpg"/></div>
 
 </div>
 
@@ -66,7 +59,7 @@ Louisville, KY </cite>
 <div class="grid-item-3 col-2"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_3.jpg"/></div>
 </div>
 </div>
-<div class="grid grid-row-4">
+<div class="grid grid-row-4 col-wrapper">
 <div class="grid-item-1 col-1"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_4.jpg"/></div>
 <div class="grid-item-2 col-2"><blockquote class="pq">
 A lot of people buy a surfboard because their favorite shapers made it, not because their favorite company made it.</blockquote>
@@ -74,7 +67,7 @@ A lot of people buy a surfboard because their favorite shapers made it, not beca
 Founder, Louisville, KY </cite>
 </div>
 </div>
-<div class="grid grid-row-3 wrapper">
+<div class="grid grid-row-3 wrapper col-wrapper">
 <div class="grid-item-1 col-1">
 <h3 class="section-title">Our Store </h3>
 <p>Put simply, Blaser Boards are made from the strongest wood you can get. Sustainably sourced, slow grown, American maple from Northern Wisconsin gives each board has its own unique signature. Perfect for every free spirited adventurer who can’t be tamed.</p>
