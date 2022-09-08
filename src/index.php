@@ -23,9 +23,30 @@
 
 
 
+
+
+
 <div class="grid grid-row-2">
-<div class="grid-item-1 col-1">
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_1.jpg"/>
+<div class="grid-item-1 col-1 grid photo-area">
+
+<div class="col-1">
+<div class="vidoe-wrapper">	
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_1.jpg"/>
+</div>
+</div>
+
+<div class="col-2">
+<div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_2.jpg"/>
+</div>
+<div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_3.jpg"/>
+</div>
+<div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_4.jpg"/>
+</div>
+<div><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_5.jpg"/>
+</div>
+
+</div>
+
 </div>
 <div class="grid-item-2 col-2">
 <blockquote class="pq">
