@@ -98,7 +98,11 @@ margin: 0;
     object-fit: cover;
     }
 
+
+
   }
+
+
 
 
   .featured {
@@ -109,6 +113,16 @@ margin: 0;
     object-fit: cover;
   
   }
+
+  }
+
+  .first-row {
+    grid-row: auto;
+
+  }
+
+  .second-row {
+    grid-row: auto;
 
   }
 
@@ -125,6 +139,17 @@ margin: 0;
 
     img {aspect-ratio: 1 / 2;}
   }
+
+   .first-row {
+    grid-row: 1 / span 1;
+
+  }
+
+  .second-row {
+    grid-row: 2 / span 1;
+
+  }
+
 
 }
 
