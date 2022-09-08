@@ -1380,7 +1380,7 @@ p, ul, ol, li {
 
 /* line 24, css/sass/partials/grid.scss */
 .col-1 {
-  grid-area: 1 / 2 / 1 / 2;
+  grid-area: 2 / 2 / 2 / 2;
 }
 
 /* line 26, css/sass/partials/grid.scss */
