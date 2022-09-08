@@ -47,11 +47,15 @@ Louisville, KY </cite>
 </div>
 
 <div class="grid grid-row-3">
+
 <header class="grid-item-1 title">
 <h2 class="section-title">Shred The Gnar</h2>
 </header>
+
 <div class="grid-item-2 col-1"><img alt="hand crafted, made with love, picture of the skateboard. Illustration of the dragon and logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/handcrafted.jpg"/>
-</div>
+</div></div>
+
+
 <div class="grid grid-row-4 col-wrapper">
 <div class="grid-item-1 col-1"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_4.jpg"/></div>
 <div class="grid-item-2 col-2"><blockquote class="pq">
