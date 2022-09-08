@@ -99,18 +99,18 @@
 }
 /* line 90, ../css/sass/partials/grid.scss */
 .photo-area-wrapper .card {
-  aspect-ratio: 1 / 1.5;
+  aspect-ratio: 1 / 2;
 }
 /* line 94, ../css/sass/partials/grid.scss */
 .photo-area-wrapper .card img {
   width: 100%;
-  aspect-ratio: 1 / 1.25;
+  aspect-ratio: 1 / 2;
   object-fit: cover;
 }
 /* line 106, ../css/sass/partials/grid.scss */
 .photo-area-wrapper .featured img {
   width: 100%;
-  aspect-ratio: 1 / 1.25;
+  aspect-ratio: 1 / 2;
   object-fit: cover;
 }
 
