@@ -27,12 +27,9 @@
 
 
 <div class="grid grid-row-2 col-wrapper">
+
 <div class="grid-item-1 col-1 photo-area">
-
-<div class="col-1">
-<div class="vidoe-wrapper featured card">	
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_1.jpg"/></div>
-
+<div class="vidoe-wrapper featured card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_1.jpg"/></div>
 <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_2.jpg"/></div>
 <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_3.jpg"/></div>
 <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_4.jpg"/></div>
@@ -40,7 +37,6 @@
 
 </div>
 
-</div>
 <div class="grid-item-2 col-2">
 <blockquote class="pq">
 We do this for the love of skateboarding. Blaser Boards was founded in 2022 by a group of friends. Each deck is hand drawn, hand painted and lovingly handcrafted.
@@ -50,6 +46,7 @@ Louisville, KY </cite>
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Justin-Quote.jpg"/>
 </div>
 </div>
+
 <div class="grid grid-row-3">
 <header class="grid-item-1 title">
 <h2 class="section-title">Shred The Gnar </h2>
