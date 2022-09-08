@@ -35,7 +35,8 @@
 <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_4.jpg"/></div>
 <div class="card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_5.jpg"/></div>
 
-</div>
+</div></div>
+
 
 <div class="grid-item-2 col-2">
 <blockquote class="pq">
