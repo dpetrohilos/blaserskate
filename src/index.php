@@ -4,7 +4,8 @@
 <header class="content">
 <div class="over-text kent sub-title">2022</div>
 <h1 class="section-title">Handcrafted decks</h1>
-<p>Louisville, KY is known for two things. Very strong baseball bats, and lovingly handcrafted skateboards. Come shred with us!</p>
+<p>Blaser Boards are custom designed from the gnarliest of wood for an unforgettable shredding experience. Each skateboard is made with love in Central Kentucky. Catch wicked air and get mad sketchy. <strong>No broom required to fly with us.</strong>
+</p>
 <a class="button primary" href="/store">Explore</a>
 
 </header>
