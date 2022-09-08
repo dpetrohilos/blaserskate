@@ -1473,7 +1473,7 @@ p, ul, ol, li {
 }
 /* line 169, css/sass/partials/grid.scss */
 .grid-row-3 .second-row {
-  grid-area: 1 / 2 / 2 / 1;
+  grid-area: 2 / 2 / 2 / 1;
 }
 
 /* line 177, css/sass/partials/grid.scss */
