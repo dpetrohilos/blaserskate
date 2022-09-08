@@ -82,22 +82,33 @@ margin: 0;
 }
 
 
-.photo-area {
+.photo-area-wrapper {
   display: grid;
   gap: 0.125rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 
-  .featuered {
+  .card {
 
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1.5;
 
+   img {
+    
+    width: 100%;
+    aspect-ratio: 1 / 1.25;
+    object-fit: cover;
+    }
 
   }
 
 
-  .card {
-    aspect-ratio: 1 / 1;
-
+  .featured {
+    
+    img{
+    width: 100%;
+    aspect-ratio: 1 / 1.25;
+    object-fit: cover;
+  
+  }
 
   }
 
@@ -106,8 +117,12 @@ margin: 0;
 
 @media (min-width: 60em) {
 
-  .card.featured {
-    aspect-ratio: 1 / 1.5;
+  .featured  {
+
+    grid-row: span 2;
+    grid-column: span 2;
+    
+    img {aspect-ratio: 1 / 1.5;}
   }
 
 }
