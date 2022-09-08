@@ -121,12 +121,12 @@ margin: 0;
   }
 
   .first-row {
-    grid-row: auto;
+    grid-row: 1 / span 1;
 
   }
 
   .second-row {
-    grid-row: auto;
+    grid-row: 2 / span 1;
 
   }
 
@@ -145,12 +145,12 @@ margin: 0;
   }
 
    .first-row {
-    grid-row: 1 / span 1;
+    grid-row: auto;
 
   }
 
   .second-row {
-    grid-row: 2 / span 1;
+    grid-row: auto;
 
   }
 

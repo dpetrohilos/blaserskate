@@ -1436,11 +1436,11 @@ p, ul, ol, li {
 }
 /* line 123, css/sass/partials/grid.scss */
 .photo-area-wrapper .first-row {
-  grid-row: auto;
+  grid-row: 1 / span 1;
 }
 /* line 128, css/sass/partials/grid.scss */
 .photo-area-wrapper .second-row {
-  grid-row: auto;
+  grid-row: 2 / span 1;
 }
 
 @media (min-width: 60em) {
@@ -1457,12 +1457,12 @@ p, ul, ol, li {
 
   /* line 147, css/sass/partials/grid.scss */
   .first-row {
-    grid-row: 1 / span 1;
+    grid-row: auto;
   }
 
   /* line 152, css/sass/partials/grid.scss */
   .second-row {
-    grid-row: 2 / span 1;
+    grid-row: auto;
   }
 }
 /* line 161, css/sass/partials/grid.scss */
