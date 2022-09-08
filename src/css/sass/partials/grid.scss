@@ -119,15 +119,11 @@ margin: 0;
 
   .first-row {
     grid-row: 1 / span 1;
-    grid-area: 1 / 1 / 1 / 1;
-
 
   }
 
   .second-row {
     grid-row: 2 / span 1;
-    grid-area: 1 / 2 / 2 / 1;
-
 
   }
 
@@ -163,14 +159,15 @@ margin: 0;
 
 .grid-row-3 {
 
-  .row-1 {
+  .first-row {
     margin: 0 auto; 
     max-width: $wrapper-width;
+    grid-area: 1 / 1 / 1 / 1;
 
   }
 
-  .row-2 {
-
+  .second-row {
+    grid-area: 1 / 2 / 2 / 1;
 
 
   }
