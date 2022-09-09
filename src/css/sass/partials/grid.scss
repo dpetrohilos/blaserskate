@@ -158,19 +158,22 @@ margin: 0;
 // Third Row Grid 
 
 .grid-row-3 {
-  margin: 0 auto; 
-  max-width: $wrapper-width;
 
   .first-row {
     grid-area: 1 / 1 / 1 / 1;
+    margin: 0 auto; 
+    max-width: $wrapper-width;
+
 
   }
 
   .second-row {
-    width: $wrapper-width; 
-    margin: 0 auto; 
-  
+    width: auto; 
+    margin: 0 auto;
     grid-area: 2 / 2 / 2 / 1;
+    display: flex;
+    justify-content: center;
+    
 
 
   }  
