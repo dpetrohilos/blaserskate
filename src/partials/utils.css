@@ -10,6 +10,10 @@ Error: Undefined mixin 'reset-box'.
 21: .reset-box {
 22:   @include reset-box;
 23: }
+24: 
+25: 
+26: .circle {
+27: 
 
 Backtrace:
 /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/utils.scss:22:in `reset-box'
@@ -68,4 +72,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'reset-box'.\A         on line 22 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/utils.scss, in `reset-box'\A         from line 22 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/utils.scss\A \A 17:     clear: both;\A 18:   }\A 19: }\A 20: \A 21: .reset-box {\A 22:   @include reset-box;\A 23: }"; }
+  content: "Error: Undefined mixin 'reset-box'.\A         on line 22 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/utils.scss, in `reset-box'\A         from line 22 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/utils.scss\A \A 17:     clear: both;\A 18:   }\A 19: }\A 20: \A 21: .reset-box {\A 22:   @include reset-box;\A 23: }\A 24: \A 25: \A 26: .circle {\A 27: "; }
