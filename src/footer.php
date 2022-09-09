@@ -7,13 +7,13 @@
 		</div>
 <div class="grid-item-2">
 				
+<?php if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( 'widget-area-1' ) ) ?>
+<?php html5blank_nav('footer-nav-1'); ?>
+<?php html5blank_nav('footer-nav-2'); ?>
+
 </div>
 
-<div classs="grid-item-3">
-        
-</div>
-
-<div class="grid-item-4">
+<div class="grid-item-3">
 <!-- copyright -->
 <?php
 				    printf( '<p class="copyright">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . '</p>',

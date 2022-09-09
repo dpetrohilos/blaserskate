@@ -49,13 +49,7 @@
 
 
 <nav class="help top-menu-wrapper">
-<ul class="top-menu">
-
-<li>Help</li>
-<li>Contact</li>
-<li>Sign In</li>
-
-</ul>
+<?php html5blank_nav('top-menu'); ?>
 
 </div>
 
@@ -82,7 +76,7 @@
       
 	
 <nav class="main-navigation" id="site-navigation">
-      <?php html5blank_nav(); ?>
+<?php html5blank_nav('main-nav'); ?>
   </nav>
 
 
