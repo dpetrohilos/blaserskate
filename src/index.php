@@ -55,9 +55,9 @@ Louisville, KY </cite>
 <div class="second-row flex inline-flex">
 	
 
-<img width="2400" height="1200" alt="hand crafted, made with love, picture of the skateboard. Illustration of the dragon and logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/handcrafted@3x.png"/>
+<img width="2400" height="1200" alt="hand crafted, made with love, picture of the skateboard. Illustration of the dragon and logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/handcrafted.svg"/>
 <img width="2400" height="1200" alt="hand crafted, made with love, picture of the skateboard. Illustration of the dragon and logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_vert.jpg"/>
-<img width="2400" height="1200" alt="hand crafted, made with love, picture of the skateboard. Illustration of the dragon and logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/handcrafted@3x.png"/>
+<img width="2400" height="1200" alt="hand crafted, made with love, picture of the skateboard. Illustration of the dragon and logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/madewithlove.svg"/>
 
 </div></div>
 
