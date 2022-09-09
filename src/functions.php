@@ -64,27 +64,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 \*------------------------------------*/
 
 // HTML5 Blank navigation
-function html5blank_nav() {
-    wp_nav_menu(
-    array(
-        'theme_location'  => 'top-menu',
-        'menu'            => 'Top Menu',
-        'container'       => 'ul',
-        'container_class' => '',
-        'container_id'    => '',
-        'menu_class'      => 'top-menu',
-        'menu_id'         => 'secondary-menu',
-        'echo'            => true,
-        'fallback_cb'     => 'wp_page_menu',
-        'before'          => '',
-        'after'           => '',
-        'link_before'     => '',
-        'link_after'      => '',
-        'items_wrap'      => '<ul id="primary-menu" class="nav-menu">%3$s</ul>',
-        'depth'           => 0,
-        'walker'          => ''
-                )
-    ); 
+function html5blank_nav() {   
     wp_nav_menu(
         array(
     'theme_location'  => 'main-nav',
@@ -105,46 +85,7 @@ function html5blank_nav() {
     'walker'          => ''
             )
 );
-wp_nav_menu(
-    array(
-'theme_location'  => 'footer-nav-1',
-'menu'            => 'Footer Nav',
-'container'       => 'ul',
-'container_class' => '',
-'container_id'    => '',
-'menu_class'      => 'nav-menu',
-'menu_id'         => 'footer-menu',
-'echo'            => true,
-'fallback_cb'     => 'wp_page_menu',
-'before'          => '',
-'after'           => '',
-'link_before'     => '',
-'link_after'      => '',
-'items_wrap'      => '<ul id="primary-menu" class="nav-menu">%3$s</ul>',
-'depth'           => 0,
-'walker'          => ''
-        )
-);wp_nav_menu(
-    array(
-'theme_location'  => 'footer-nav-2',
-'menu'            => 'Footer Nav',
-'container'       => 'ul',
-'container_class' => '',
-'container_id'    => '',
-'menu_class'      => 'nav-menu',
-'menu_id'         => 'footer-menu',
-'echo'            => true,
-'fallback_cb'     => 'wp_page_menu',
-'before'          => '',
-'after'           => '',
-'link_before'     => '',
-'link_after'      => '',
-'items_wrap'      => '<ul id="primary-menu" class="nav-menu">%3$s</ul>',
-'depth'           => 0,
-'walker'          => ''
-        )
-);
-    
+
 }
 
 
