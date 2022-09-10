@@ -13,13 +13,15 @@
 
 <?php
 html5blank_nav( array( 
-    'theme_location' => 'footer'  ) ); 
+    'theme_location' => 'footer', 
+    'container_class' => 'footer' ) ); 
 ?>
 <nav class="social-menu">
 
 <?php
 html5blank_nav( array( 
-    'theme_location' => 'social'  ) ); 
+    'theme_location' => 'social', 
+    'container_class' => 'social' ) ); 
 ?>
 
 </div>

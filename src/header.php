@@ -52,9 +52,9 @@
 
 <?php
 html5blank_nav( array( 
-    'theme_location' => 'top-menu'  ) ); 
+    'theme_location' => 'top-menu', 
+    'container_class' => 'top-menu' ) ); 
 ?>
-
 </div>
 
 </header>
@@ -80,10 +80,10 @@ html5blank_nav( array(
       
 	
 <nav class="main-navigation" id="site-navigation">
-
 <?php
 html5blank_nav( array( 
-    'theme_location' => 'main-nav'  ) ); 
+    'theme_location' => 'Main-Nav', 
+    'container_class' => 'Main-Nav' ) ); 
 ?>  </nav>
 
 
