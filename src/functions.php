@@ -67,7 +67,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 function html5blank_nav() {   
     wp_nav_menu(
         array(
-    'theme_location'  => 'main-nav',
+    'theme_location'  => 'main',
     'menu'            => 'Main Nav',
     'container'       => 'ul',
     'container_class' => '',

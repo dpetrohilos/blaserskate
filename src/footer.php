@@ -10,12 +10,13 @@
 <?php if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( 'widget-area-1' ) ) ?>
 
 <nav class="footer-menu">
-<?php html5blank_nav( array( 'theme_location' => 'footer' ) ); ?>
+<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
 
+</nav>
 
 <nav class="social-menu">
 
-<?php html5blank_nav( array( 'theme_location' => 'social' ) ); ?>
+<?php wp_nav_menu( array( 'theme_location' => 'social' ) ); ?>
 
     </nav>
 
