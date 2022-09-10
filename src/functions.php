@@ -67,7 +67,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 function html5blank_nav() {   
     wp_nav_menu(
         array(
-    'theme_location'  => 'top',
+    'theme_location'  => '',
     'menu'            => '',
     'container'       => 'ul',
     'container_class' => '',
@@ -79,76 +79,12 @@ function html5blank_nav() {
     'before'          => '',
     'after'           => '',
     'link_before'     => '',
-    'link_after'        => '',
+    'link_after'      => '',
     'items_wrap'      => '<ul>%3$s</ul>',
     'depth'           => 0,
     'walker'          => '',
     )
 );
-
-wp_nav_menu(
-    array(
-'theme_location'  => 'main',
-'menu'            => '',
-'container'       => 'ul',
-'container_class' => '',
-'container_id'    => '',
-'menu_class'      => 'menu_list_inner',
-'menu_id'         => '',
-'echo'            => true,
-'fallback_cb'     => 'wp_page_menu',
-'before'          => 'menu_item',
-'after'           => '',
-'link_before'     => 'menu_item',
-'link_after'      => '',
-'items_wrap'      => '<ul>%3$s</ul>',
-'depth'           => 0,
-'walker'          => '',
-)
-);
-
-wp_nav_menu(
-    array(
-'theme_location'  => 'footer',
-'menu'            => '',
-'container'       => 'ul',
-'container_class' => '',
-'container_id'    => '',
-'menu_class'      => 'nav-menu',
-'menu_id'         => 'primary-menu',
-'echo'            => true,
-'fallback_cb'     => 'wp_page_menu',
-'before'          => '',
-'after'           => '',
-'link_before'     => '',
-'link_after'      => '',
-'items_wrap'      => '<ul>%3$s</ul>',
-'depth'           => 0,
-'walker'          => '',
-)
-);
-
-wp_nav_menu(
-    array(
-'theme_location'  => 'social',
-'menu'            => '',
-'container'       => 'ul',
-'container_class' => '',
-'container_id'    => '',
-'menu_class'      => 'nav-menu',
-'menu_id'         => 'primary-menu',
-'echo'            => true,
-'fallback_cb'     => 'wp_page_menu',
-'before'          => '',
-'after'           => '',
-'link_before'     => '',
-'link_after'      => '',
-'items_wrap'      => '<ul>%3$s</ul>',
-'depth'           => 0,
-'walker'          => '',
-)
-);
-
 }
 
 
@@ -176,8 +112,8 @@ function html5blank_styles() {
 // Register HTML5 Blank Navigation
 function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
-        'top'  => esc_html( 'Top Menu', 'html5blank' ), // Main Navigation
-        'main'   => esc_html( 'Main Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
+        'main-nav'  => esc_html( 'Main Menu', 'html5blank' ), // Main Navigation
+        'top-menu'   => esc_html( 'Top Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
         'footer'   => esc_html( 'Footer Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
         'social'   => esc_html( 'Footer Social Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
 
