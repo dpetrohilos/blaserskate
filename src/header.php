@@ -52,7 +52,7 @@
 
 <?php
 html5blank_nav( array( 
-    'theme_location' => 'top-menu'  ) ); 
+    'theme_location' => 'main'  ) ); 
 ?>
 
 </div>
@@ -83,7 +83,7 @@ html5blank_nav( array(
 
 <?php
 html5blank_nav( array( 
-    'theme_location' => 'main-nav'  ) ); 
+    'theme_location' => 'top'  ) ); 
 ?>  </nav>
 
 
