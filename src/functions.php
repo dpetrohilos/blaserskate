@@ -64,32 +64,28 @@ if ( function_exists( 'add_theme_support' ) ) {
 \*------------------------------------*/
 
 // HTML5 Blank navigation
-function wp_nav_menu() {   
-    wp_nav_menu(
-        array(
-    'theme_location'  => 'main',
-    'menu'            => 'Main Nav',
-    'container'       => '',
-    'container_class' => '',
-    'container_id'    => '',
-    'menu_class'      => 'nav-menu',
-    'menu_id'         => 'primary-menu',
+$defaults = array(
+    'theme_location'  => ,
+    'menu'            => ,
+    'container'       => 'div',
+    'container_class' => 'menu-{menu slug}-container',
+    'container_id'    => ,
+    'menu_class'      => 'menu',
+    'menu_id'         => ,
     'echo'            => true,
     'fallback_cb'     => 'wp_page_menu',
-    'before'          => '',
-    'after'           => '',
-    'link_before'     => '',
-    'link_after'      => '',
-    'items_wrap'      => '<ul id="primary-menu" class="nav-menu">%3$s</ul>',
+    'before'          => ,
+    'after'           => ,
+    'link_before'     => ,
+    'link_after'      => ,
+    'items_wrap'      => '<ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>',
     'depth'           => 0,
-    'walker'          => ''
-            )
+    'walker'          =>
 );
 
-}
-
-
-
+$params = array(
+    'theme_location' => 'nav'
+);
 
 // Load HTML5 Blank styles
 function html5blank_styles() {
