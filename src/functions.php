@@ -83,9 +83,8 @@ $defaults = array(
     'walker'          =>
 );
 
-$params = array(
-    'theme_location' => 'nav'
-);
+
+
 
 // Load HTML5 Blank styles
 function html5blank_styles() {
