@@ -64,12 +64,12 @@ if ( function_exists( 'add_theme_support' ) ) {
 \*------------------------------------*/
 
 // HTML5 Blank navigation
-function html5blank_nav() {   
+function wp_nav_menu() {   
     wp_nav_menu(
         array(
     'theme_location'  => 'main',
     'menu'            => 'Main Nav',
-    'container'       => 'ul',
+    'container'       => '',
     'container_class' => '',
     'container_id'    => '',
     'menu_class'      => 'nav-menu',
