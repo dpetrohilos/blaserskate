@@ -116,7 +116,7 @@ function register_html5_menu() {
         'main-nav'  => esc_html( 'Main Menu', 'html5blank' ), // Main Navigation
         'top-menu'   => esc_html( 'Top Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
         'footer-nav-1'   => esc_html( 'Footer Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
-        'footer-nav-2'   => esc_html( 'Footer Social Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
+        'footer-nav-2'   => esc_html( 'Footer Social Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
 
     ) );
 }
