@@ -111,7 +111,7 @@ function html5blank_styles() {
 }
 
 // Register HTML5 Blank Navigation
-function wp_nav_menu() {
+function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
         'top'   => esc_html( 'Top Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
         'main'  => esc_html( 'Main Menu', 'html5blank' ), // Main Navigation
