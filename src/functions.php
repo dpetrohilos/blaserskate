@@ -67,8 +67,8 @@ if ( function_exists( 'add_theme_support' ) ) {
 function html5blank_nav() {   
     wp_nav_menu(
         array(
-    'theme_location'  => 'main-nav',
-    'menu'            => 'main nav',
+    'theme_location'  => '',
+    'menu'            => '',
     'container'       => 'ul',
     'container_class' => '',
     'container_id'    => '',
@@ -115,7 +115,7 @@ function register_html5_menu() {
         'main-nav'  => esc_html( 'Main Menu', 'html5blank' ), // Main Navigation
         'top-menu'   => esc_html( 'Top Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
         'footer-nav-1'   => esc_html( 'Footer Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
-        'footer-nav-2'   => esc_html( 'Footer Social Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
+        'footer-nav-2'   => esc_html( 'Footer Social Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
 
     ) );
 }
