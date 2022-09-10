@@ -10,7 +10,9 @@
 <?php if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( 'widget-area-1' ) ) ?>
 
 <nav class="footer-menu">
-<?php html5blank_nav('footer'); ?></nav><nav class="social-menu">
+<?php html5blank_nav('footer'); ?></nav>
+
+<nav class="social-menu">
 <?php html5blank_nav('social'); ?></nav>
 
 
