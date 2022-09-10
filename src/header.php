@@ -60,37 +60,33 @@ wp_nav_menu( array(
 <!-- /header -->
 
 
-  <header id="masthead" class="site-header">
-
-  <div class="site-navbar">
-
-<div class="site-branding">
-      <span class="site-title">						
-        
-            <a href="<?php echo esc_url( home_url() ); ?>">
+<header class="header container">
+<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img width="130" height="60" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_ill.svg" alt="Logo" class="site-brand" />
 							
-						</a>
-</span>
-    </div>
-
-    <button class="menu-toggle" tabindex="0" aria-label="Menu" aria-controls="primary-menu">Menu<span>toggle menu</span></button>
-      
-	
-<nav class="main-navigation" id="site-navigation">
- </nav>
-
-
- <?php
+</a>
+  <nav id="menu" class="menu" tabindex="-1">
+    <button class="menu_button menu_button--open js-open" aria-label="Open menu" aria-expanded="false" type="button">&#9776;</button>
+    <div class="menu_list">
+      <button class="menu_button menu_button--close js-close" aria-label="Close menu" aria-expanded="true" type="button">&times;</button>
+	  <?php
 wp_nav_menu( array( 
     'theme_location' => 'main', 
-    'container_class' => 'main' ) ); 
+    'container_class' => 'menu_list_inner' ) ); 
 ?>
 
-  </div>
+
+
+	</div>
+  </nav>
+</header>
+
+
 
 </header>
-			
+
+
+
 
 
