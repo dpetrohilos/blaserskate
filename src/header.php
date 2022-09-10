@@ -52,8 +52,8 @@
 
 <?php
 html5blank_nav( array( 
-    'theme_location' => 'main'  ) ); 
-?>
+    'theme_location' => 'top'  ) ); 
+?> 
 
 </div>
 
@@ -80,13 +80,16 @@ html5blank_nav( array(
       
 	
 <nav class="main-navigation" id="site-navigation">
+ 
+
+
+</nav>
+
 
 <?php
 html5blank_nav( array( 
-    'theme_location' => 'top'  ) ); 
-?>  </nav>
-
-
+    'theme_location' => 'main'  ) ); 
+?>
 
   </div>
 
