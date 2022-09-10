@@ -12,14 +12,15 @@
 <nav class="footer-menu">
 
 <?php
-html5blank_nav( array( 
+wp_nav_menu( array( 
     'theme_location' => 'footer', 
     'container_class' => 'footer' ) ); 
 ?>
+
 <nav class="social-menu">
 
 <?php
-html5blank_nav( array( 
+wp_nav_menu( array( 
     'theme_location' => 'social', 
     'container_class' => 'social' ) ); 
 ?>

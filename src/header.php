@@ -51,9 +51,9 @@
 <nav class="help top-menu-wrapper">
 
 <?php
-html5blank_nav( array( 
-    'theme_location' => 'top-menu', 
-    'container_class' => 'top-menu' ) ); 
+wp_nav_menu( array( 
+    'theme_location' => 'top-nav', 
+    'container_class' => 'top-nav' ) ); 
 ?>
 </div>
 
@@ -81,7 +81,7 @@ html5blank_nav( array(
 	
 <nav class="main-navigation" id="site-navigation">
 <?php
-html5blank_nav( array( 
+wp_nav_menu( array( 
     'theme_location' => 'Main-Nav', 
     'container_class' => 'Main-Nav' ) ); 
 ?>  </nav>
