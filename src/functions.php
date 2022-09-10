@@ -69,9 +69,9 @@ function wp_nav_menu() {
         array(
     'theme_location'  => 'main',
     'menu'            => 'main',
-    'container'       => '',
-    'container_class' => 'nav-menu',
-    'container_id'    => 'primary-menu',
+    'container'       => 'ul',
+    'container_class' => '',
+    'container_id'    => '',
     'menu_class'      => 'nav-menu',
     'menu_id'         => 'primary-menu',
     'echo'            => true,
