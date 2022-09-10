@@ -114,9 +114,7 @@ function html5blank_styles() {
 function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
         'main-nav'  => esc_html( 'Main Menu', 'html5blank' ), // Main Navigation
-        'top-menu'   => esc_html( 'Top Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
-        'footer'   => esc_html( 'Footer Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
-        'social'   => esc_html( 'Footer Social Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
+        'top-menu'   => esc_html( 'Top Menu', 'html5blank' )
 
     ) );
 }
