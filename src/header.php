@@ -49,12 +49,11 @@
 
 
 <nav class="help top-menu-wrapper">
-
 <?php
 wp_nav_menu( array( 
-    'theme_location' => 'top-nav', 
-    'container_class' => 'top-nav' ) ); 
-?>
+    'theme_location' => 'Main-Nav', 
+    'container_class' => 'Main-Nav' ) ); 
+?> 
 </div>
 
 </header>
@@ -80,13 +79,14 @@ wp_nav_menu( array(
       
 	
 <nav class="main-navigation" id="site-navigation">
-<?php
+ </nav>
+
+
+ <?php
 wp_nav_menu( array( 
-    'theme_location' => 'Main-Nav', 
-    'container_class' => 'Main-Nav' ) ); 
-?>  </nav>
-
-
+    'theme_location' => 'top-nav', 
+    'container_class' => 'top-nav' ) ); 
+?>
 
   </div>
 
