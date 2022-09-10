@@ -64,11 +64,11 @@ if ( function_exists( 'add_theme_support' ) ) {
 \*------------------------------------*/
 
 // HTML5 Blank navigation
-function wp_nav_menu() {   
+function html5blank_nav() {   
     wp_nav_menu(
         array(
-    'theme_location'  => 'main',
-    'menu'            => 'main',
+    'theme_location'  => 'main-nav',
+    'menu'            => 'Main Nav',
     'container'       => 'ul',
     'container_class' => '',
     'container_id'    => '',
@@ -115,6 +115,7 @@ function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
         'top'   => esc_html( 'Top Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
         'main'  => esc_html( 'Main Menu', 'html5blank' ), // Main Navigation
+s
         'footer'   => esc_html( 'Footer Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
         'social'   => esc_html( 'Footer Social Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
 
