@@ -51,8 +51,8 @@
 <nav class="help top-menu-wrapper">
 <?php
 wp_nav_menu( array( 
-    'theme_location' => 'Main-Nav', 
-    'container_class' => 'Main-Nav' ) ); 
+    'theme_location' => 'top', 
+    'container_class' => 'top' ) ); 
 ?> 
 </div>
 
@@ -84,8 +84,8 @@ wp_nav_menu( array(
 
  <?php
 wp_nav_menu( array( 
-    'theme_location' => 'top-nav', 
-    'container_class' => 'top-nav' ) ); 
+    'theme_location' => 'main', 
+    'container_class' => 'main' ) ); 
 ?>
 
   </div>

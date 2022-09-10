@@ -67,7 +67,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 function html5blank_nav() {   
     wp_nav_menu(
         array(
-    'theme_location'  => 'Main-Nav',
+    'theme_location'  => 'top',
     'menu'            => '',
     'container'       => 'ul',
     'container_class' => '',
@@ -79,7 +79,7 @@ function html5blank_nav() {
     'before'          => '',
     'after'           => '',
     'link_before'     => '',
-    'link_after'      => '',
+    'link_after'        => '',
     'items_wrap'      => '<ul>%3$s</ul>',
     'depth'           => 0,
     'walker'          => '',
@@ -88,7 +88,7 @@ function html5blank_nav() {
 
 wp_nav_menu(
     array(
-'theme_location'  => 'Top-Menu',
+'theme_location'  => 'main',
 'menu'            => '',
 'container'       => 'ul',
 'container_class' => '',
@@ -176,8 +176,8 @@ function html5blank_styles() {
 // Register HTML5 Blank Navigation
 function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
-        'main-nav'  => esc_html( 'Main Menu', 'html5blank' ), // Main Navigation
-        'top-menu'   => esc_html( 'Top Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
+        'top'  => esc_html( 'Top Menu', 'html5blank' ), // Main Navigation
+        'main'   => esc_html( 'Main Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
         'footer'   => esc_html( 'Footer Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
         'social'   => esc_html( 'Footer Social Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
 
