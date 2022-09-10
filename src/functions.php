@@ -64,7 +64,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 \*------------------------------------*/
 
 // HTML5 Blank navigation
-function html5blank_nav() {   
+function wp_nav_menu() {   
     wp_nav_menu(
         array(
     'theme_location'  => 'main',
@@ -111,7 +111,7 @@ function html5blank_styles() {
 }
 
 // Register HTML5 Blank Navigation
-function register_html5_menu() {
+function wp_nav_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
         'top'   => esc_html( 'Top Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
         'main'  => esc_html( 'Main Menu', 'html5blank' ), // Main Navigation
@@ -318,7 +318,7 @@ add_action( 'wp_enqueue_scripts', 'html5blank_header_scripts' ); // Add Custom S
 add_action( 'wp_print_scripts', 'html5blank_conditional_scripts' ); // Add Conditional Page Scripts
 add_action( 'get_header', 'enable_threaded_comments' ); // Enable Threaded Comments
 add_action( 'wp_enqueue_scripts', 'html5blank_styles' ); // Add Theme Stylesheet
-add_action( 'init', 'register_html5_menu' ); // Add HTML5 Blank Menu
+add_action( 'init', 'register_wp_nav_menu' ); // Add HTML5 Blank Menu
 // add_action( 'init', 'create_post_type_html5' ); // Add our HTML5 Blank Custom Post Type
 add_action( 'widgets_init', 'my_remove_recent_comments_style' ); // Remove inline Recent Comment Styles from wp_head()
 add_action( 'init', 'html5wp_pagination' ); // Add our HTML5 Pagination
