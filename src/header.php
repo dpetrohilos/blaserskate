@@ -79,7 +79,7 @@
 	
 <nav class="main-navigation" id="site-navigation">
 
-<?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
+<?php html5blank_nav( array( 'theme_location' => 'main' ) ); ?>
 
 </nav>
 
