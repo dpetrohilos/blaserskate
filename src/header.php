@@ -50,7 +50,7 @@
 
 <nav class="help top-menu-wrapper">
 
-<?php wp_nav_menu( array( 'theme_location' => 'top' ) ); ?>
+<?php html5blank_nav( array( 'theme_location' => 'top' ) ); ?>
 
 
 </div>
@@ -84,7 +84,7 @@
 </nav>
 
 
-<?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
+<?php html5blank_nav( array( 'theme_location' => 'main' ) ); ?>
 
 
 
