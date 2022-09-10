@@ -67,8 +67,8 @@ if ( function_exists( 'add_theme_support' ) ) {
 function html5blank_nav() {   
     wp_nav_menu(
         array(
-    'theme_location'  => '',
-    'menu'            => '',
+    'theme_location'  => 'main-nav',
+    'menu'            => 'Main Nav',
     'container'       => 'ul',
     'container_class' => '',
     'container_id'    => '',
@@ -80,11 +80,12 @@ function html5blank_nav() {
     'after'           => '',
     'link_before'     => '',
     'link_after'      => '',
-    'items_wrap'      => '<ul>%3$s</ul>',
+    'items_wrap'      => '<ul id="primary-menu" class="nav-menu">%3$s</ul>',
     'depth'           => 0,
-    'walker'          => '',
-    )
+    'walker'          => ''
+            )
 );
+
 }
 
 
@@ -112,10 +113,10 @@ function html5blank_styles() {
 // Register HTML5 Blank Navigation
 function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
-        'top'   => esc_html( 'Top Menu', 'html5blank' ), 
-        'main'  => esc_html( 'Main Menu', 'html5blank' ), 
-        'footer'   => esc_html( 'Footer Menu', 'html5blank' ), 
-        'social'   => esc_html( 'Footer Social Menu', 'html5blank' ) 
+        'main'  => esc_html( 'Main Menu', 'html5blank' ), // Main Navigation
+        'top'   => esc_html( 'Top Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
+        'footer'   => esc_html( 'Footer Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
+        'social'   => esc_html( 'Footer Social Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
 
     ) );
 }
@@ -405,6 +406,3 @@ remove_theme_support( 'wc-product-gallery-zoom' );
 remove_theme_support( 'wc-product-gallery-lightbox' );
 remove_theme_support( 'wc-product-gallery-slider' );
 add_filter( 'woocommerce_enqueue_styles', '__return_false' );
-
-
-remove_all_filters( 'wp_nav_menu_args' );
