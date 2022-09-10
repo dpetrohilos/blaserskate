@@ -49,7 +49,11 @@
 
 
 <nav class="help top-menu-wrapper">
-<?php html5blank_nav('top-menu'); ?>
+
+<?php
+html5blank_nav( array( 
+    'theme_location' => 'top-menu'  ) ); 
+?>
 
 </div>
 
@@ -76,8 +80,11 @@
       
 	
 <nav class="main-navigation" id="site-navigation">
-<?php html5blank_nav('main-nav'); ?>
-  </nav>
+
+<?php
+html5blank_nav( array( 
+    'theme_location' => 'main-nav'  ) ); 
+?>  </nav>
 
 
 
