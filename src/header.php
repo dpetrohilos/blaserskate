@@ -50,10 +50,8 @@
 
 <nav class="help top-menu-wrapper">
 
-<?php
-html5blank_nav( array( 
-    'theme_location' => 'top'  ) ); 
-?> 
+<?php wp_nav_menu( array( 'theme_location' => 'top' ) ); ?>
+	</nav>
 
 </div>
 
@@ -80,16 +78,10 @@ html5blank_nav( array(
       
 	
 <nav class="main-navigation" id="site-navigation">
- 
 
+<?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
 
 </nav>
-
-
-<?php
-html5blank_nav( array( 
-    'theme_location' => 'main'  ) ); 
-?>
 
   </div>
 
