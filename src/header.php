@@ -52,8 +52,7 @@
 
 <?php html5blank_nav( array( 'theme_location' => 'top' ) ); ?>
 
-
-</div>
+</nav>
 
 </header>
 <!-- /header -->
@@ -78,15 +77,12 @@
       
 	
 <nav class="main-navigation" id="site-navigation">
- 
-
-
-</nav>
 
 
 <?php html5blank_nav( array( 'theme_location' => 'main' ) ); ?>
 
 
+	</nav>
 
   </div>
 

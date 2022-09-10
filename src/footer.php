@@ -12,11 +12,13 @@
 <nav class="footer-menu">
 <?php html5blank_nav( array( 'theme_location' => 'footer' ) ); ?>
 
+</nav>
 
 <nav class="social-menu">
 
 <?php html5blank_nav( array( 'theme_location' => 'social' ) ); ?>
 
+    </nav>
 
 
 </div>
