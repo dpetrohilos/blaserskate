@@ -64,10 +64,10 @@ Louisville, KY </cite>
 </div></div>
 
 
-<div class="grid grid-row-4 col-wrapper">
+<div class="grid grid-row-4 center-rail">
 
 
-<div class="grid-item-1 col-2">
+<div class="grid-item-1 col-1">
 <blockquote class="pq">
 A lot of people buy a surfboard because their favorite shapers made it, not because their favorite company made it.</blockquote>
 <div class="h-align flex"><cite>–Korey Blaser, 
