@@ -43,7 +43,7 @@
 <blockquote class="pq">
 We do this for the love of skateboarding. Blaser Boards was founded in 2022 by a group of friends. Each deck is hand drawn, hand painted and lovingly handcrafted.
 </blockquote>
-<div class="cite-wrapper text-center v-fit-content">
+<div class="cite-wrapper text-center v-fit-content h-align flex">
 	
 <cite class="v-align flex">–Justin Cornett, 
 Founder, Louisville, KY </cite>
