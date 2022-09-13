@@ -38,7 +38,7 @@
 </div>
 <div class="grid-item-2 col-2 first-row">
 
-<div class="v-align grid">
+<div class="v-align grid-row">
 <blockquote class="pq">
 We do this for the love of skateboarding. Blaser Boards was founded in 2022 by a group of friends. Each deck is hand drawn, hand painted and lovingly handcrafted.
 </blockquote>
@@ -69,10 +69,10 @@ Founder, Louisville, KY </cite>
 </div></div>
 
 
-<div class="grid-row grid-row-4 center-rail">
+<div class="grid grid-row-4 center-rail">
 
 
-<div class="first-row">
+<div class="grid-item-1 col-1 grid first-row">
 <blockquote class="pq">
 A lot of people buy a surfboard because their favorite shapers made it, not because their favorite company made it.</blockquote>
 <div class="h-align inline-flex v-align second-row"><div class="cite-wrapper text-center inline-flex"><cite class="v-align flex">–Korey Blaser, 
