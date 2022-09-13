@@ -25,6 +25,8 @@
 
 </div>
 
+    </div>
+
 <div class="grid-item-3">
 <!-- copyright -->
 <?php
