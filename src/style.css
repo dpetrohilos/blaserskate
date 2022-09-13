@@ -1124,7 +1124,7 @@ button.menu-toggle span::after {
 }
 /* line 17, css/sass/partials/footer.scss */
 .footer .footer-design-element {
-  max-width: 82rem;
+  max-width: 50rem;
   width: 100%;
 }
 /* line 19, css/sass/partials/footer.scss */
