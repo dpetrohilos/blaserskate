@@ -1648,25 +1648,30 @@ p, ul, ol, li {
   margin-right: 1.8rem;
 }
 
+/* line 272, css/sass/partials/grid.scss */
+.v-fit-content {
+  height: fit-content;
+}
+
 @media (max-width: 60em) {
-  /* line 276, css/sass/partials/grid.scss */
+  /* line 280, css/sass/partials/grid.scss */
   .title {
     grid-area: 1/1/1/span 2;
     max-width: 144rem;
     margin: 0 auto;
   }
 
-  /* line 281, css/sass/partials/grid.scss */
+  /* line 285, css/sass/partials/grid.scss */
   .wrapper > .title {
     margin: 0;
   }
 
-  /* line 289, css/sass/partials/grid.scss */
+  /* line 293, css/sass/partials/grid.scss */
   .col-1 {
     grid-area: 2 / 1 / 2 / 1;
   }
 
-  /* line 291, css/sass/partials/grid.scss */
+  /* line 295, css/sass/partials/grid.scss */
   .col-2 {
     grid-area: 3 / 1 / 3 / 1;
   }

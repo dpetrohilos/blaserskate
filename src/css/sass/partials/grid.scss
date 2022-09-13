@@ -269,6 +269,10 @@ display: grid;
 
 }
 
+.v-fit-content {
+height: fit-content;
+}
+
 // smaller than 600px 
 
 @media (max-width: 60em) {
