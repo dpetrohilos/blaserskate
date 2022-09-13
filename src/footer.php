@@ -3,7 +3,7 @@
         <div class="footer-internal-wrapper grid" >
 
 <div class="grid-item-1">
-<img width="984" height="1053" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/footer_img.svg" alt="Handmade designs" class="footer design element">
+<img width="984" height="1053" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/footer_img.svg" alt="Handmade designs" class="footer-design-element">
 
 
 		</div>
