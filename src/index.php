@@ -36,15 +36,29 @@
 <div class="card second-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_4.jpg"/></div>
 <div class="card second-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_5.jpg"/></div>
 </div>
+
 <div class="grid-item-2 col-2 grid v-align">
 
 <div class="v-fit-content first-row">
 <blockquote class="pq">
 We do this for the love of skateboarding. Blaser Boards was founded in 2022 by a group of friends. Each deck is hand drawn, hand painted and lovingly handcrafted.
-</blockquote></div>	
-<div class="cite-wrapper text-center v-fit-content"><cite class="v-align flex">–Justin Cornett, 
+</blockquote>
+
+</div>
+</div>
+
+<div class="second-row ">
+	
+<div class="cite-wrapper text-center v-fit-content">
+	
+<cite class="v-align flex">–Justin Cornett, 
 Founder, Louisville, KY </cite>
-<img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/justin.jpg"/></div>
+<img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/justin.jpg"/>
+
+</div>
+
+</div>
+
 </div>
 
 
