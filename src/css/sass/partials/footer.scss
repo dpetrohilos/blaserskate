@@ -10,7 +10,7 @@
     display: grid;
     background: $text-color; 
     color: $body-bg; 
-    grid-row: auto;
+    grid-auto-rows: auto;
 
     .footer-internal-wrapper {
         width: 100%; 
