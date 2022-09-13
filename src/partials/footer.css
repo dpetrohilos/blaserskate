@@ -41,3 +41,8 @@
 .footer .grid-item-1, .footer .grid-item-2, .footer .grid-item-3 .grid-item-4 {
   grid-row: auto;
 }
+/* line 42, ../css/sass/partials/footer.scss */
+.footer .grid-item-3 {
+  text-align: center;
+  padding: 1.2rem;
+}
