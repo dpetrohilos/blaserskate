@@ -36,7 +36,7 @@
 <div class="card second-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_4.jpg"/></div>
 <div class="card second-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_5.jpg"/></div>
 </div>
-<div class="grid-item-2 col-2 first-row">
+<div class="grid-item-2 col-2 first-row flex v-align">
 
 <div class="v-align grid-row">
 <blockquote class="pq">
