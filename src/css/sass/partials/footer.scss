@@ -10,6 +10,8 @@
     display: grid;
     background: $text-color; 
     color: $body-bg; 
+    grid-row: auto;
+
 
     a {
 
@@ -22,4 +24,14 @@
         }
 
     }
+
+
+    .grid-item-1, .grid-item-2, .grid-item-3 .grid-item-4 {
+
+        grid-row: auto;
+ 
+ 
+    }
+    
+
 }
