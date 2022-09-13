@@ -29,7 +29,7 @@
 <div class="grid grid-row-2 col-wrapper">
 
 <div class="grid-item-1 col-1 photo-area-wrapper">
-
+	
 <div class="vidoe-wrapper featured card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_1.jpg"/></div>
 <div class="card first-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_2.jpg"/></div>
 <div class="card first-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_3.jpg"/></div>
