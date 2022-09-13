@@ -1,6 +1,6 @@
 			<!-- footer -->
-			<footer class="footer grid" role="contentinfo">
-        <div class="footer-internal-wrapper">
+			<footer class="footer " role="contentinfo">
+        <div class="footer-internal-wrapper grid" >
 
 <div class="grid-item-1">
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/footer_img.png" alt="Handmade designs" class="footer design element">
