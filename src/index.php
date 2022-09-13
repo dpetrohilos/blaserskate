@@ -70,7 +70,7 @@ Louisville, KY </cite>
 <div class="grid-item-1 col-1 grid first-row">
 <blockquote class="pq">
 A lot of people buy a surfboard because their favorite shapers made it, not because their favorite company made it.</blockquote>
-<div class="h-align inline-flex v-align second-row"><div class="cite-wrapper"><cite>–Korey Blaser, 
+<div class="h-align inline-flex v-align second-row"><div class="cite-wrapper text-center"><cite>–Korey Blaser, 
 Founder, Louisville, KY </cite>
 <img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/korey.jpg"/></div>
 </div></div>

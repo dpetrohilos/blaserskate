@@ -139,3 +139,8 @@ p, ul, ol, li {
   border: black .2rem solid;
   text-decoration: none;
 }
+
+/* line 175, ../css/sass/partials/type.scss */
+.text-center {
+  text-align: center;
+}
