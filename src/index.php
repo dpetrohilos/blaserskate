@@ -50,6 +50,8 @@ Founder, Louisville, KY </cite>
 <img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/justin.jpg"/>
 
 </div>
+</div>
+</div>
 
 </div>
 </div>
