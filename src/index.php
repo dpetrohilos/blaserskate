@@ -67,10 +67,10 @@ Louisville, KY </cite>
 <div class="grid grid-row-4 center-rail">
 
 
-<div class="grid-item-1 col-1">
+<div class="grid-item-1 col-1 grid first-row">
 <blockquote class="pq">
 A lot of people buy a surfboard because their favorite shapers made it, not because their favorite company made it.</blockquote>
-<div class="h-align inline-flex v-align"><cite>–Korey Blaser, 
+<div class="h-align inline-flex v-align second-row"><cite>–Korey Blaser, 
 Founder, Louisville, KY </cite>
 <img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/korey.jpg"/>
 </div>
