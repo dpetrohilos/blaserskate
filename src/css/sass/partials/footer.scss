@@ -12,6 +12,12 @@
     color: $body-bg; 
     grid-row: auto;
 
+    .footer-internal-wrapper {
+        width: 100%; 
+        max-width: $wrapper-width; 
+        margin: 0 auto; 
+    }
+
 
     a {
 
