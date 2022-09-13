@@ -7,6 +7,12 @@
   width: 100%; 
   }
 
+  .grid-row {
+
+    grid-template-columns: 1fr;
+  }
+
+
 .grid {
   display: grid;
   grid-template-rows: auto;
