@@ -1121,36 +1121,40 @@ button.menu-toggle span::after {
   color: #f5f5f5;
   grid-auto-rows: auto;
 }
-/* line 18, css/sass/partials/footer.scss */
+/* line 15, css/sass/partials/footer.scss */
+.footer .menu {
+  padding: 0;
+}
+/* line 20, css/sass/partials/footer.scss */
 .footer .menu li a {
   padding: 1.2rem 0;
   text-decoration: none;
 }
-/* line 26, css/sass/partials/footer.scss */
+/* line 28, css/sass/partials/footer.scss */
 .footer .footer-internal-wrapper {
   width: 100%;
   max-width: 144rem;
   margin: 0 auto;
   padding: 1.2rem;
 }
-/* line 35, css/sass/partials/footer.scss */
+/* line 37, css/sass/partials/footer.scss */
 .footer .social ul {
   display: inline;
 }
-/* line 40, css/sass/partials/footer.scss */
+/* line 42, css/sass/partials/footer.scss */
 .footer a {
   color: #f5f5f5;
   text-decoration: underline;
 }
-/* line 45, css/sass/partials/footer.scss */
+/* line 47, css/sass/partials/footer.scss */
 .footer a:hover {
   text-decoration: none;
 }
-/* line 53, css/sass/partials/footer.scss */
+/* line 55, css/sass/partials/footer.scss */
 .footer .grid-item-1, .footer .grid-item-2, .footer .grid-item-3 .grid-item-4 {
   grid-row: auto;
 }
-/* line 60, css/sass/partials/footer.scss */
+/* line 62, css/sass/partials/footer.scss */
 .footer .grid-item-3 {
   text-align: center;
   padding: 1.2rem;
