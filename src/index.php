@@ -42,7 +42,7 @@
 <blockquote class="pq">
 We do this for the love of skateboarding. Blaser Boards was founded in 2022 by a group of friends. Each deck is hand drawn, hand painted and lovingly handcrafted.
 </blockquote>
-<div class="cite-wrapper text-center"><cite class="v-align flex">–Justin Cornett, 
+<div class="cite-wrapper text-center flex"><cite class="v-align flex">–Justin Cornett, 
 Founder, Louisville, KY </cite>
 <img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/justin.jpg"/></div>
 </div>
@@ -75,7 +75,7 @@ Founder, Louisville, KY </cite>
 <div class="grid-item-1 col-1 grid first-row">
 <blockquote class="pq">
 A lot of people buy a surfboard because their favorite shapers made it, not because their favorite company made it.</blockquote>
-<div class="h-align inline-flex v-align second-row"><div class="cite-wrapper text-center"><cite class="v-align flex">–Korey Blaser, 
+<div class="h-align inline-flex v-align second-row"><div class="cite-wrapper text-center inline-flex"><cite class="v-align flex">–Korey Blaser, 
 Founder, Louisville, KY </cite>
 <img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/korey.jpg"/></div>
 </div></div>
