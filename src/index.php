@@ -36,7 +36,7 @@
 <div class="card second-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_4.jpg"/></div>
 <div class="card second-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_5.jpg"/></div>
 </div>
-<div class="grid-item-2 col-2">
+<div class="grid-item-2 col-2 flex"><div class="v-align">
 <blockquote class="pq">
 We do this for the love of skateboarding. Blaser Boards was founded in 2022 by a group of friends. Each deck is hand drawn, hand painted and lovingly handcrafted.
 </blockquote>
@@ -45,7 +45,7 @@ Louisville, KY </cite>
 <img height="84" width="84" class="circle" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/justin.jpg"/>
 </div>
 </div>
-
+</div>
 <div class="grid grid-row-3">
 
 <header class="first-row title">
