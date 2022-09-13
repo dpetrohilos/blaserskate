@@ -140,7 +140,6 @@ margin: 0;
 
 
 
-
   .first-row {
     grid-row: 1 / span 1;
 
@@ -179,16 +178,9 @@ margin: 0;
 }
 
 
+// Third Row Grid 
 
-.cite-wrapper {
-  width: 30rem; 
-  margin: 0 auto; 
-  padding: 1.2rem;
-  display: inline-flex;
-  height: fit-content;
-
-
-}
+.grid-row-3 {
 
   .first-row {
     grid-area: 1 / 1 / 1 / 1;
@@ -208,6 +200,23 @@ margin: 0;
 
 
   }  
+}
+
+
+// 
+
+// misc 
+
+.cite-wrapper {
+  width: 30rem; 
+  margin: 0 auto; 
+  padding: 1.2rem;
+  display: inline-flex;
+
+
+}
+
+
 
 .sub-grid {
   display: grid;
@@ -267,10 +276,6 @@ display: grid;
     margin-right: 1.8rem; 
   }
 
-}
-
-.v-fit-content {
-height: fit-content;
 }
 
 // smaller than 600px 
