@@ -68,14 +68,16 @@ Louisville, KY </cite>
 <p class="section-title">We ride because we can</p>
 </div>
 
-<div class="grid-item-2 col-2"><blockquote class="pq">
+<div class="grid-item-2 col-2">
+<div class="flex v-align">	
+<blockquote class="pq">
 A lot of people buy a surfboard because their favorite shapers made it, not because their favorite company made it.</blockquote>
 <cite>–Korey Blaser, 
 Founder, Louisville, KY </cite>
 <img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/korey.jpg"/>
 </div>
 </div>
-
+</div>
 
 <div class="grid grid-row-3 wrapper col-wrapper">
 <div class="grid-item-1 col-1">
