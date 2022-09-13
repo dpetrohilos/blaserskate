@@ -29,7 +29,7 @@
 <div class="grid grid-row-2 col-wrapper">
 
 <div class="grid-item-1 col-1 photo-area-wrapper">
-	
+
 <div class="vidoe-wrapper featured card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_1.jpg"/></div>
 <div class="card first-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_2.jpg"/></div>
 <div class="card first-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_3.jpg"/></div>
@@ -39,11 +39,11 @@
 <div class="grid-item-2 col-2 flex"><div class="v-align">
 <blockquote class="pq">
 We do this for the love of skateboarding. Blaser Boards was founded in 2022 by a group of friends. Each deck is hand drawn, hand painted and lovingly handcrafted.
-</blockquote>
+</blockquote><div class="h-align flex">
 <cite>–Justin Cornett, 
 Louisville, KY </cite>
 <img height="84" width="84" class="circle" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/justin.jpg"/>
-</div>
+</div></div>
 </div>
 </div>
 <div class="grid grid-row-3">
@@ -72,10 +72,10 @@ Louisville, KY </cite>
 <div class="flex v-align">	
 <blockquote class="pq">
 A lot of people buy a surfboard because their favorite shapers made it, not because their favorite company made it.</blockquote>
-<cite>–Korey Blaser, 
+<div class="h-align flex"><cite>–Korey Blaser, 
 Founder, Louisville, KY </cite>
 <img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/korey.jpg"/>
-</div>
+</div></div>
 </div>
 </div>
 
