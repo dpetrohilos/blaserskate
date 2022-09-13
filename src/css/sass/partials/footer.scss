@@ -12,9 +12,7 @@
     color: $body-bg; 
     grid-auto-rows: auto;
 
-    .menu {
-
-        ul {
+    .menu  {
 
             li {
                 a {
@@ -22,7 +20,7 @@
                 }
             }
         }
-    }
+    
 
     .footer-internal-wrapper {
         width: 100%; 
