@@ -12,7 +12,7 @@
  * Grid
  */
 /* line 4, ../css/sass/partials/grid.scss */
-.center-rail {
+.wrapper {
   max-width: 144rem;
   margin: 0 auto;
   width: 100%;

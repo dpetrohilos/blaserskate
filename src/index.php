@@ -69,7 +69,7 @@ Founder, Louisville, KY </cite>
 </div></div>
 
 
-<div class="grid grid-row-4 center-rail">
+<div class="grid grid-row-4 wrapper">
 
 
 <div class="grid-item-1 col-1 grid first-row">
