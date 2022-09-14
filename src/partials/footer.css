@@ -16,6 +16,11 @@
  * Grid
  */
 /* line 8, ../css/sass/partials/footer.scss */
+.tnp-subscript {
+  margin: 0 !important;
+}
+
+/* line 14, ../css/sass/partials/footer.scss */
 .footer {
   display: grid;
   background: #232323;
@@ -23,49 +28,45 @@
   grid-auto-rows: auto;
   padding: 2.4rem 1.2rem;
 }
-/* line 17, ../css/sass/partials/footer.scss */
-.footer .tnp-subscript {
-  margin: 0 !important;
-}
-/* line 23, ../css/sass/partials/footer.scss */
+/* line 26, ../css/sass/partials/footer.scss */
 .footer .footer-design-element {
   max-width: 50rem;
   width: 100%;
 }
-/* line 25, ../css/sass/partials/footer.scss */
+/* line 28, ../css/sass/partials/footer.scss */
 .footer .menu {
   padding: 0;
 }
-/* line 30, ../css/sass/partials/footer.scss */
+/* line 33, ../css/sass/partials/footer.scss */
 .footer .menu li a {
   padding: 1.2rem 0;
   text-decoration: none;
 }
-/* line 38, ../css/sass/partials/footer.scss */
+/* line 41, ../css/sass/partials/footer.scss */
 .footer .footer-internal-wrapper {
   width: 100%;
   max-width: 144rem;
   margin: 0 auto;
   padding: 1.2rem;
 }
-/* line 47, ../css/sass/partials/footer.scss */
+/* line 50, ../css/sass/partials/footer.scss */
 .footer .social ul {
   display: inline;
 }
-/* line 52, ../css/sass/partials/footer.scss */
+/* line 55, ../css/sass/partials/footer.scss */
 .footer a {
   color: #f5f5f5;
   text-decoration: underline;
 }
-/* line 57, ../css/sass/partials/footer.scss */
+/* line 60, ../css/sass/partials/footer.scss */
 .footer a:hover {
   text-decoration: none;
 }
-/* line 65, ../css/sass/partials/footer.scss */
+/* line 68, ../css/sass/partials/footer.scss */
 .footer .grid-item-1, .footer .grid-item-2, .footer .grid-item-3 .grid-item-4 {
   grid-row: auto;
 }
-/* line 72, ../css/sass/partials/footer.scss */
+/* line 75, ../css/sass/partials/footer.scss */
 .footer .grid-item-3 {
   text-align: center;
   padding: 1.2rem;
