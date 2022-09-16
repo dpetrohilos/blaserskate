@@ -68,6 +68,9 @@ margin: 0;
 
 
 
+// Top of home page 
+
+
 .hero {
   padding: 0; 
   margin: 0; 
@@ -97,6 +100,9 @@ margin: 0;
   z-index: -1;
 
 }
+
+
+// second area 
 
 
 .photo-area-wrapper {
@@ -141,6 +147,10 @@ margin: 0;
   }
 
 }
+
+
+// third row 
+
 
 
 .grid-row-4 {
@@ -287,6 +297,35 @@ display: grid;
 }
 
 // smaller than 600px 
+
+@media (max-width: 60em) {
+
+  .title {grid-area: 1 / 1 / 1 / span 2 ;
+    max-width: $wrapper-width;
+    margin: 0 auto;
+    }
+    
+    .wrapper > .title {
+    
+    margin: 0; 
+    
+    }
+    
+    
+    
+    .col-1 {grid-area: 2 / 1 / 2 / 1;}
+    
+    .col-2 {grid-area: 3 / 1 / 3 / 1;}
+    
+
+
+}
+
+
+// internal pages 
+
+
+// internal pages mobile 
 
 @media (max-width: 60em) {
 
