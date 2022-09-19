@@ -47,11 +47,13 @@
 .hero-image {
 
   aspect-ratio: 1 / 2;
+  object-fit: contain;
 }
 
 @media (max-width: 72em) {
 
 .hero-image {
+  object-fit: contain;
 
 
 
@@ -67,6 +69,7 @@
   .hero-image {
   
     aspect-ratio: 1 / 1;
+    object-fit: contain;
 
   
   
