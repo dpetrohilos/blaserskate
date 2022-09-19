@@ -1638,7 +1638,7 @@ p, ul, ol, li {
   margin-right: 1.8rem;
 }
 
-@media (max-width: 60em) {
+@media (max-width: 60rem) {
   /* line 288, css/sass/partials/grid.scss */
   .title {
     grid-area: 1/1/1/span 2;

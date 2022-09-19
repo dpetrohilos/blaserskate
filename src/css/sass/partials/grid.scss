@@ -283,7 +283,7 @@ display: grid;
 // internal pages mobile 
 
 
-@media (max-width: 60em) {
+@media (max-width: 60rem) {
 
   .title {grid-area: 1 / 1 / 1 / span 2 ;
     max-width: $wrapper-width;
