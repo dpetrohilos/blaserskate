@@ -14,23 +14,21 @@
 <div class="grid-item-2 col-2">
 
 <picture>
-    <source
-
-		srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_1.jpg 320w,
-		<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_2.jpg 800w,
-		<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg 1200w"
-        sizes="(min-width: 60em) 80vw,
-               (min-width: 40em) 90vw,
-               100vw">
-  
-    <img width="2400" height="966" class="hero-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg" alt="Skateboarder doing a trick">
 
 
+
+<img width="2400" height="966" class="hero-image" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_1.jpg 320w,
+<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_2.jpg 768w,
+<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg 1024w"
+     sizes="(max-width: 320px) 280px,
+            (max-width: 768px) 720px,
+            1024px"
+     src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg"
+alt="Skateboarder doing a trick" />
 </picture>
 
 
 
-blaser_board_hero_3.jpg
 
 </div>
 
