@@ -18,7 +18,7 @@
     color: $body-bg; 
     grid-auto-rows: auto;
     padding: 2.4rem 1.2rem;
-
+    grid-template-columns: repeat(auto-fill, 1fr);
 
   
 
@@ -68,7 +68,6 @@
     .grid-item-1, .grid-item-2, .grid-item-3 .grid-item-4 {
 
         grid-row: auto;
-        grid-auto-flow: column;
  
  
     }
@@ -86,11 +85,14 @@
 
 @media (max-width: 72em) { 
 
+    .footer {
+            grid-template-columns: 1fr
+
+ 
+
     .grid-item-1, .grid-item-2, .grid-item-3 .grid-item-4 {
 
     display: grid;
-    grid-row: auto;
-    grid-auto-flow: row;
 
  
     }
@@ -101,4 +103,4 @@
     }
 
 
-}
+}   }
