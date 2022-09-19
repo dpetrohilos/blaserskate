@@ -509,7 +509,7 @@ input[type="search"] {
 
 /* line 47, css/sass/partials/utils.scss */
 .hero-image {
-  aspect-ratio: 1 / 2;
+  aspect-ratio: 2 / 1;
   object-fit: contain;
 }
 
@@ -517,7 +517,7 @@ input[type="search"] {
   /* line 55, css/sass/partials/utils.scss */
   .hero-image {
     object-fit: contain;
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 4 / 3;
   }
 }
 @media (max-width: 42em) {
