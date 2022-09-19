@@ -1180,7 +1180,7 @@ button.menu-toggle span::after {
 @media (max-width: 72em) {
   /* line 88, css/sass/partials/footer.scss */
   .footer {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fill, 1fr);
   }
   /* line 93, css/sass/partials/footer.scss */
   .footer .grid-item-1, .footer .grid-item-2, .footer .grid-item-3 .grid-item-4 {
