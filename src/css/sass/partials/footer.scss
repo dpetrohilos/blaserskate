@@ -44,7 +44,7 @@
         max-width: $wrapper-width; 
         margin: 0 auto; 
         padding: 1.2rem; 
-        grid-template-columns: repeat(auto-fill, 1fr);
+        grid-template-columns: 2fr;
         display: grid;
     
     }
@@ -102,9 +102,17 @@
 @media (max-width: 72em) { 
 
     .footer {
-        grid-template-columns: 1fr; 
-    
-    }  
+
+
+        .footer-internal-wrapper {
+            width: 100%; 
+            max-width: $wrapper-width; 
+            margin: 0 auto; 
+            padding: 1.2rem; 
+            grid-template-columns: 1fr;
+            display: grid;
+        
+       
 
 
     .grid-item-1 {
@@ -129,7 +137,10 @@
 
 }
 
-
+}
+    
+    
+}
 
 
 }

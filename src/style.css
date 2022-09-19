@@ -1150,7 +1150,7 @@ button.menu-toggle span::after {
   max-width: 144rem;
   margin: 0 auto;
   padding: 1.2rem;
-  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-template-columns: 2fr;
   display: grid;
 }
 /* line 54, css/sass/partials/footer.scss */
@@ -1182,23 +1182,25 @@ button.menu-toggle span::after {
 }
 
 @media (max-width: 72em) {
-  /* line 104, css/sass/partials/footer.scss */
-  .footer {
+  /* line 107, css/sass/partials/footer.scss */
+  .footer .footer-internal-wrapper {
+    width: 100%;
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 1.2rem;
     grid-template-columns: 1fr;
+    display: grid;
   }
-
-  /* line 110, css/sass/partials/footer.scss */
-  .grid-item-1 {
+  /* line 118, css/sass/partials/footer.scss */
+  .footer .footer-internal-wrapper .grid-item-1 {
     grid-area: 1 / 1 / 1 / 1;
   }
-
-  /* line 116, css/sass/partials/footer.scss */
-  .grid-item-2 {
+  /* line 124, css/sass/partials/footer.scss */
+  .footer .footer-internal-wrapper .grid-item-2 {
     grid-area: 2 / 2 / 2 / 2;
   }
-
-  /* line 124, css/sass/partials/footer.scss */
-  .grid-item-3 {
+  /* line 132, css/sass/partials/footer.scss */
+  .footer .footer-internal-wrapper .grid-item-3 {
     text-align: center;
     padding: 1.2rem;
     grid-area: 3 / 3 / 3 / 3;
