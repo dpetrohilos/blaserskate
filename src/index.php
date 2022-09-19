@@ -13,7 +13,6 @@
 
 <div class="grid-item-2 col-2">
 
-<picture>
 
 
 
@@ -29,7 +28,6 @@ srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_
             1024px"
      src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg"
 alt="Skateboarder doing a trick" />
-</picture>
 
 
 
