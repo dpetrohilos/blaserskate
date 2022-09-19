@@ -13,8 +13,30 @@
 
 <div class="grid-item-2 col-2">
 
+<picture>
+    <source
+        media="(orientation: landscape)"
+        srcset="image-small.png 320w,
+                image-medium.png 800w,
+                image-large.png 1200w"
+        sizes="(min-width: 60rem) 80vw,
+               (min-width: 40rem) 90vw,
+               100vw">
+    <source
+        media="(orientation: portrait)"
+        srcset="image-small-portrait.png 160w,
+                image-medium-portrait.png 400w,
+                image-large-portrait.png 600w"
+        sizes="(min-width: 60rem) 80vw,
+               (min-width: 40rem) 90vw,
+               100vw">
+    <img width="2400" height="966" class="hero-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/BlaserBoardHero_v2.jpg" alt="Skateboarder doing a trick">
 
-<img width="2400" height="966" class="hero-image" alt="Skateboarder doing a trick" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/BlaserBoardHero_v2.jpg"/>
+
+</picture>
+
+
+
 
 </div>
 
