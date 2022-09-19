@@ -1150,39 +1150,40 @@ button.menu-toggle span::after {
   max-width: 144rem;
   margin: 0 auto;
   padding: 1.2rem;
-  grid-template-columns: 2fr;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
-/* line 54, css/sass/partials/footer.scss */
+/* line 55, css/sass/partials/footer.scss */
 .footer .social ul {
   display: inline;
 }
-/* line 59, css/sass/partials/footer.scss */
+/* line 60, css/sass/partials/footer.scss */
 .footer a {
   color: #f5f5f5;
   text-decoration: underline;
 }
-/* line 64, css/sass/partials/footer.scss */
+/* line 65, css/sass/partials/footer.scss */
 .footer a:hover {
   text-decoration: none;
 }
-/* line 72, css/sass/partials/footer.scss */
+/* line 73, css/sass/partials/footer.scss */
 .footer .grid-item-1 {
-  grid-area: 1 / 1 / 1 / 1;
+  grid-area: 1 / 1 / 2 / 2;
 }
 /* line 78, css/sass/partials/footer.scss */
 .footer .grid-item-2 {
-  grid-area: 2 / 2 / 2 / 1;
+  grid-area: 1 / 2 / 2 / 3;
 }
 /* line 86, css/sass/partials/footer.scss */
 .footer .grid-item-3 {
   text-align: center;
   padding: 1.2rem;
-  grid-area: 2 / 2 / 2 / 2;
+  grid-area: 2 / 1 / 3 / span 2;
 }
 
 @media (max-width: 72em) {
-  /* line 107, css/sass/partials/footer.scss */
+  /* line 106, css/sass/partials/footer.scss */
   .footer .footer-internal-wrapper {
     width: 100%;
     max-width: 144rem;
@@ -1191,15 +1192,15 @@ button.menu-toggle span::after {
     grid-template-columns: 1fr;
     display: grid;
   }
-  /* line 118, css/sass/partials/footer.scss */
+  /* line 117, css/sass/partials/footer.scss */
   .footer .footer-internal-wrapper .grid-item-1 {
     grid-area: 1 / 1 / 1 / 1;
   }
-  /* line 124, css/sass/partials/footer.scss */
+  /* line 123, css/sass/partials/footer.scss */
   .footer .footer-internal-wrapper .grid-item-2 {
     grid-area: 2 / 2 / 2 / 2;
   }
-  /* line 132, css/sass/partials/footer.scss */
+  /* line 131, css/sass/partials/footer.scss */
   .footer .footer-internal-wrapper .grid-item-3 {
     text-align: center;
     padding: 1.2rem;
