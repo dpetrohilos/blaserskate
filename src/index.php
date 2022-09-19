@@ -16,17 +16,7 @@
 
 
 
-<img 
-
-class="hero-image" 
-
-srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg 400w,
-<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_2.jpg 768w,
-<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_1.jpg 1024w"
-     sizes="(max-width: 40em) 28em,
-            (max-width: 76.8em) 72em,
-            102.4em"
-     src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg"
+<img class="hero-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg"
 alt="Skateboarder doing a trick" />
 
 
