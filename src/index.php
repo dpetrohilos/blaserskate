@@ -15,28 +15,22 @@
 
 <picture>
     <source
-        media="(orientation: landscape)"
-        srcset="image-small.png 320w,
-                image-medium.png 800w,
-                image-large.png 1200w"
-        sizes="(min-width: 60rem) 80vw,
-               (min-width: 40rem) 90vw,
+
+		srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_1.jpg 320w,
+		<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_2.jpg 800w,
+		<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg 1200w"
+        sizes="(min-width: 60em) 80vw,
+               (min-width: 40em) 90vw,
                100vw">
-    <source
-        media="(orientation: portrait)"
-        srcset="image-small-portrait.png 160w,
-                image-medium-portrait.png 400w,
-                image-large-portrait.png 600w"
-        sizes="(min-width: 60rem) 80vw,
-               (min-width: 40rem) 90vw,
-               100vw">
-    <img width="2400" height="966" class="hero-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/BlaserBoardHero_v2.jpg" alt="Skateboarder doing a trick">
+  
+    <img width="2400" height="966" class="hero-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg" alt="Skateboarder doing a trick">
 
 
 </picture>
 
 
 
+blaser_board_hero_3.jpg
 
 </div>
 
