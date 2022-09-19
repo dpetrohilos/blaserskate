@@ -1126,55 +1126,55 @@ button.menu-toggle span::after {
 
 /* line 14, css/sass/partials/footer.scss */
 .footer {
-  display: grid;
   background: #232323;
   color: #f5f5f5;
   padding: 2.4rem 1.2rem;
-  grid-template-columns: repeat(auto-fill, 1fr);
 }
-/* line 25, css/sass/partials/footer.scss */
+/* line 24, css/sass/partials/footer.scss */
 .footer .footer-design-element {
   max-width: 50rem;
   width: 100%;
 }
-/* line 27, css/sass/partials/footer.scss */
+/* line 29, css/sass/partials/footer.scss */
 .footer .menu {
   padding: 0;
 }
-/* line 32, css/sass/partials/footer.scss */
+/* line 34, css/sass/partials/footer.scss */
 .footer .menu li a {
   padding: 1.2rem 0;
   text-decoration: none;
 }
-/* line 40, css/sass/partials/footer.scss */
+/* line 42, css/sass/partials/footer.scss */
 .footer .footer-internal-wrapper {
   width: 100%;
   max-width: 144rem;
   margin: 0 auto;
   padding: 1.2rem;
+  grid-template-columns: repeat(auto-fill, 1fr);
+  display: grid;
 }
-/* line 49, css/sass/partials/footer.scss */
+/* line 54, css/sass/partials/footer.scss */
 .footer .social ul {
   display: inline;
 }
-/* line 54, css/sass/partials/footer.scss */
+/* line 59, css/sass/partials/footer.scss */
 .footer a {
   color: #f5f5f5;
   text-decoration: underline;
 }
-/* line 59, css/sass/partials/footer.scss */
+/* line 64, css/sass/partials/footer.scss */
 .footer a:hover {
   text-decoration: none;
 }
-/* line 67, css/sass/partials/footer.scss */
+/* line 72, css/sass/partials/footer.scss */
 .footer .grid-item-1 {
   grid-area: 1 / 1 / 1 / 1;
 }
-/* line 73, css/sass/partials/footer.scss */
+/* line 78, css/sass/partials/footer.scss */
 .footer .grid-item-2 {
   grid-area: 2 / 2 / 2 / 1;
 }
-/* line 81, css/sass/partials/footer.scss */
+/* line 86, css/sass/partials/footer.scss */
 .footer .grid-item-3 {
   text-align: center;
   padding: 1.2rem;
@@ -1182,22 +1182,22 @@ button.menu-toggle span::after {
 }
 
 @media (max-width: 72em) {
-  /* line 99, css/sass/partials/footer.scss */
+  /* line 104, css/sass/partials/footer.scss */
   .footer {
     grid-template-columns: 1fr;
   }
 
-  /* line 105, css/sass/partials/footer.scss */
+  /* line 110, css/sass/partials/footer.scss */
   .grid-item-1 {
     grid-area: 1 / 1 / 1 / 1;
   }
 
-  /* line 111, css/sass/partials/footer.scss */
+  /* line 116, css/sass/partials/footer.scss */
   .grid-item-2 {
     grid-area: 2 / 2 / 2 / 2;
   }
 
-  /* line 119, css/sass/partials/footer.scss */
+  /* line 124, css/sass/partials/footer.scss */
   .grid-item-3 {
     text-align: center;
     padding: 1.2rem;

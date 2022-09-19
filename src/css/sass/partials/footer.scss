@@ -13,16 +13,18 @@
 
 .footer {
 
-    display: grid;
     background: $text-color; 
     color: $body-bg; 
     padding: 2.4rem 1.2rem;
-    grid-template-columns: repeat(auto-fill, 1fr);
+
 
   
 
 
-    .footer-design-element {max-width: 50rem; width: 100%; }
+    .footer-design-element {max-width: 50rem; width: 100%; 
+    
+    
+    }
 
     .menu  {
 
@@ -42,6 +44,9 @@
         max-width: $wrapper-width; 
         margin: 0 auto; 
         padding: 1.2rem; 
+        grid-template-columns: repeat(auto-fill, 1fr);
+        display: grid;
+    
     }
 
 
