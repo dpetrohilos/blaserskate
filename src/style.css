@@ -507,6 +507,23 @@ input[type="search"] {
   display: none;
 }
 
+/* line 47, css/sass/partials/utils.scss */
+.hero-image {
+  aspect-ratio: 1 / 2;
+}
+
+@media (max-width: 72em) {
+  /* line 54, css/sass/partials/utils.scss */
+  .hero-image {
+    aspect-ratio: 3 / 4;
+  }
+}
+@media (max-width: 42em) {
+  /* line 67, css/sass/partials/utils.scss */
+  .hero-image {
+    aspect-ratio: 1 / 1;
+  }
+}
 /**
  * partials/wrapper
  * ---

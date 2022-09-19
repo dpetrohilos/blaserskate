@@ -42,15 +42,11 @@
 .tw {}
 .tk {}
 
-
 }
 
 .hero-image {
 
-
-
-
-
+  aspect-ratio: 1 / 2;
 }
 
 @media (max-width: 72em) {
@@ -59,6 +55,7 @@
 
 
 
+  aspect-ratio: 3 / 4;
 
 
 
@@ -69,7 +66,8 @@
 
   .hero-image {
   
-  
+    aspect-ratio: 1 / 1;
+
   
   
   
