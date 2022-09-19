@@ -68,6 +68,7 @@
     .grid-item-1, .grid-item-2, .grid-item-3 .grid-item-4 {
 
         grid-row: auto;
+        grid-auto-flow: column;
  
  
     }
@@ -80,14 +81,24 @@
 
 }
 
-@media (max-width: 60em) { 
 
 
-.footer {
 
+@media (max-width: 72em) { 
 
-    
-}
+    .grid-item-1, .grid-item-2, .grid-item-3 .grid-item-4 {
+
+    display: grid;
+    grid-row: auto;
+    grid-auto-flow: row;
+
+ 
+    }
+
+    .grid-item-3 {
+        text-align: center;
+        padding: 1.2rem; 
+    }
 
 
 }

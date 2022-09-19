@@ -1169,13 +1169,28 @@ button.menu-toggle span::after {
 /* line 68, css/sass/partials/footer.scss */
 .footer .grid-item-1, .footer .grid-item-2, .footer .grid-item-3 .grid-item-4 {
   grid-row: auto;
+  grid-auto-flow: column;
 }
-/* line 75, css/sass/partials/footer.scss */
+/* line 76, css/sass/partials/footer.scss */
 .footer .grid-item-3 {
   text-align: center;
   padding: 1.2rem;
 }
 
+@media (max-width: 72em) {
+  /* line 89, css/sass/partials/footer.scss */
+  .grid-item-1, .grid-item-2, .grid-item-3 .grid-item-4 {
+    display: grid;
+    grid-row: auto;
+    grid-auto-flow: row;
+  }
+
+  /* line 98, css/sass/partials/footer.scss */
+  .grid-item-3 {
+    text-align: center;
+    padding: 1.2rem;
+  }
+}
 /**
  * partials/print
  * ---
@@ -1710,6 +1725,6 @@ p, ul, ol, li {
   }
   /* line 353, css/sass/partials/grid.scss */
   .col-wrapper .col-2 {
-    grid-area: 2 / 2 / 2 / 2;
+    grid-area: 1 / 1 / 1 / 1;
   }
 }

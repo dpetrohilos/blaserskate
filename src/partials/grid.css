@@ -303,6 +303,6 @@
   }
   /* line 353, ../css/sass/partials/grid.scss */
   .col-wrapper .col-2 {
-    grid-area: 2 / 2 / 2 / 2;
+    grid-area: 1 / 1 / 1 / 1;
   }
 }
