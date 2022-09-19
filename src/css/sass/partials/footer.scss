@@ -64,18 +64,30 @@
     }
 
 
-    .grid-item-1, .grid-item-2, .grid-item-3 .grid-item-4 {
+    .grid-item-1 {
 
-        grid-row: auto;
- 
- 
-    }
 
-    .grid-item-3 {
-        text-align: center;
-        padding: 1.2rem; 
+        grid-area: 1 / 1 / 1 / 1;
     }
     
+    .grid-item-2 {
+
+        grid-area: 2 / 2 / 2 / 1;
+
+
+
+    }
+    
+    .grid-item-3 {        
+        
+        text-align: center;
+        padding: 1.2rem; 
+        grid-area: 2 / 2 / 2 / 2;
+
+}
+    
+
+
 
 }
 
@@ -88,6 +100,29 @@
         grid-template-columns: 1fr; 
     
     }  
+
+
+    .grid-item-1 {
+
+
+        grid-area: 1 / 1 / 1 / 1;
+    }
+    
+    .grid-item-2 {
+
+        grid-area: 2 / 2 / 2 / 2;
+
+
+
+    }
+    
+    .grid-item-3 {        
+        
+        text-align: center;
+        padding: 1.2rem; 
+        grid-area: 3 / 3 / 3 / 3;
+
+}
 
 
 

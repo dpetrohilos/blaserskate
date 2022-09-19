@@ -63,18 +63,40 @@
   text-decoration: none;
 }
 /* line 67, ../css/sass/partials/footer.scss */
-.footer .grid-item-1, .footer .grid-item-2, .footer .grid-item-3 .grid-item-4 {
-  grid-row: auto;
+.footer .grid-item-1 {
+  grid-area: 1 / 1 / 1 / 1;
 }
-/* line 74, ../css/sass/partials/footer.scss */
+/* line 73, ../css/sass/partials/footer.scss */
+.footer .grid-item-2 {
+  grid-area: 2 / 2 / 2 / 1;
+}
+/* line 81, ../css/sass/partials/footer.scss */
 .footer .grid-item-3 {
   text-align: center;
   padding: 1.2rem;
+  grid-area: 2 / 2 / 2 / 2;
 }
 
 @media (max-width: 72em) {
-  /* line 87, ../css/sass/partials/footer.scss */
+  /* line 99, ../css/sass/partials/footer.scss */
   .footer {
     grid-template-columns: 1fr;
+  }
+
+  /* line 105, ../css/sass/partials/footer.scss */
+  .grid-item-1 {
+    grid-area: 1 / 1 / 1 / 1;
+  }
+
+  /* line 111, ../css/sass/partials/footer.scss */
+  .grid-item-2 {
+    grid-area: 2 / 2 / 2 / 2;
+  }
+
+  /* line 119, ../css/sass/partials/footer.scss */
+  .grid-item-3 {
+    text-align: center;
+    padding: 1.2rem;
+    grid-area: 3 / 3 / 3 / 3;
   }
 }
