@@ -49,6 +49,8 @@ margin: 0;
 
 .col-wrapper {
 
+
+
 .col-1 {grid-area: 1 / 1 / 1 / 1;
 
   p {
@@ -281,7 +283,7 @@ display: grid;
 // internal pages mobile 
 
 
-@media (min-width: 60em) {
+@media (max-width: 60em) {
 
   .title {grid-area: 1 / 1 / 1 / span 2 ;
     max-width: $wrapper-width;
