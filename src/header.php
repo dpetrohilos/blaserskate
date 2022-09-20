@@ -30,14 +30,7 @@
 
 <header class="header" role="banner">
 
-<div class="inline-flex box-wrap icon-wrapper v-align">
-	<a class="icon-link" href="/decks">		<img width="24" height="24" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/decks.svg" alt="Decks" class="icons">
-</a>
 
-
-<a class="icon-link" href="/gear">		<img width="24" height="24" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/gear.svg" alt="Gear" class="icons">
-</a>
-</div>
 			
 <!-- logo -->
 <div class="logo">
@@ -45,14 +38,6 @@
 		<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 		<img width="112" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img">
 	</a>
-</div>
-
-
-<nav class="help top-menu-wrapper">
-
-<?php wp_nav_menu( array( 'theme_location' => 'top' ) ); ?>
-	</nav>
-
 </div>
 
 </header>
