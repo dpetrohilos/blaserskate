@@ -453,9 +453,10 @@ button.menu-toggle span::after {
   left: 0;
   width: 100%;
   z-index: 999;
+  padding: 0.5rem 0;
 }
 
-/* line 437, ../css/sass/partials/nav.scss */
+/* line 438, ../css/sass/partials/nav.scss */
 .site-navbar {
   position: absolute;
   box-sizing: border-box;
@@ -469,33 +470,33 @@ button.menu-toggle span::after {
 }
 
 @media (min-width: 80em) {
-  /* line 452, ../css/sass/partials/nav.scss */
+  /* line 453, ../css/sass/partials/nav.scss */
   .site-navbar {
     max-width: 800px;
   }
 
-  /* line 458, ../css/sass/partials/nav.scss */
+  /* line 459, ../css/sass/partials/nav.scss */
   .site-header, .site-navbar {
     position: sticky;
   }
 }
 @media (min-width: 100em) {
-  /* line 465, ../css/sass/partials/nav.scss */
+  /* line 466, ../css/sass/partials/nav.scss */
   .site-navbar, .site-navbar {
     max-width: 144rem;
   }
 
-  /* line 468, ../css/sass/partials/nav.scss */
+  /* line 469, ../css/sass/partials/nav.scss */
   .site-header {
     position: sticky;
   }
 }
-/* line 474, ../css/sass/partials/nav.scss */
+/* line 475, ../css/sass/partials/nav.scss */
 .site-branding {
   display: inline-block;
 }
 
-/* line 481, ../css/sass/partials/nav.scss */
+/* line 482, ../css/sass/partials/nav.scss */
 .site-title a {
   text-decoration: none;
 }
