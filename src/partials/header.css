@@ -19,30 +19,30 @@
 
 /* line 27, ../css/sass/partials/header.scss */
 .logo {
-  max-width: 8.8rem;
+  max-width: 10.44rem;
   display: block;
   grid-area: 1 / 1 / 1 / 1;
   width: 100%;
-  margin: .6rem auto;
+  margin: 0rem auto;
 }
 
-/* line 41, ../css/sass/partials/header.scss */
+/* line 37, ../css/sass/partials/header.scss */
 .icon-wrapper {
   grid-area: 1 / 1 / 1 / 1;
 }
-/* line 43, ../css/sass/partials/header.scss */
+/* line 39, ../css/sass/partials/header.scss */
 .icon-wrapper .icon-link {
   margin-left: 0.6rem;
 }
 
-/* line 51, ../css/sass/partials/header.scss */
+/* line 47, ../css/sass/partials/header.scss */
 .top-menu-wrapper {
   grid-area: 1 / 2 / 1 / 2;
   font-size: 1rem;
   list-style: none;
   padding: 2.2rem 1rem 0 0;
 }
-/* line 59, ../css/sass/partials/header.scss */
+/* line 55, ../css/sass/partials/header.scss */
 .top-menu-wrapper li {
   list-style: none;
   margin-right: .6rem;
