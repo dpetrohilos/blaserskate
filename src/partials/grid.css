@@ -81,7 +81,7 @@
 .hero {
   padding: 0;
   margin: 0;
-  top: -1.2rem;
+  top: -9.2rem;
   position: relative;
   display: grid;
 }
@@ -99,7 +99,7 @@
 }
 /* line 104, ../css/sass/partials/grid.scss */
 .hero > .col-1 .content {
-  margin-top: 7.2rem;
+  margin-top: 14.4rem;
 }
 
 /* line 111, ../css/sass/partials/grid.scss */
