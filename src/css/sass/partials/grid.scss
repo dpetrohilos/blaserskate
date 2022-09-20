@@ -200,7 +200,7 @@ margin: 0;
 // fourth 
 .grid-row-4 {
 
-  
+
 }
 
 
@@ -213,6 +213,7 @@ margin: 0;
 .card {
 
   display: grid;
+  grid-template: 1fr;
 
   .card-item {
 

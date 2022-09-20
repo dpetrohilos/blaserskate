@@ -90,22 +90,22 @@ Founder, Louisville, KY </cite>
 
 <div class="grid grid-row-5 wrapper">
 
-<div class="col-2 card grid">
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
+<div class="grid-item-1 card">
+<img class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/>
 
-	<p>Skateboards for everyone</p>
-<a class="button secondary" href="/decks"> Clothing</a>
+	<p  class="card-item">Skateboards for everyone</p>
+<a class="button secondary card-item" href="/decks"> Clothing</a>
 
 
 </div>
 
-<div class="grid-item-2 col-3 card grid">
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hat_store_image.jpg"/>
+<div class="grid-item-2 col-3 card">
+<img  class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hat_store_image.jpg"/>
 
-<p>Stylish clothing</p>
+<p class="card-item">Stylish clothing</p>
 
 
-<a class="button secondary" href="/clothing"> Clothing</a>
+<a class="button secondary card-item" href="/clothing"> Clothing</a>
 
 </div>
 </div>
