@@ -3,6 +3,7 @@
  * ---
  * Menus
  */
+ @import "modules/variables";
 
  .menu {
 
@@ -319,7 +320,7 @@ overflow: hidden;
 margin: 0;
 padding: 0;
 width: 30px;
-height: 60px;
+height: 4rem;
 font-size: 0;
 text-indent: -9999px;
 -webkit-appearance: none;
@@ -383,11 +384,11 @@ transition: 0.3s;
 button.menu-toggle span {
 display: block;
 position: absolute;
-top: 29px;
+top: 1.6rem;
 left: 0;
 right: 0;
 height: 2px;
-background-color: #000;
+background-color: $text-color;
 -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
 }
