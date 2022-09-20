@@ -1518,6 +1518,7 @@ p, ul, ol, li {
   margin: 0 auto;
   max-width: 144rem;
   grid-area: 1 / 1 / 1 / 1;
+  width: 100%;
 }
 /* line 100, css/sass/partials/grid.scss */
 .hero > .col-1 p {
