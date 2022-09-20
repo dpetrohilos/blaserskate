@@ -440,7 +440,7 @@ position: absolute;
 box-sizing: border-box;
 width: 100%;
 max-width: 100%;
-padding: 0 20px;
+padding: 0;
 margin: 0 auto;
 z-index: 999;
 background: #fff;
@@ -476,8 +476,8 @@ display: inline-block;
 }
 
 .site-title {
-font-size: 20px;
-line-height: 60px;
+font-size: 1.4rem;
+line-height: 6rem;
 font-weight: 300;
 }
 
