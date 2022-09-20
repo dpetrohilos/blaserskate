@@ -131,7 +131,9 @@ left: auto;
 .main-navigation li {
 display: block;
 position: relative;
-border-top: 1px solid #e7e7e7;
+border-top: 1px solid $body-bg;
+padding: 0; 
+margin: 0; 
 }
 
 .main-navigation li > a {
@@ -159,7 +161,7 @@ background-repeat: no-repeat;
 }
 
 .main-navigation li:last-of-type {
-margin-bottom: 10px;
+margin-bottom: 0;
 }
 
 @media (min-width: 1000px) {
