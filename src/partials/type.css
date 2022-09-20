@@ -88,20 +88,22 @@ p, ul, ol, li {
 /* line 109, ../css/sass/partials/type.scss */
 .button {
   font-family: 'kent', Arial, Helvetica, sans-serif;
-  border-radius: .4rem;
+  border-radius: 2.8rem;
   display: block;
   width: fit-content;
 }
 
 /* line 117, ../css/sass/partials/type.scss */
 .primary {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   padding: 1.2rem 2.4rem;
   background: #444444;
   color: #fff;
   border: transparent .2rem solid;
+  height: 5.6rem;
+  display: block;
 }
-/* line 126, ../css/sass/partials/type.scss */
+/* line 127, ../css/sass/partials/type.scss */
 .primary:hover {
   text-decoration: none;
   border: .2rem solid #444444;
@@ -109,15 +111,17 @@ p, ul, ol, li {
   background: transparent;
 }
 
-/* line 138, ../css/sass/partials/type.scss */
+/* line 139, ../css/sass/partials/type.scss */
 .secondary {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   padding: 1.2rem 2.4rem;
   text-decoration: none;
   border: .2rem solid #444444;
   color: #444444;
+  height: 5.6rem;
+  display: block;
 }
-/* line 146, ../css/sass/partials/type.scss */
+/* line 150, ../css/sass/partials/type.scss */
 .secondary:hover {
   background: #444444;
   color: #fff;
@@ -125,14 +129,16 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 156, ../css/sass/partials/type.scss */
+/* line 160, ../css/sass/partials/type.scss */
 .third {
   font-size: 1.6rem;
   padding: .4rem .8rem;
   border: .2rem solid #444444;
   color: #444444;
+  height: 4rem;
+  display: block;
 }
-/* line 163, ../css/sass/partials/type.scss */
+/* line 169, ../css/sass/partials/type.scss */
 .third:hover {
   background: #444444;
   color: #fff;
@@ -140,7 +146,24 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 175, ../css/sass/partials/type.scss */
+/* line 182, ../css/sass/partials/type.scss */
+.fourth {
+  font-size: 1.4rem;
+  padding: .4rem .8rem;
+  border: .2rem solid #444444;
+  color: #444444;
+  height: 3.6rem;
+  display: block;
+}
+/* line 191, ../css/sass/partials/type.scss */
+.fourth:hover {
+  background: #444444;
+  color: #fff;
+  border: black .2rem solid;
+  text-decoration: none;
+}
+
+/* line 204, ../css/sass/partials/type.scss */
 .text-center {
   text-align: center;
 }

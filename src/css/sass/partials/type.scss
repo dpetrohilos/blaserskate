@@ -108,7 +108,7 @@ p,ul,ol,li {
 
 .button {  
 font-family: 'kent', Arial, Helvetica, sans-serif;
-border-radius: .4rem;
+border-radius: 2.8rem;
 display: block;
 width: fit-content;
 
@@ -116,12 +116,13 @@ width: fit-content;
 
 .primary {
 
-    font-size: 2.2rem; 
+    font-size: 1.8rem; 
     padding: 1.2rem 2.4rem; 
     background: #444444; 
     color: #fff;
     border: transparent .2rem solid;  
-    
+    height: 5.6rem; 
+    display: block; 
 
     &:hover {
 
@@ -137,11 +138,14 @@ width: fit-content;
 
 .secondary {
 
-    font-size: 2.2rem; 
+    font-size: 1.8rem; 
     padding: 1.2rem 2.4rem; 
     text-decoration: none;
     border: .2rem solid #444444; 
     color: #444444; 
+    height: 5.6rem; 
+    display: block; 
+
 
     &:hover {
 
@@ -159,6 +163,8 @@ width: fit-content;
     padding: .4rem .8rem;
     border: .2rem solid #444444; 
     color: #444444; 
+    height: 4rem; 
+    display: block; 
 
     &:hover {
 
@@ -171,6 +177,29 @@ width: fit-content;
 
 
 }
+
+
+.fourth {
+
+    font-size: 1.4rem;
+    padding: .4rem .8rem;
+    border: .2rem solid #444444; 
+    color: #444444; 
+    height: 3.6rem; 
+    display: block; 
+
+    &:hover {
+
+        background: #444444; 
+        color: #fff;
+        border: black .2rem solid;  
+        text-decoration: none;
+    }
+
+
+
+}
+
 
 .text-center {
 text-align: center;
