@@ -1070,14 +1070,7 @@ button.menu-toggle span::after {
   display: inline-block;
 }
 
-/* line 478, css/sass/partials/nav.scss */
-.site-title {
-  font-size: 1.4rem;
-  line-height: 6rem;
-  font-weight: 300;
-}
-
-/* line 484, css/sass/partials/nav.scss */
+/* line 481, css/sass/partials/nav.scss */
 .site-title a {
   text-decoration: none;
 }
