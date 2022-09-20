@@ -73,7 +73,7 @@ margin: 0;
 // Top of home page 
 
 
-.hero {
+.hero-wrapper {
 
 
   padding: 0; 
@@ -84,10 +84,18 @@ margin: 0;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  mix-blend-mode: multiply;
   grid-template-columns: repeat(2, 1fr);
 
 
 
+
+}
+
+
+.hero {
+  margin: 0 auto; 
+  max-width: $wrapper-width;
 
 }
 
@@ -112,6 +120,7 @@ margin: 0;
 
   img {
     mix-blend-mode: multiply;
+    z-index: -4;
   }
 
 }
