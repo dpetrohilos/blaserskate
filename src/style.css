@@ -1075,17 +1075,17 @@ button.menu-toggle span::after {
     max-width: 144rem;
   }
 
-  /* line 470, css/sass/partials/nav.scss */
+  /* line 471, css/sass/partials/nav.scss */
   .site-header {
     position: sticky;
   }
 }
-/* line 476, css/sass/partials/nav.scss */
+/* line 477, css/sass/partials/nav.scss */
 .site-branding {
   display: inline-block;
 }
 
-/* line 483, css/sass/partials/nav.scss */
+/* line 484, css/sass/partials/nav.scss */
 .site-title a {
   text-decoration: none;
 }
