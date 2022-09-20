@@ -95,7 +95,7 @@ Founder, Louisville, KY </cite>
 
 ><a href="/decks" >
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
-Clothing</a>
+
 
 </div>
 
