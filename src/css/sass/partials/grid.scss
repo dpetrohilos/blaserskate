@@ -97,7 +97,6 @@ margin: 0;
 
 .hero > .col-1 {
 
-  grid-area: 1 / 1 / 2 / 2;   
    
   p {  max-width: 46rem;
   }
@@ -112,12 +111,7 @@ margin: 0;
 
 .hero > .col-2 {
 
-  grid-area: 1 / 2 / 2 / 3;
 
-  img {
-    mix-blend-mode: multiply;
-    z-index: -4;
-  }
 
 }
 
