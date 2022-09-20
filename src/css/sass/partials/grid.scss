@@ -213,11 +213,16 @@ margin: 0;
 .card {
 
   display: grid;
-  grid-template: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(6rem, 8fr));
+  grid-template-rows: repeat(auto-fit, minmax(6rem, 6fr));
+  grid-column-gap: 1.6rem;
+  grid-row-gap: 1.6rem;
+
+;
 
   .card-item {
 
-grid-area: 1 / 1 / 1 / 1;
+  grid-area: 1 / 1 / 1 / 1;
 
   }
 
