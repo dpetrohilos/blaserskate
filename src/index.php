@@ -16,9 +16,11 @@
 
 
 
-
-<img class="hero-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_forground.png"
-alt="Skateboarder doing a trick" />
+<picture>
+    <source media="(min-width: 1000px)" srcset="red.jpg">
+    <source media="(min-width: 470px)" srcset="blue.jpg">
+    <img src="green.jpg" alt="imagealttext">
+</picture>
 
 
 
