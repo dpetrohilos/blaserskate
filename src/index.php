@@ -88,7 +88,7 @@ Founder, Louisville, KY </cite>
 </div>
 
 
-<div class="grid grid-row-3 wrapper">
+<div class="grid grid-row-5 wrapper">
 
 <div class="col-2 card grid">
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
@@ -120,7 +120,7 @@ Founder, Louisville, KY </cite>
 		<!-- /section -->
 	</main>
 
-	<div class="grid-row-5 grid wrapper">
+	<div class="grid-row-6 grid wrapper">
 
 	<header class="grid-item-1 title">
 <h5 class="section-title">The Crew
