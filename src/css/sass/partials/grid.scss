@@ -85,7 +85,6 @@ margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
   mix-blend-mode: multiply;
-  grid-template-columns: repeat(2, 1fr);
   background-attachment: fixed;
 
 
@@ -97,6 +96,8 @@ margin: 0;
 .hero {
   margin: 0 auto; 
   max-width: $wrapper-width;
+  grid-template-columns: repeat(2, 1fr);
+
 
 }
 
@@ -307,6 +308,40 @@ display: grid;
 
 
 @media (max-width: 72em) {
+
+
+
+  .hero {
+    margin: 0 auto; 
+    max-width: $wrapper-width;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+      
+  
+  }
+  
+  .hero > .col-1 {
+  
+    grid-area: 1 / 1 / 2 / 2;      
+    p {  max-width: 46rem;
+    }
+  
+  
+      .content {
+        margin-top: 7.2rem;
+  
+      }
+  
+  }
+  .hero > .col-2 {
+  
+    grid-area: 2 / 1 / 3 / 2; 
+   
+  
+  }
+
+
+
 
   .title {grid-area: 1 / 1 / 1 / span 2 ;
     max-width: $wrapper-width;
