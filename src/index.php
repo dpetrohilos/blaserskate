@@ -87,11 +87,17 @@ Founder, Louisville, KY </cite>
 
 </div>
 </div>
-
 <div class="grid grid-row-3 wrapper ">
+
 <div class="grid-item-1 col-1 title">
 <h3 class="section-title">Our Store </h3>
+
+
 <p>Put simply, Blaser Boards are made from the strongest wood you can get. Sustainably sourced, slow grown, American maple from Northern Wisconsin gives each board has its own unique signature. Perfect for every free spirited adventurer who can’t be tamed.</p>
+
+</div>
+</div>
+<div class="grid grid-row-4 wrapper ">
 <div class="col-2"><a href="/decks" ><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
 Clothing</a></div>
 </div>
