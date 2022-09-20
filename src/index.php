@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="hero-wrapper"> 
-	<div class="hero grid grid-row-1">
+<div class="hero grid grid-row-1">
 <section class="grid-item-1 col-1">
 <header class="content">
 <div class="over-text kent sub-title">2022</div>
