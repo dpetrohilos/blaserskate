@@ -16,7 +16,7 @@
 
 
 
-<img class="hero-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_3.jpg"
+<img class="hero-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blaser_board_hero_forground.png"
 alt="Skateboarder doing a trick" />
 
 
