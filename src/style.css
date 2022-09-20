@@ -509,21 +509,18 @@ input[type="search"] {
 
 /* line 47, css/sass/partials/utils.scss */
 .hero-image {
-  aspect-ratio: 2 / 1;
   object-fit: cover;
 }
 
 @media (max-width: 72em) {
-  /* line 55, css/sass/partials/utils.scss */
+  /* line 54, css/sass/partials/utils.scss */
   .hero-image {
     object-fit: cover;
-    aspect-ratio: 4 / 3;
   }
 }
 @media (max-width: 42em) {
-  /* line 69, css/sass/partials/utils.scss */
+  /* line 67, css/sass/partials/utils.scss */
   .hero-image {
-    aspect-ratio: 1 / 1;
     object-fit: cover;
   }
 }
