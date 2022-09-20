@@ -441,7 +441,7 @@ position: absolute;
 box-sizing: border-box;
 width: 100%;
 max-width: 100%;
-padding: 0;
+padding: 0 .6rem;
 margin: 0 auto;
 z-index: 999;
 background: #fff;
@@ -466,6 +466,7 @@ left: 0;
 @media (min-width: 100em) {
 .site-navbar, .site-navbar {
   max-width: 144rem;
+  padding: 0; 
   
 }
 .site-header {

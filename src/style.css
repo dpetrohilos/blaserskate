@@ -1050,7 +1050,7 @@ button.menu-toggle span::after {
   box-sizing: border-box;
   width: 100%;
   max-width: 100%;
-  padding: 0;
+  padding: 0 .6rem;
   margin: 0 auto;
   z-index: 999;
   background: #fff;
@@ -1073,19 +1073,20 @@ button.menu-toggle span::after {
   /* line 467, css/sass/partials/nav.scss */
   .site-navbar, .site-navbar {
     max-width: 144rem;
+    padding: 0;
   }
 
-  /* line 471, css/sass/partials/nav.scss */
+  /* line 472, css/sass/partials/nav.scss */
   .site-header {
     position: sticky;
   }
 }
-/* line 477, css/sass/partials/nav.scss */
+/* line 478, css/sass/partials/nav.scss */
 .site-branding {
   display: inline-block;
 }
 
-/* line 484, css/sass/partials/nav.scss */
+/* line 485, css/sass/partials/nav.scss */
 .site-title a {
   text-decoration: none;
 }
