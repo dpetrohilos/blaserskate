@@ -19,8 +19,7 @@
 <picture>
     <source media="(min-width: 1000px)" srcset="red.jpg">
     <source media="(min-width: 470px)" srcset="blue.jpg">
-    <img src="green.jpg" alt="imagealttext">
-</picture>
+	<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/hero_BG_mobile.jpg"/></picture>
 
 
 
