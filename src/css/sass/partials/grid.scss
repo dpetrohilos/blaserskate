@@ -113,7 +113,11 @@ margin: 0;
   z-index: -1;
   grid-area: 1 / 1 / 1 / 1;
 
+  img {
 
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+  }
 
 }
 
@@ -297,7 +301,7 @@ display: grid;
 // internal pages mobile 
 
 
-@media (max-width: 72em) {
+@media (max-width: 98em) {
 
 
 
@@ -322,7 +326,7 @@ display: grid;
 
     img {
 
-      aspect-ratio: 6 / 9;
+      aspect-ratio: 4 / 1;
       object-fit: contain;
     }
    
@@ -405,5 +409,24 @@ display: grid;
 
 
 }
+
+}
+
+
+
+@media (max-width: 42em) { 
+  .hero > .col-2 {
+  
+    grid-area: 1 / 1 / 1 / 1; 
+
+    img {
+
+      aspect-ratio: 1 / 3;
+      object-fit: contain;
+    }
+   
+  
+  }
+
 
 }
