@@ -19,11 +19,11 @@
 
 /* line 27, ../css/sass/partials/header.scss */
 .logo {
-  max-width: 9rem;
+  max-width: 8.8rem;
   display: block;
   grid-area: 1 / 1 / 1 / 1;
   width: 100%;
-  margin: 1.8rem auto;
+  margin: .6rem auto;
 }
 
 /* line 41, ../css/sass/partials/header.scss */
