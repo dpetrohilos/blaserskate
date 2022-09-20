@@ -301,18 +301,11 @@ display: grid;
 
 
 
-  .hero {
-    margin: 0 auto; 
-    max-width: $wrapper-width;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-      
-  
-  }
+
   
   .hero > .col-1 {
   
-    grid-area: 1 / 1 / 2 / 2;      
+    grid-area: 1 / 1 / 1 / 1;      
     p {  max-width: 46rem;
     }
   
@@ -325,7 +318,13 @@ display: grid;
   }
   .hero > .col-2 {
   
-    grid-area: 2 / 1 / 3 / 2; 
+    grid-area: 1 / 1 / 1 / 1; 
+
+    img {
+
+      aspect-ratio: 6 / 9;
+      object-fit: contain;
+    }
    
   
   }
