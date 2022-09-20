@@ -91,9 +91,12 @@ Founder, Louisville, KY </cite>
 
 <div class="grid grid-row-3 wrapper">
 
-<div class="col-2"><a href="/decks" >
+<div class="col-2"
+
+><a href="/decks" >
 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
 Clothing</a>
+
 </div>
 
 <div class="grid-item-2 col-3">
@@ -102,7 +105,7 @@ Clothing</a>
 
 
 </div>
-
+</div>
 
 <main role="main" aria-label="Content" class="grid-row-4 grid wrapper">
 		<!-- section replace loop with store -->
