@@ -693,7 +693,7 @@ input[type="search"] {
   /* line 119, css/sass/partials/nav.scss */
   .main-navigation ul ul a {
     min-width: 100px;
-    line-height: 40px;
+    line-height: 3rem;
   }
 }
 /* line 125, css/sass/partials/nav.scss */
@@ -759,13 +759,13 @@ input[type="search"] {
 .main-navigation a {
   display: block;
   text-decoration: none;
-  line-height: 40px;
+  line-height: 3rem;
 }
 
 @media (min-width: 1000px) {
   /* line 191, css/sass/partials/nav.scss */
   .main-navigation a {
-    line-height: 3.6rem;
+    line-height: 3rem;
     padding: 0;
   }
 }
