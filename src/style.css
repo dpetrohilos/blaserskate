@@ -1061,6 +1061,7 @@ button.menu-toggle span::after {
   /* line 454, css/sass/partials/nav.scss */
   .site-navbar {
     max-width: 800px;
+    padding: 0 .6rem;
   }
 
   /* line 460, css/sass/partials/nav.scss */
