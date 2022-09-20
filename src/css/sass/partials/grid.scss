@@ -109,6 +109,11 @@ margin: 0;
 .hero > .col-2 {
 
   grid-area: 1 / 2 / 2 / 3;
+
+  img {
+    mix-blend-mode: multiply;
+  }
+
 }
 
 
