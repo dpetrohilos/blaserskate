@@ -543,30 +543,30 @@ input[type="search"] {
 
 /* line 27, css/sass/partials/header.scss */
 .logo {
-  max-width: 10.44rem;
+  max-width: 12.2rem;
   display: block;
   grid-area: 1 / 1 / 1 / 1;
   width: 100%;
-  margin: 0rem auto;
+  margin: .6rem auto;
 }
 
-/* line 37, css/sass/partials/header.scss */
+/* line 38, css/sass/partials/header.scss */
 .icon-wrapper {
   grid-area: 1 / 1 / 1 / 1;
 }
-/* line 39, css/sass/partials/header.scss */
+/* line 40, css/sass/partials/header.scss */
 .icon-wrapper .icon-link {
   margin-left: 0.6rem;
 }
 
-/* line 47, css/sass/partials/header.scss */
+/* line 48, css/sass/partials/header.scss */
 .top-menu-wrapper {
   grid-area: 1 / 2 / 1 / 2;
   font-size: 1rem;
   list-style: none;
   padding: 2.2rem 1rem 0 0;
 }
-/* line 55, css/sass/partials/header.scss */
+/* line 56, css/sass/partials/header.scss */
 .top-menu-wrapper li {
   list-style: none;
   margin-right: .6rem;

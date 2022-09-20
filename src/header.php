@@ -36,7 +36,7 @@
 <div class="logo">
 	<a href="<?php echo esc_url( home_url() ); ?>">
 		<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-		<img width="112" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img">
+		<img width="260" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img">
 	</a>
 </div>
 
