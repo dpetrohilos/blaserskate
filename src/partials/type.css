@@ -133,20 +133,21 @@ p, ul, ol, li {
 .third {
   font-size: 1.6rem;
   padding: .4rem .8rem;
-  border: .2rem solid #444444;
+  border: .2rem solid #fff;
   color: #444444;
   height: 4rem;
   display: block;
+  background: #fff;
 }
-/* line 169, ../css/sass/partials/type.scss */
+/* line 170, ../css/sass/partials/type.scss */
 .third:hover {
   background: #444444;
   color: #fff;
-  border: black .2rem solid;
+  border: #fff .2rem solid;
   text-decoration: none;
 }
 
-/* line 182, ../css/sass/partials/type.scss */
+/* line 183, ../css/sass/partials/type.scss */
 .fourth {
   font-size: 1.4rem;
   padding: .4rem .8rem;
@@ -155,7 +156,7 @@ p, ul, ol, li {
   height: 3.6rem;
   display: block;
 }
-/* line 191, ../css/sass/partials/type.scss */
+/* line 192, ../css/sass/partials/type.scss */
 .fourth:hover {
   background: #444444;
   color: #fff;
@@ -163,7 +164,7 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 204, ../css/sass/partials/type.scss */
+/* line 205, ../css/sass/partials/type.scss */
 .text-center {
   text-align: center;
 }
