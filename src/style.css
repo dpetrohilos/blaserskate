@@ -497,6 +497,16 @@ input[type="search"] {
   transition: opacity 1s ease-in-out;
 }
 
+/* line 38, css/sass/partials/utils.scss */
+.hideme:nth-child(1) {
+  opacity: 1 !important;
+}
+
+/* line 41, css/sass/partials/utils.scss */
+.hideme:nth-child(2) {
+  opacity: 1 !important;
+}
+
 /**
  * partials/wrapper
  * ---
