@@ -168,8 +168,8 @@
   grid-row-gap: 1.6rem;
 }
 /* line 223, ../css/sass/partials/grid.scss */
-.grid-row-5 .card .card-item {
-  grid-area: 1 / 1 / 1 / 1;
+.grid-row-5 .card .card-item-image {
+  grid-area: 1 / 1 / 7 / 7;
 }
 
 /* line 245, ../css/sass/partials/grid.scss */
