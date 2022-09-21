@@ -161,17 +161,17 @@ width: fit-content;
 
     font-size: 1.6rem;
     padding: .4rem .8rem;
-    border: .2rem solid #fff; 
+    border: .2rem solid #f5f5f5; 
     color: #444444; 
     height: 4rem; 
     display: block; 
-    background: #fff; 
+    background: #f5f5f5; 
 
     &:hover {
 
         background: #444444; 
-        color: #fff;
-        border: #fff .2rem solid;  
+        color: #f5f5f5;
+        border: #f5f5f5 .2rem solid;  
         text-decoration: none;
     }
 
