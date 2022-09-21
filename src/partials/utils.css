@@ -12,3 +12,9 @@
 .icon .span {
   display: none;
 }
+
+/* line 33, ../css/sass/partials/utils.scss */
+.hideme {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}

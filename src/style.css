@@ -491,6 +491,12 @@ input[type="search"] {
   display: none;
 }
 
+/* line 33, css/sass/partials/utils.scss */
+.hideme {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
 /**
  * partials/wrapper
  * ---
