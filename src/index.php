@@ -92,9 +92,8 @@ Founder, Louisville, KY </cite>
 
 <div class="grid-item-1 card overlay">
 
-<a class="card-item" href="/decks"><img class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
-
-<a class="card-item" href="/decks"> <p  class="card-item">Skateboards for everyone</p></a>
+<img class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
+<p  class="card-item">Skateboards for everyone</p>
 <a class="button secondary card-item" href="/decks"> Clothing</a>
 
 
@@ -102,10 +101,10 @@ Founder, Louisville, KY </cite>
 
 <div class="grid-item-2 col-3 card">
 
-<a class="card-item" href="/clothing"><img  class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hat_store_image.jpg"/></a>
+<img  class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hat_store_image.jpg"/>
 
 
-<a class="card-item" href="/clothing"><p class="card-item">Stylish clothing</p></a>
+<p class="card-item">Stylish clothing</p>
 
 
 <a class="button secondary card-item" href="/clothing"> Clothing</a>
