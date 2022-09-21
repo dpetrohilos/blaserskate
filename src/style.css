@@ -1639,8 +1639,8 @@ p, ul, ol, li {
 /* line 213, css/sass/partials/grid.scss */
 .grid-row-5 .card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6rem, 8fr));
-  grid-template-rows: repeat(auto-fit, minmax(6rem, 6fr));
+  grid-template-columns: 8fr;
+  grid-template-rows: 9fr;
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
 }

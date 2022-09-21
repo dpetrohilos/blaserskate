@@ -90,7 +90,7 @@ Founder, Louisville, KY </cite>
 
 <div class="grid grid-row-5 wrapper">
 
-<div class="grid-item-1 card overlay a">
+<div class="grid-item-1 card overlay">
 
 <a class="card-item" href="/decks"><img class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
 
