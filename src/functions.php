@@ -406,3 +406,9 @@ remove_theme_support( 'wc-product-gallery-zoom' );
 remove_theme_support( 'wc-product-gallery-lightbox' );
 remove_theme_support( 'wc-product-gallery-slider' );
 add_filter( 'woocommerce_enqueue_styles', '__return_false' );
+
+// Register Sidebars
+function custom_sidebars() {
+
+}
+add_action( 'widgets_init', 'custom_sidebars' );
