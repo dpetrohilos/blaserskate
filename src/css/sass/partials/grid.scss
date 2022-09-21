@@ -213,8 +213,8 @@ margin: 0;
 .card {
 
   display: grid;
-  grid-template-columns: 8fr;
-  grid-template-rows: 9fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
 
@@ -225,6 +225,11 @@ margin: 0;
   grid-area: 1 / 1 / 1 / 1;
 
   }
+
+.card-item-button {}
+
+.card-item-text {}
+
 
 }
 

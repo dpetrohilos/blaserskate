@@ -162,8 +162,8 @@
 /* line 213, ../css/sass/partials/grid.scss */
 .grid-row-5 .card {
   display: grid;
-  grid-template-columns: 8fr;
-  grid-template-rows: 9fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
 }
@@ -172,185 +172,185 @@
   grid-area: 1 / 1 / 1 / 1;
 }
 
-/* line 240, ../css/sass/partials/grid.scss */
+/* line 245, ../css/sass/partials/grid.scss */
 .grid-row-6 .first-row {
   grid-row: 1 / span 1;
 }
-/* line 245, ../css/sass/partials/grid.scss */
+/* line 250, ../css/sass/partials/grid.scss */
 .grid-row-6 .second-row {
   grid-row: 2 / span 1;
 }
 
-/* line 263, ../css/sass/partials/grid.scss */
+/* line 268, ../css/sass/partials/grid.scss */
 .cite-wrapper {
   width: 30rem;
   margin: 0 auto;
   padding: 1.2rem;
 }
 
-/* line 273, ../css/sass/partials/grid.scss */
+/* line 278, ../css/sass/partials/grid.scss */
 .sub-grid {
   display: grid;
 }
 
-/* line 277, ../css/sass/partials/grid.scss */
+/* line 282, ../css/sass/partials/grid.scss */
 .flex {
   display: flex;
 }
 
-/* line 281, ../css/sass/partials/grid.scss */
+/* line 286, ../css/sass/partials/grid.scss */
 .v-align {
   align-items: center;
 }
 
-/* line 285, ../css/sass/partials/grid.scss */
+/* line 290, ../css/sass/partials/grid.scss */
 .v-align-bottom {
   align-items: flex-end;
 }
 
-/* line 289, ../css/sass/partials/grid.scss */
+/* line 294, ../css/sass/partials/grid.scss */
 .h-center {
   justify-content: center;
 }
 
-/* line 293, ../css/sass/partials/grid.scss */
+/* line 298, ../css/sass/partials/grid.scss */
 .inline-flex {
   display: inline-flex;
 }
 
-/* line 297, ../css/sass/partials/grid.scss */
+/* line 302, ../css/sass/partials/grid.scss */
 .box-wrap {
   flex-wrap: wrap;
 }
 
-/* line 301, ../css/sass/partials/grid.scss */
+/* line 306, ../css/sass/partials/grid.scss */
 .product-grid {
   display: grid;
   grid-template-row: 1fr 1fr 1fr;
 }
 
-/* line 306, ../css/sass/partials/grid.scss */
+/* line 311, ../css/sass/partials/grid.scss */
 .card {
   display: grid;
 }
 
-/* line 312, ../css/sass/partials/grid.scss */
+/* line 317, ../css/sass/partials/grid.scss */
 .card-image {
   aspect-ratio: 1 / 1;
   width: 100%;
   object-fit: cover;
 }
 
-/* line 320, ../css/sass/partials/grid.scss */
+/* line 325, ../css/sass/partials/grid.scss */
 .grid-item-half {
   aspect-ratio: 2 / 1;
   width: 100%;
 }
 
-/* line 327, ../css/sass/partials/grid.scss */
+/* line 332, ../css/sass/partials/grid.scss */
 .inline {
   display: inline-flex;
 }
-/* line 331, ../css/sass/partials/grid.scss */
+/* line 336, ../css/sass/partials/grid.scss */
 .inline a {
   margin-right: 1.8rem;
 }
 
 @media (max-width: 98em) {
-  /* line 349, ../css/sass/partials/grid.scss */
+  /* line 354, ../css/sass/partials/grid.scss */
   .hero {
     margin-top: 14.4rem;
     position: relative;
   }
 
-  /* line 356, ../css/sass/partials/grid.scss */
+  /* line 361, ../css/sass/partials/grid.scss */
   .hero > .col-1 {
     grid-area: 1 / 1 / 1 / 1;
   }
-  /* line 359, ../css/sass/partials/grid.scss */
+  /* line 364, ../css/sass/partials/grid.scss */
   .hero > .col-1 p {
     max-width: 46rem;
   }
-  /* line 363, ../css/sass/partials/grid.scss */
+  /* line 368, ../css/sass/partials/grid.scss */
   .hero > .col-1 .content {
     margin-top: 7.2rem;
   }
 
-  /* line 369, ../css/sass/partials/grid.scss */
+  /* line 374, ../css/sass/partials/grid.scss */
   .hero > .col-2 {
     grid-area: 1 / 1 / 1 / 1;
   }
 
-  /* line 379, ../css/sass/partials/grid.scss */
+  /* line 384, ../css/sass/partials/grid.scss */
   .title {
     grid-area: 1/1/1/span 2;
     max-width: 144rem;
     margin: 0 auto;
   }
 
-  /* line 384, ../css/sass/partials/grid.scss */
+  /* line 389, ../css/sass/partials/grid.scss */
   .wrapper > .title {
     margin: 0;
   }
 
-  /* line 392, ../css/sass/partials/grid.scss */
+  /* line 397, ../css/sass/partials/grid.scss */
   .col-1 {
     grid-area: 2 / 1 / 2 / 1;
   }
 
-  /* line 394, ../css/sass/partials/grid.scss */
+  /* line 399, ../css/sass/partials/grid.scss */
   .col-2 {
     grid-area: 3 / 1 / 3 / 1;
   }
 
-  /* line 399, ../css/sass/partials/grid.scss */
+  /* line 404, ../css/sass/partials/grid.scss */
   .featured {
     grid-row: span 2;
     grid-column: span 2;
     aspect-ratio: 1 / 2;
   }
-  /* line 405, ../css/sass/partials/grid.scss */
+  /* line 410, ../css/sass/partials/grid.scss */
   .featured img {
     aspect-ratio: 1 / 2;
   }
 
-  /* line 408, ../css/sass/partials/grid.scss */
+  /* line 413, ../css/sass/partials/grid.scss */
   .first-row {
     grid-row: auto;
   }
 
-  /* line 413, ../css/sass/partials/grid.scss */
+  /* line 418, ../css/sass/partials/grid.scss */
   .second-row {
     grid-row: auto;
   }
 
-  /* line 419, ../css/sass/partials/grid.scss */
+  /* line 424, ../css/sass/partials/grid.scss */
   .title {
     grid-area: 1/1/1/span 2;
     max-width: 144rem;
     margin: 0 auto;
   }
 
-  /* line 424, ../css/sass/partials/grid.scss */
+  /* line 429, ../css/sass/partials/grid.scss */
   .wrapper > .title {
     margin: 0;
   }
 
-  /* line 432, ../css/sass/partials/grid.scss */
+  /* line 437, ../css/sass/partials/grid.scss */
   .col-1 {
     grid-area: 2 / 1 / 2 / 1;
   }
 
-  /* line 434, ../css/sass/partials/grid.scss */
+  /* line 439, ../css/sass/partials/grid.scss */
   .col-2 {
     grid-area: 3 / 1 / 3 / 1;
   }
 
-  /* line 441, ../css/sass/partials/grid.scss */
+  /* line 446, ../css/sass/partials/grid.scss */
   .col-wrapper .col-1 {
     grid-area: 2 / 2 / 2 / 1;
   }
-  /* line 444, ../css/sass/partials/grid.scss */
+  /* line 449, ../css/sass/partials/grid.scss */
   .col-wrapper .col-2 {
     grid-area: 1 / 1 / 1 / 1;
   }
