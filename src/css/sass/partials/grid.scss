@@ -218,22 +218,28 @@ margin: 0;
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
 
-;
-
   .card-item-image {
 
   grid-area: 1 / 1 / 7 / 7;
 
   }
 
-.card-item-button {}
+.card-item-button {
+grid-area: 7 / 7 / 6 / 1;
+padding: 1.6rem; 
 
-.card-item-text {}
+  
+}
 
-
+.card-item-text {
+grid-area: 1 / 1 / 1 / 3;
+padding: 1.6rem; 
 }
 
 }
+
+}
+
 
 
 // fourth 
