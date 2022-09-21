@@ -101,7 +101,7 @@ Founder, Louisville, KY </cite>
 
 <div class="grid-item-2 col-3 card">
 
-<img  class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hat_store_image.jpg"/>
+<img  class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hat_store_image.jpg"/>
 
 
 <p class="card-item card-item-text">Stylish clothing</p>
