@@ -91,18 +91,21 @@ Founder, Louisville, KY </cite>
 <div class="grid grid-row-5 wrapper">
 
 <div class="grid-item-1 card">
-<img class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/>
 
-	<p  class="card-item">Skateboards for everyone</p>
+<a class="card-item" href="/decks"><img class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
+
+<a class="card-item" href="/decks"> <p  class="card-item">Skateboards for everyone</p></a>
 <a class="button secondary card-item" href="/decks"> Clothing</a>
 
 
 </div>
 
 <div class="grid-item-2 col-3 card">
-<img  class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hat_store_image.jpg"/>
 
-<p class="card-item">Stylish clothing</p>
+<a class="card-item" href="/clothing"><img  class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hat_store_image.jpg"/></a>
+
+
+<a class="card-item" href="/clothing"><p class="card-item">Stylish clothing</p></a>
 
 
 <a class="button secondary card-item" href="/clothing"> Clothing</a>
@@ -114,8 +117,27 @@ Founder, Louisville, KY </cite>
 		<!-- section replace loop with store -->
 		<section><header class="title">
 			<h4 class="section-title">In Stock</h4></header>
-			<?php get_template_part( 'loop' ); ?>
-			<?php get_template_part( 'pagination' ); ?>
+
+
+			<ul class="products">
+	<?php
+		$args = array(
+			'post_type' => 'product',
+			'posts_per_page' => 6
+			);
+		$loop = new WP_Query( $args );
+		if ( $loop->have_posts() ) {
+			while ( $loop->have_posts() ) : $loop->the_post();
+				wc_get_template_part( 'content', 'product' );
+			endwhile;
+		} else {
+			echo __( 'No products found' );
+		}
+		wp_reset_postdata();
+	?>
+</ul><!–/.products–>
+
+
 		</section>
 		<!-- /section -->
 	</main>
