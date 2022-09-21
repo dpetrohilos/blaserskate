@@ -95,7 +95,7 @@ Founder, Louisville, KY </cite>
 <a class="card-item" href="/decks"><img class="card-item" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
 
 <a class="card-item" href="/decks"> <p  class="card-item">Skateboards for everyone</p></a>
-<a class="button secondary card-item" href="/decks"> Clothing</a>
+<a class="button secondary card-item flex v-align-bottom" href="/decks"> Clothing</a>
 
 
 </div>
@@ -108,7 +108,7 @@ Founder, Louisville, KY </cite>
 <a class="card-item" href="/clothing"><p class="card-item">Stylish clothing</p></a>
 
 
-<a class="button secondary card-item" href="/clothing"> Clothing</a>
+<a class="button secondary card-item flex v-align-bottom" href="/clothing"> Clothing</a>
 
 </div>
 </div>
