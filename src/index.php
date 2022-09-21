@@ -94,7 +94,7 @@ Founder, Louisville, KY </cite>
 
 <img class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
 <p  class="card-item card-item-text">Skateboards for everyone</p>
-<a class="button secondary card-item card-item-button" href="/decks"> Clothing</a>
+<a class="button secondary card-item card-item-button" href="/decks"> Decks</a>
 
 
 </div>
