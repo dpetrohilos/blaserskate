@@ -205,7 +205,7 @@
 @media (min-width: 1000px) {
   /* line 194, ../css/sass/partials/nav.scss */
   .main-navigation a {
-    line-height: 3rem;
+    line-height: 2rem;
     padding: 0;
   }
 }
