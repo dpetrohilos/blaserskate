@@ -109,7 +109,7 @@
 }
 /* line 118, ../css/sass/partials/grid.scss */
 .hero > .col-2 img {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 2;
   object-fit: contain;
 }
 
