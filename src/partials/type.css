@@ -93,9 +93,9 @@ h1, h2, h3, h4, h5, h6 {
 p, ul, ol, li {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: clamp(1.2rem, 1.6rem, 1.8rem);
-  margin: 0 0 1.2rem 0;
+  margin: 0 0 1.6rem 0;
   line-height: 1.35;
-  letter-spacing: -.1rem;
+  letter-spacing: -.05rem;
 }
 
 /* line 111, ../css/sass/partials/type.scss */
