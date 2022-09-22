@@ -2,7 +2,7 @@
 <div class="hero grid grid-row-1"> 
 <section class="grid-item-1 col-1">
 <header class="content">
-<div class="over-text kent sub-title">Blaser Skateboards</div>
+<div class="over-text kent">Blaser Skateboards</div>
 <h1 class="section-title">Old School Meets New School</h1>
 <p>Blaser Boards are custom designed from the gnarliest wood for unforgettable shredding. Each skateboard is handmade with love, right out of Lexington, KY. Catch wicked air and get mad sketchy.
 <strong>No broom required to fly.</strong>
