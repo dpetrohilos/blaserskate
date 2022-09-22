@@ -1605,7 +1605,7 @@ p, ul, ol, li {
 }
 /* line 110, css/sass/partials/grid.scss */
 .hero > .col-1 p, .hero > .col-1 h1 {
-  max-width: 46rem;
+  max-width: 44rem;
 }
 /* line 114, css/sass/partials/grid.scss */
 .hero > .col-1 .content {
