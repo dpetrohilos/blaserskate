@@ -36,7 +36,7 @@
 
 <div class="grid-item-1 col-1 photo-area-wrapper">
 
-<img class="radius" alt="person skateboarding" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/kickflip2.jpg.jpg"/></picture>
+<img class="radius" alt="person skateboarding" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/kickflip2.jpg"/>
 
 </div>
 <div class="grid-item-2 col-2 first-row flex v-align">
