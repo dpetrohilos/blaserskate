@@ -93,21 +93,21 @@ Founder, Louisville, KY </cite>
 <div class="grid-item-1 card overlay">
 
 <img class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
-<p  class="card-item card-item-text kent">Skateboards for everyone</p>
-<a class="button third card-item card-item-button" href="/decks"> Decks</a>
+<p  class="card-item card-item-text kent">Designs as unique as you</p>
+<a class="button third card-item card-item-button" href="/decks">Custom Decks</a>
 
 
 </div>
 
 <div class="grid-item-2 col-3 card">
 
-<img  class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hat_store_image.jpg"/>
+<img  class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image_2.jpg"/>
 
 
-<p class="card-item card-item-text kent">Stylish clothing</p>
+<p class="card-item card-item-text kent">Made to order decks</p>
 
 
-<a class="button third card-item card-item-button" href="/clothing"> Clothing</a>
+<a class="button third card-item card-item-button" href="/catalogue"> Our catalogue</a>
 
 </div>
 </div>
