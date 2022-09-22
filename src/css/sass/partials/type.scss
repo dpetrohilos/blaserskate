@@ -116,6 +116,8 @@ width: fit-content;
 align-items: center;
 text-align: center;
 margin-top: 1.6rem; 
+transition: 0.25s ease-in;
+
 
 &:focus {
     text-decoration: none;
@@ -219,5 +221,10 @@ margin-top: 1.6rem;
 
 .text-center {
 text-align: center;
+
+}
+
+a {
+    transition: 0.25s ease-in;
 
 }
