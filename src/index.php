@@ -60,9 +60,9 @@ Founder, Louisville, KY </cite>
 <div class="grid grid-row-3">
 
 <header class="first-row title">
-<h2 class="section-title">Butterflies In Your Stomach</h2>
-<p>Our super poppy decks will have your stomach doing kickflips. True beauties, and the strongest ride you can get. Each board leaves enough concave for sick flip tricks so you can fly like LeBron and look good doing it. 
-</p>
+<h2 class="section-title">Custom Art, Hand Pressed Skate Decks
+</h2>
+<p></p>
 
 </header>
 
