@@ -1334,7 +1334,7 @@ button.menu-toggle span::after {
 
 /* line 15, css/sass/partials/type.scss */
 .section-title {
-  font-size: clamp(2.2rem, 8vw, 7.2rem);
+  font-size: clamp(2.2rem, 6vw, 7.2rem);
   font-family: 'kent', Arial, Helvetica, sans-serif;
   letter-spacing: -.1rem;
 }
