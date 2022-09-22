@@ -1,7 +1,9 @@
+@import "modules/variables";
+
 .title > 
 .section-title {
 
-    border-bottom: #444 1.2rem solid;
+    border-bottom: $text-color 1.2rem solid;
     padding-bottom: 12rem;
     margin-bottom: 12rem;
     margin-top: 12rem; 
@@ -77,7 +79,7 @@
 
         width: 10vw;
         height: 1px; 
-        background: #444; 
+        background: $text-color; 
 
     }
 }
@@ -117,18 +119,19 @@ width: fit-content;
 .primary {  
 
     font-size: 1.8rem; 
-    padding: 1.2rem 2.4rem; 
-    background: #444444; 
+    padding: 1.2rem 2rem; 
+    background: ; 
     color: #fff;
     border: transparent .2rem solid;  
     height: 5.6rem; 
-    display: block; 
+    display: flex;
+
 
     &:hover {
 
         text-decoration: none;
-        border: .2rem solid #444444; 
-        color: #444444; 
+        border: .2rem solid $text-color; 
+        color: $text-color; 
         background: transparent;
         
 
@@ -141,17 +144,17 @@ width: fit-content;
     font-size: 1.8rem; 
     padding: 1.2rem 2.4rem; 
     text-decoration: none;
-    border: .2rem solid #444444; 
-    color: #444444; 
+    border: .2rem solid $text-color; 
+    color: $text-color; 
     height: 5.6rem; 
     display: block; 
 
 
     &:hover {
 
-        background: #444444; 
+        background: $text-color; 
         color: #fff;
-        border: #444444 .2rem solid;  
+        border: $text-color .2rem solid;  
         text-decoration: none;
     }
 
@@ -162,14 +165,14 @@ width: fit-content;
     font-size: 1.6rem;
     padding: .4rem .8rem;
     border: .2rem solid #f5f5f5; 
-    color: #444444; 
+    color: $text-color; 
     height: 4rem; 
     display: block; 
     background: #f5f5f5; 
 
     &:hover {
 
-        background: #444444; 
+        background: $text-color; 
         color: #f5f5f5;
         border: #f5f5f5 .2rem solid;  
         text-decoration: none;
@@ -184,14 +187,14 @@ width: fit-content;
 
     font-size: 1.4rem;
     padding: .4rem .8rem;
-    border: .2rem solid #444444; 
-    color: #444444; 
+    border: .2rem solid $text-color; 
+    color: $text-color; 
     height: 3.6rem; 
     display: block; 
 
     &:hover {
 
-        background: #444444; 
+        background: $text-color; 
         color: #fff;
         border: black .2rem solid;  
         text-decoration: none;

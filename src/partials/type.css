@@ -1,170 +1,57 @@
-/* line 1, ../css/sass/partials/type.scss */
-.title >
-.section-title {
-  border-bottom: #444 1.2rem solid;
-  padding-bottom: 12rem;
-  margin-bottom: 12rem;
-  margin-top: 12rem;
-}
+/*
+Error: Invalid CSS after "    background: ": expected expression (e.g. 1px, bold), was "; "
+        on line 123 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/type.scss
 
-/* line 13, ../css/sass/partials/type.scss */
-.section-title {
-  font-size: clamp(2.2rem, 8vw, 7.2rem);
-  font-family: 'kent', Arial, Helvetica, sans-serif;
-  letter-spacing: -.1rem;
-}
+118: 
+119: .primary {  
+120: 
+121:     font-size: 1.8rem; 
+122:     padding: 1.2rem 2rem; 
+123:     background: ; 
+124:     color: #fff;
+125:     border: transparent .2rem solid;  
+126:     height: 5.6rem; 
+127:     display: flex;
+128: 
 
-/* line 20, ../css/sass/partials/type.scss */
-.sub-title {
-  font-size: clamp(2rem, 3vw, 3.6rem);
-  font-family: 'kent', Arial, Helvetica, sans-serif;
-  letter-spacing: -.1rem;
-}
-
-/* line 28, ../css/sass/partials/type.scss */
-.post-title {
-  font-size: clamp(1.8rem, 1vw, 2rem);
-  font-family: 'kent', Arial, Helvetica, sans-serif;
-  letter-spacing: -.1rem;
-}
-
-/* line 35, ../css/sass/partials/type.scss */
-.pq {
-  font-size: clamp(2rem, 3vw, 3.6rem);
-  font-family: 'kent', Arial, Helvetica, sans-serif;
-  padding-top: clamp(1rem, 2.4rem, 3.6rem);
-  padding-bottom: clamp(1rem, 2.4rem, 3.6rem);
-  padding-left: clamp(1.2rem, 2.4rem, 3.6rem);
-  padding-right: clamp(1rem, 2.4rem, 3.6rem);
-  letter-spacing: -.1rem;
-}
-/* line 46, ../css/sass/partials/type.scss */
-.pq::before {
-  content: open-quote;
-  position: absolute;
-  margin-left: -3.6rem;
-  margin-top: -3.6rem;
-  font-size: 6rem;
-}
-/* line 55, ../css/sass/partials/type.scss */
-.pq::after {
-  content: close-quote;
-  position: absolute;
-  margin-left: 2.4rem;
-  margin-top: 2.4rem;
-  font-size: 6rem;
-}
-
-/* line 70, ../css/sass/partials/type.scss */
-.kent {
-  font-family: 'kent', Arial, Helvetica, sans-serif;
-}
-
-/* line 76, ../css/sass/partials/type.scss */
-.over-text::before {
-  width: 10vw;
-  height: 1px;
-  background: #444;
-}
-
-/* line 85, ../css/sass/partials/type.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'kent', Arial, Helvetica, sans-serif;
-  margin: 0 0 1.2rem 0;
-  padding: 0;
-  line-height: 1;
-  letter-spacing: -.1rem;
-}
-
-/* line 95, ../css/sass/partials/type.scss */
-p, ul, ol, li {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-size: clamp(1.2rem, 1.6rem, 1.8rem);
-  margin: 0 0 1.2rem 0;
-  line-height: 1.35;
-  letter-spacing: -.1rem;
-}
-
-/* line 109, ../css/sass/partials/type.scss */
-.button {
-  font-family: 'kent', Arial, Helvetica, sans-serif;
-  border-radius: 2.8rem;
-  display: block;
-  width: fit-content;
-}
-
-/* line 117, ../css/sass/partials/type.scss */
-.primary {
-  font-size: 1.8rem;
-  padding: 1.2rem 2.4rem;
-  background: #444444;
-  color: #fff;
-  border: transparent .2rem solid;
-  height: 5.6rem;
-  display: block;
-}
-/* line 127, ../css/sass/partials/type.scss */
-.primary:hover {
-  text-decoration: none;
-  border: .2rem solid #444444;
-  color: #444444;
-  background: transparent;
-}
-
-/* line 139, ../css/sass/partials/type.scss */
-.secondary {
-  font-size: 1.8rem;
-  padding: 1.2rem 2.4rem;
-  text-decoration: none;
-  border: .2rem solid #444444;
-  color: #444444;
-  height: 5.6rem;
-  display: block;
-}
-/* line 150, ../css/sass/partials/type.scss */
-.secondary:hover {
-  background: #444444;
-  color: #fff;
-  border: #444444 .2rem solid;
-  text-decoration: none;
-}
-
-/* line 160, ../css/sass/partials/type.scss */
-.third {
-  font-size: 1.6rem;
-  padding: .4rem .8rem;
-  border: .2rem solid #f5f5f5;
-  color: #444444;
-  height: 4rem;
-  display: block;
-  background: #f5f5f5;
-}
-/* line 170, ../css/sass/partials/type.scss */
-.third:hover {
-  background: #444444;
-  color: #f5f5f5;
-  border: #f5f5f5 .2rem solid;
-  text-decoration: none;
-}
-
-/* line 183, ../css/sass/partials/type.scss */
-.fourth {
-  font-size: 1.4rem;
-  padding: .4rem .8rem;
-  border: .2rem solid #444444;
-  color: #444444;
-  height: 3.6rem;
-  display: block;
-}
-/* line 192, ../css/sass/partials/type.scss */
-.fourth:hover {
-  background: #444444;
-  color: #fff;
-  border: black .2rem solid;
-  text-decoration: none;
-}
-
-/* line 205, ../css/sass/partials/type.scss */
-.text-center {
-  text-align: center;
-}
+Backtrace:
+/Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/type.scss:123
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/lexer.rb:229:in `expected!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/parser.rb:710:in `assert_expr'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/parser.rb:75:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1063:in `sass_script'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:909:in `value!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:778:in `block in try_declaration'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1183:in `rethrow'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:791:in `try_declaration'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:720:in `declaration_or_ruleset'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    background: \": expected expression (e.g. 1px, bold), was \"; \"\A         on line 123 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/type.scss\A \A 118: \A 119: .primary {  \A 120: \A 121:     font-size: 1.8rem; \A 122:     padding: 1.2rem 2rem; \A 123:     background: ; \A 124:     color: #fff;\A 125:     border: transparent .2rem solid;  \A 126:     height: 5.6rem; \A 127:     display: flex;\A 128: "; }
