@@ -16,7 +16,7 @@
 
 
 
-<picture class="lazy">
+<picture>
     <source height="1400" width="2400" media="(min-width: 1000px)" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hero_BG_desktop.jpg">
     <source height="1400" width="1200" media="(min-width: 470px)" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Hero_BG_tablet.jpg">
 	<img height="600" width="900"  alt="person skateboarding" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hero_BG_mobile.jpg"/></picture>
@@ -48,7 +48,7 @@ We do this for the love of skateboarding. Blaser Boards was founded in 2022 by a
 </blockquote>
 <div class="cite-wrapper text-center flex"><cite class="v-align flex">–Justin Cornett, 
 Founder, Louisville, KY </cite>
-<img class="circle lazy" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/justin.jpg"/></div>
+<img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/justin.jpg"/></div>
 </div>
 
 </div>
@@ -82,7 +82,7 @@ Founder, Louisville, KY </cite>
 A lot of people buy a surfboard because their favorite shapers made it, not because their favorite company made it.</blockquote>
 <div class="h-align flex v-align second-row"><div class="cite-wrapper text-center flex"><cite class="v-align flex">–Korey Blaser, 
 Founder, Louisville, KY </cite>
-<img class="circle lazy" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/korey.jpg"/></div>
+<img class="circle" height="84" width="84" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/people/korey.jpg"/></div>
 </div></div>
 
 </div>
@@ -93,7 +93,7 @@ Founder, Louisville, KY </cite>
 
 <div class="grid-item-1 card overlay">
 
-<img class="card-item card-item-image lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
+<img class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
 <p  class="card-item card-item-text kent">Designs as unique as you</p>
 <a class="button third card-item card-item-button" href="/decks">Custom Decks</a>
 
@@ -102,7 +102,7 @@ Founder, Louisville, KY </cite>
 
 <div class="grid-item-2 col-3 card">
 
-<img  class="card-item card-item-image lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image_2.jpg"/>
+<img  class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image_2.jpg"/>
 
 
 <p class="card-item card-item-text kent">Made to order decks</p>
