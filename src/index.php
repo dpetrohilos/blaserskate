@@ -2,9 +2,10 @@
 <div class="hero grid grid-row-1"> 
 <section class="grid-item-1 col-1">
 <header class="content">
-<div class="over-text kent sub-title">2022</div>
-<h1 class="section-title">Handcrafted decks</h1>
-<p>Blaser Boards are custom designed from the gnarliest of wood for an unforgettable shredding experience. Each skateboard is made with love in Central Kentucky. Catch wicked air and get mad sketchy. <strong>No broom required to fly with us.</strong>
+<div class="over-text kent sub-title">Blaser Skateboards</div>
+<h1 class="section-title">Old School Meets New School</h1>
+<p>Blaser Boards are custom designed from the gnarliest wood for unforgettable shredding. Each skateboard is handmade with love, right out of Lexington, KY. Catch wicked air and get mad sketchy.
+<strong>No broom required to fly.</strong>
 </p>
 <a class="button primary" href="/store">Explore</a>
 
@@ -59,7 +60,10 @@ Founder, Louisville, KY </cite>
 <div class="grid grid-row-3">
 
 <header class="first-row title">
-<h2 class="section-title">Shred The Gnar</h2>
+<h2 class="section-title">Butterflies In Your Stomach</h2>
+<p>Our super poppy decks will have your stomach doing kickflips. True beauties, and the strongest ride you can get. Each board leaves enough concave for sick flip tricks so you can fly like LeBron and look good doing it. 
+</p>
+
 </header>
 
 <div class="second-row flex inline-flex">
