@@ -1438,8 +1438,8 @@ p, ul, ol, li {
 /* line 138, css/sass/partials/type.scss */
 .primary:hover {
   text-decoration: none;
-  border: 0.2rem solid #232323;
-  color: #232323;
+  border: 0.2rem solid #634e87;
+  color: #634e87;
   background: transparent;
 }
 /* line 149, css/sass/partials/type.scss */
