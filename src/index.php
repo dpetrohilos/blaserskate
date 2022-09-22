@@ -33,9 +33,9 @@
 
 
 
-<div class="grid grid-row-2 col-wrapper">
+<div class="grid grid-row-2 col-wrapper photo-area-wrapper">
 
-<div class="grid-item-1 col-1 photo-area-wrapper radius bg-shadow bg-white">
+<div class="grid-item-1 col-1 radius bg-shadow bg-white">
 
 <img class="radius" alt="person skateboarding" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/kickflip2.jpg"/>
 

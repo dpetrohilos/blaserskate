@@ -118,7 +118,7 @@
 }
 
 /* line 143, ../css/sass/partials/grid.scss */
-.photo-area-wrapper {
+.grid-row-2 {
   display: grid;
   gap: 1.6rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -126,11 +126,11 @@
   margin-top: -75vh;
 }
 /* line 150, ../css/sass/partials/grid.scss */
-.photo-area-wrapper .card {
+.grid-row-2 .card {
   aspect-ratio: 1 / 2;
 }
 /* line 154, ../css/sass/partials/grid.scss */
-.photo-area-wrapper .card img {
+.grid-row-2 .card img {
   width: 100%;
   aspect-ratio: 1 / 2;
   object-fit: cover;
@@ -294,7 +294,7 @@
   }
 
   /* line 399, ../css/sass/partials/grid.scss */
-  .photo-area-wrapper {
+  .grid-row-2 {
     position: relative;
     margin-top: -10vh;
   }
