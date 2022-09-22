@@ -1604,7 +1604,7 @@ a {
 
 /* line 100, css/sass/partials/grid.scss */
 .hero > .col-1 {
-  margin: 0 auto;
+  margin: 1rem auto 0;
   max-width: 144rem;
   grid-area: 1 / 1 / 1 / 1;
   width: 100%;
