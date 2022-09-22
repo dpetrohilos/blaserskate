@@ -117,12 +117,16 @@ align-items: center;
 text-align: center;
 margin-top: 1.6rem; 
 
+&:focus {
+    text-decoration: none;
+}
+
 }
 
 .primary {  
 
     font-size: 1.8rem; 
-    padding: 1.2rem 2rem; 
+    padding: 1.2rem 3.6rem; 
     background: $purple; 
     color: #fff;
     border: transparent .2rem solid;  
@@ -151,13 +155,12 @@ margin-top: 1.6rem;
 
 .secondary {
 
-    font-size: 1.8rem; 
+    font-size: 1.6rem; 
     padding: 1.2rem 2.4rem; 
     text-decoration: none;
     border: .2rem solid $text-color; 
     color: $text-color; 
-    height: 5.6rem; 
-    display: block; 
+    height: 4rem; 
 
 
     &:hover {
@@ -173,7 +176,7 @@ margin-top: 1.6rem;
 .third {
 
     font-size: 1.6rem;
-    padding: .4rem .8rem;
+    padding: .4rem 2rem;
     border: .2rem solid #f5f5f5; 
     color: $text-color; 
     height: 4rem; 
@@ -184,7 +187,7 @@ margin-top: 1.6rem;
 
         background: $text-color; 
         color: #f5f5f5;
-        border: #f5f5f5 .2rem solid;  
+        border: $text-color .2rem solid;  
         text-decoration: none;
     }
 
@@ -200,7 +203,6 @@ margin-top: 1.6rem;
     border: .2rem solid $text-color; 
     color: $text-color; 
     height: 3.6rem; 
-    display: block; 
 
     &:hover {
 

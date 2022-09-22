@@ -108,40 +108,43 @@ p, ul, ol, li {
   text-align: center;
   margin-top: 1.6rem;
 }
+/* line 120, ../css/sass/partials/type.scss */
+.button:focus {
+  text-decoration: none;
+}
 
-/* line 122, ../css/sass/partials/type.scss */
+/* line 126, ../css/sass/partials/type.scss */
 .primary {
   font-size: 1.8rem;
-  padding: 1.2rem 2rem;
+  padding: 1.2rem 3.6rem;
   background: #634e87;
   color: #fff;
   border: transparent .2rem solid;
   height: 5.6rem;
 }
-/* line 132, ../css/sass/partials/type.scss */
+/* line 136, ../css/sass/partials/type.scss */
 .primary:hover {
   text-decoration: none;
   border: 0.2rem solid #232323;
   color: #232323;
   background: transparent;
 }
-/* line 143, ../css/sass/partials/type.scss */
+/* line 147, ../css/sass/partials/type.scss */
 .primary:focus {
   text-decoration: none;
   border: 0.2rem solid #634e87;
 }
 
-/* line 152, ../css/sass/partials/type.scss */
+/* line 156, ../css/sass/partials/type.scss */
 .secondary {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding: 1.2rem 2.4rem;
   text-decoration: none;
   border: 0.2rem solid #232323;
   color: #232323;
-  height: 5.6rem;
-  display: block;
+  height: 4rem;
 }
-/* line 163, ../css/sass/partials/type.scss */
+/* line 166, ../css/sass/partials/type.scss */
 .secondary:hover {
   background: #232323;
   color: #fff;
@@ -149,34 +152,33 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 173, ../css/sass/partials/type.scss */
+/* line 176, ../css/sass/partials/type.scss */
 .third {
   font-size: 1.6rem;
-  padding: .4rem .8rem;
+  padding: .4rem 2rem;
   border: .2rem solid #f5f5f5;
   color: #232323;
   height: 4rem;
   display: block;
   background: #f5f5f5;
 }
-/* line 183, ../css/sass/partials/type.scss */
+/* line 186, ../css/sass/partials/type.scss */
 .third:hover {
   background: #232323;
   color: #f5f5f5;
-  border: #f5f5f5 .2rem solid;
+  border: #232323 0.2rem solid;
   text-decoration: none;
 }
 
-/* line 196, ../css/sass/partials/type.scss */
+/* line 199, ../css/sass/partials/type.scss */
 .fourth {
   font-size: 1.4rem;
   padding: .4rem .8rem;
   border: 0.2rem solid #232323;
   color: #232323;
   height: 3.6rem;
-  display: block;
 }
-/* line 205, ../css/sass/partials/type.scss */
+/* line 207, ../css/sass/partials/type.scss */
 .fourth:hover {
   background: #232323;
   color: #fff;
@@ -184,7 +186,7 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 218, ../css/sass/partials/type.scss */
+/* line 220, ../css/sass/partials/type.scss */
 .text-center {
   text-align: center;
 }
