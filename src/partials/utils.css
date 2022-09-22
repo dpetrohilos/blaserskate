@@ -28,3 +28,8 @@
 .hideme:nth-child(2) {
   opacity: 1 !important;
 }
+
+/* line 45, ../css/sass/partials/utils.scss */
+.radius {
+  border-radius: 1.2rem;
+}

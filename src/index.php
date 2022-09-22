@@ -36,11 +36,8 @@
 
 <div class="grid-item-1 col-1 photo-area-wrapper">
 
-<div class="vidoe-wrapper featured card"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_1.jpg"/></div>
-<div class="card first-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_2.jpg"/></div>
-<div class="card first-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_3.jpg"/></div>
-<div class="card second-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_4.jpg"/></div>
-<div class="card second-row"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/grid/img_5.jpg"/></div>
+<img class="radius" alt="person skateboarding" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/kickflip2.jpg.jpg"/></picture>
+
 </div>
 <div class="grid-item-2 col-2 first-row flex v-align">
 

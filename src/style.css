@@ -507,6 +507,11 @@ input[type="search"] {
   opacity: 1 !important;
 }
 
+/* line 45, css/sass/partials/utils.scss */
+.radius {
+  border-radius: 1.2rem;
+}
+
 /**
  * partials/wrapper
  * ---
