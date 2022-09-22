@@ -176,37 +176,48 @@ if (window.innerWidth > 999) {
 </script>
 
 <script>
-  function pastelColors() {
-  var r = (Math.round(Math.random() * 127) + 127).toString(16);
-  var g = (Math.round(Math.random() * 127) + 127).toString(16);
-  var b = (Math.round(Math.random() * 127) + 127).toString(16);
-  return "#" + r + g + b;
-}
-document.addEventListener("DOMContentLoaded", function(event) {
-  var div = document.getElementsByClassName("hideme");
-  for (var i = 0; i < div.length; i++) {
-    div[i].style.background = pastelColors();
-    console.log(div[i].style.background);
-  }
+       (function () {
+        function logElementEvent(eventName, element) {
+          console.log(Date.now(), eventName, element.getAttribute("data-src"));
+        }
 
-  var top = [];
-  window.onscroll = function() {
-    "use strict";
-    var scrolltop = document.documentElement.scrollTop + window.outerHeight;
-    var hideme = document.getElementsByClassName("hideme");
+        var callback_enter = function (element) {
+          logElementEvent("🔑 ENTERED", element);
+        };
+        var callback_exit = function (element) {
+          logElementEvent("🚪 EXITED", element);
+        };
+        var callback_loading = function (element) {
+          logElementEvent("⌚ LOADING", element);
+        };
+        var callback_loaded = function (element) {
+          logElementEvent("👍 LOADED", element);
+        };
+        var callback_error = function (element) {
+          logElementEvent("💀 ERROR", element);
+          element.src =
+            "https://via.placeholder.com/440x560/?text=Error+Placeholder";
+        };
+        var callback_finish = function () {
+          logElementEvent("✔️ FINISHED", document.documentElement);
+        };
+        var callback_cancel = function (element) {
+          logElementEvent("🔥 CANCEL", element);
+        };
 
-    for (var i = 0; i < hideme.length; i++) {
-      top[i] = hideme[i].offsetTop + window.innerHeight;
-      if (scrolltop > top[i]) {
-        console.log(top[i]);
-        hideme[i].style.opacity = "1";
-      } else {
-        hideme[i].style.opacity = "0";
-      }
-      // console.log(top,scrolltop);
-    }
-  };
-});
+        var ll = new LazyLoad({
+          threshold: 0,
+          // Assign the callbacks defined above
+          callback_enter: callback_enter,
+          callback_exit: callback_exit,
+          callback_cancel: callback_cancel,
+          callback_loading: callback_loading,
+          callback_loaded: callback_loaded,
+          callback_error: callback_error,
+          callback_finish: callback_finish
+        });
+      })();
+
 
   </script>
 

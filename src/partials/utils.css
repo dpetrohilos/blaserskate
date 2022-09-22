@@ -44,3 +44,25 @@
   -webkit-box-shadow: 0px 0px 30px 13px rgba(35, 35, 35, 0.38);
   box-shadow: 0px 0px 30px 13px rgba(35, 35, 35, 0.38);
 }
+
+/* line 61, ../css/sass/partials/utils.scss */
+img.lazy {
+  opacity: 0;
+}
+
+/* line 64, ../css/sass/partials/utils.scss */
+img:not(.initial) {
+  transition: opacity 1s;
+}
+
+/* line 67, ../css/sass/partials/utils.scss */
+img.initial,
+img.loaded,
+img.error {
+  opacity: 1;
+}
+
+/* line 73, ../css/sass/partials/utils.scss */
+img:not([src]) {
+  visibility: hidden;
+}
