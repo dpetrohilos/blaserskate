@@ -205,9 +205,6 @@ margin: 0;
 
 
 .grid-row-5 {
-
-
-
 .card {
 
   display: grid;
@@ -225,10 +222,13 @@ margin: 0;
   }
 
 .card-item-button {
-grid-area: 7 / 7 / 6 / 1;
-display: flex;
-align-items: center;
-margin-left: 1.6rem;
+  grid-area: 6 / 7 / 6 / 1;
+  /* display: flex; */
+  /* align-items: center; */
+  margin-left: 1.6rem;
+  padding-bottom: -0.8rem;
+  top: -1.6rem;
+  position: relative;
   
 }
 

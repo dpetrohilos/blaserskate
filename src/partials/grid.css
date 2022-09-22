@@ -151,7 +151,7 @@
   justify-content: center;
 }
 
-/* line 211, ../css/sass/partials/grid.scss */
+/* line 208, ../css/sass/partials/grid.scss */
 .grid-row-5 .card {
   display: grid;
   grid-template-rows: repeat(6, auto);
@@ -159,17 +159,20 @@
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
 }
-/* line 219, ../css/sass/partials/grid.scss */
+/* line 216, ../css/sass/partials/grid.scss */
 .grid-row-5 .card .card-item-image {
   grid-area: 1 / 1 / 7 / 7;
   border-radius: 1.2rem;
 }
-/* line 227, ../css/sass/partials/grid.scss */
+/* line 224, ../css/sass/partials/grid.scss */
 .grid-row-5 .card .card-item-button {
-  grid-area: 7 / 7 / 6 / 1;
-  display: flex;
-  align-items: center;
+  grid-area: 6 / 7 / 6 / 1;
+  /* display: flex; */
+  /* align-items: center; */
   margin-left: 1.6rem;
+  padding-bottom: -0.8rem;
+  top: -1.6rem;
+  position: relative;
 }
 /* line 235, ../css/sass/partials/grid.scss */
 .grid-row-5 .card .card-item-text {
