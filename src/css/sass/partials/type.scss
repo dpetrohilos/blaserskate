@@ -139,6 +139,14 @@ margin-top: 1.6rem;
 
 
     }
+
+    &:focus {
+
+        text-decoration: none;
+        border: .2rem solid $purple; 
+
+
+    }
 }
 
 .secondary {

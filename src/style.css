@@ -1432,8 +1432,13 @@ p, ul, ol, li {
   color: #232323;
   background: transparent;
 }
+/* line 143, css/sass/partials/type.scss */
+.primary:focus {
+  text-decoration: none;
+  border: 0.2rem solid #634e87;
+}
 
-/* line 144, css/sass/partials/type.scss */
+/* line 152, css/sass/partials/type.scss */
 .secondary {
   font-size: 1.8rem;
   padding: 1.2rem 2.4rem;
@@ -1443,7 +1448,7 @@ p, ul, ol, li {
   height: 5.6rem;
   display: block;
 }
-/* line 155, css/sass/partials/type.scss */
+/* line 163, css/sass/partials/type.scss */
 .secondary:hover {
   background: #232323;
   color: #fff;
@@ -1451,7 +1456,7 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 165, css/sass/partials/type.scss */
+/* line 173, css/sass/partials/type.scss */
 .third {
   font-size: 1.6rem;
   padding: .4rem .8rem;
@@ -1461,7 +1466,7 @@ p, ul, ol, li {
   display: block;
   background: #f5f5f5;
 }
-/* line 175, css/sass/partials/type.scss */
+/* line 183, css/sass/partials/type.scss */
 .third:hover {
   background: #232323;
   color: #f5f5f5;
@@ -1469,7 +1474,7 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 188, css/sass/partials/type.scss */
+/* line 196, css/sass/partials/type.scss */
 .fourth {
   font-size: 1.4rem;
   padding: .4rem .8rem;
@@ -1478,7 +1483,7 @@ p, ul, ol, li {
   height: 3.6rem;
   display: block;
 }
-/* line 197, css/sass/partials/type.scss */
+/* line 205, css/sass/partials/type.scss */
 .fourth:hover {
   background: #232323;
   color: #fff;
@@ -1486,7 +1491,7 @@ p, ul, ol, li {
   text-decoration: none;
 }
 
-/* line 210, css/sass/partials/type.scss */
+/* line 218, css/sass/partials/type.scss */
 .text-center {
   text-align: center;
 }
