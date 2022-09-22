@@ -1574,7 +1574,7 @@ p, ul, ol, li {
 }
 /* line 62, css/sass/partials/grid.scss */
 .col-wrapper .col-1 p {
-  max-width: 46rem;
+  max-width: 44rem;
   width: 100%;
 }
 /* line 68, css/sass/partials/grid.scss */
@@ -1583,7 +1583,7 @@ p, ul, ol, li {
 }
 /* line 70, css/sass/partials/grid.scss */
 .col-wrapper .col-2 p {
-  max-width: 46rem;
+  max-width: 44rem;
   width: 100%;
 }
 
@@ -1785,7 +1785,7 @@ p, ul, ol, li {
   }
   /* line 379, css/sass/partials/grid.scss */
   .hero > .col-1 p {
-    max-width: 46rem;
+    max-width: 44rem;
   }
   /* line 384, css/sass/partials/grid.scss */
   .hero > .col-1 .content {
