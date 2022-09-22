@@ -111,8 +111,11 @@ p,ul,ol,li {
 .button {  
 font-family: 'kent', Arial, Helvetica, sans-serif;
 border-radius: 2.8rem;
-display: block;
+display: flex;
 width: fit-content;
+align-items: center;
+text-align: center;
+margin-top: 1.6rem; 
 
 }
 
@@ -124,7 +127,6 @@ width: fit-content;
     color: #fff;
     border: transparent .2rem solid;  
     height: 5.6rem; 
-    display: flex;
 
 
     &:hover {
