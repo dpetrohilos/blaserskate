@@ -136,7 +136,7 @@ margin: 0;
 
 .photo-area-wrapper {
   display: grid;
-  gap: 0.125rem;
+  gap: 1.6rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 
   .card {
@@ -154,26 +154,9 @@ margin: 0;
 
   }
 
-  .featured {
-    
-    img{
-    width: 100%;
-    aspect-ratio: 1 / 2;
-    object-fit: cover;
-  
-  }
 
-  }
 
-  .first-row {
-    grid-row: 1 / span 1;
 
-  }
-
-  .second-row {
-    grid-row: 2 / span 1;
-
-  }
 
 }
 
