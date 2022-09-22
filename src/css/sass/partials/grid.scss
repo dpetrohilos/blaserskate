@@ -211,7 +211,7 @@ margin: 0;
 .card {
 
   display: grid;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(6, auto);
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
@@ -226,8 +226,8 @@ margin: 0;
 
 .card-item-button {
 grid-area: 7 / 7 / 6 / 1;
-
-margin-top: 6rem;
+display: flex;
+align-items: center;
 margin-left: 1.6rem;
   
 }
