@@ -225,6 +225,11 @@ margin: 0;
   grid-area: 1 / 1 / 7 / 7;
   border-radius: 1.2rem;
 
+  &::after {
+
+    box-shadow: inset 0px 28px 17px -11px #232323;
+  }
+
   }
 
 .card-item-button {
