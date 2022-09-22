@@ -14,6 +14,12 @@
   }
 
 
+
+
+  .content {
+    padding: 0;  
+  }
+
 .grid {
   display: grid;
   grid-template-rows: auto;
@@ -116,8 +122,6 @@ margin: 0;
 
   z-index: -1;
   grid-area: 1 / 1 / 1 / 1;
-  max-height: 100vh; 
-  max-width: 100vw;
 
 
   img {
@@ -354,6 +358,11 @@ display: grid;
 @media (max-width: 98em) {
 
 
+.content {
+  padding: 1.6rem; 
+}
+
+
 .hero {
 
   margin-top: 14.4rem; 
@@ -364,12 +373,15 @@ display: grid;
   .hero > .col-1 {
   
     grid-area: 1 / 1 / 1 / 1;      
+ 
     p {  max-width: 46rem;
+ 
     }
   
   
       .content {
-        margin-top: 7.2rem;
+        margin-top: 3.2rem;
+        padding: 1.6rem; 
   
       }
   
