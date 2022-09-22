@@ -37,6 +37,10 @@
 /* line 50, ../css/sass/partials/utils.scss */
 .bg-white {
   background: #fff;
+}
+
+/* line 53, ../css/sass/partials/utils.scss */
+.bg-shadow {
   -webkit-box-shadow: 0px 0px 30px 13px rgba(35, 35, 35, 0.38);
   box-shadow: 0px 0px 30px 13px rgba(35, 35, 35, 0.38);
 }
