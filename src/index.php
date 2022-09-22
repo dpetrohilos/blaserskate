@@ -39,7 +39,7 @@
 <img class="radius" alt="person skateboarding" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/kickflip2.jpg"/>
 
 </div>
-<div class="grid-item-2 col-2 first-row flex v-align border-radius bg-white">
+<div class="grid-item-2 col-2 first-row flex v-align radius bg-white">
 
 <div class="v-align grid-row">
 <blockquote class="pq">
