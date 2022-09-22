@@ -1670,7 +1670,7 @@ p, ul, ol, li {
 .grid-row-5 .card .card-item-image {
   grid-area: 1 / 1 / 7 / 7;
   border-radius: 1.2rem;
-  box-shadow: inset 0px 4rem 1.6rem -1.1rem #232323;
+  box-shadow: inset 4rem 100rem 4rem 4rem #232323;
 }
 /* line 232, css/sass/partials/grid.scss */
 .grid-row-5 .card .card-item-button {
