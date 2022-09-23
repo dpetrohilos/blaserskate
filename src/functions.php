@@ -463,9 +463,6 @@ function html5_shortcode_demo( $atts, $content = null ) {
 function html5_shortcode_demo_2( $atts, $content = null ) {
     return '<h2>' . $content . '</h2>';
 }
-Footer
-© 2022 GitHub, Inc.
-
 
 // WOO 
 
