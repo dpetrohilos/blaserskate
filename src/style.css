@@ -1531,6 +1531,11 @@ a {
   transition: 0.25s ease-in;
 }
 
+/* line 1, css/sass/partials/woocommerce.scss */
+.products {
+  display: grid;
+}
+
 /**
  * modules/variables
  * ---
