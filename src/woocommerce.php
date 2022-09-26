@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<main id="woo" role="main" aria-label="Content" class="grid wrapper">
+	<main id="woo" role="main" aria-label="Content" class="wrapper woo">
 		<!-- section -->
 		<section>
 
