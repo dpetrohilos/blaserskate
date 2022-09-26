@@ -1531,27 +1531,6 @@ a {
   transition: 0.25s ease-in;
 }
 
-/* line 1, css/sass/partials/woocommerce.scss */
-.products {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  width: 100%;
-  margin: 0 auto;
-  padding: 1.2rem;
-  grid-column-gap: 1.6rem;
-  grid-row-gap: 1.6rem;
-}
-/* line 12, css/sass/partials/woocommerce.scss */
-.products li {
-  list-style: none;
-}
-/* line 15, css/sass/partials/woocommerce.scss */
-.products li a, .products li img, .products li span, .products li li, .products li div {
-  grid-area: 1 / 1 / 1 / 1;
-  list-style: none;
-}
-
 /**
  * modules/variables
  * ---
@@ -1930,4 +1909,24 @@ a {
   .col-wrapper .col-2 {
     grid-area: 1 / 1 / 1 / 1;
   }
+}
+/* line 1, css/sass/partials/woocommerce.scss */
+.products {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.2rem;
+  grid-column-gap: 1.6rem;
+  grid-row-gap: 1.6rem;
+}
+/* line 12, css/sass/partials/woocommerce.scss */
+.products li {
+  list-style: none;
+}
+/* line 15, css/sass/partials/woocommerce.scss */
+.products li a, .products li img, .products li span, .products li li, .products li div {
+  grid-area: 1 / 1 / 1 / 1;
+  list-style: none;
 }
