@@ -8,5 +8,15 @@
     padding: 1.2rem;
     grid-column-gap: 1.6rem;
     grid-row-gap: 1.6rem;
+
+    li {
+
+        a, img, span {
+            grid-area:  1 / 1 / 1 / 1;
+        }
+    }
   
+
+    .button {}
+
 }
