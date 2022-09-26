@@ -11,8 +11,10 @@
 
     li {
 
-        a, img, span {
+        list-style: none;
+        a, img, span, li, div {
             grid-area:  1 / 1 / 1 / 1;
+            list-style: none;
         }
     }
   

@@ -9,7 +9,12 @@
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
 }
-/* line 14, ../css/sass/partials/woocommerce.scss */
-.products li a, .products li img, .products li span {
+/* line 12, ../css/sass/partials/woocommerce.scss */
+.products li {
+  list-style: none;
+}
+/* line 15, ../css/sass/partials/woocommerce.scss */
+.products li a, .products li img, .products li span, .products li li, .products li div {
   grid-area: 1 / 1 / 1 / 1;
+  list-style: none;
 }
