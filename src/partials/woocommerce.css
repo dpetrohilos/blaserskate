@@ -1,4 +1,4 @@
-/* line 1, ../css/sass/partials/woocommerce.scss */
+/* line 3, ../css/sass/partials/woocommerce.scss */
 .products {
   display: grid;
   grid-template-rows: auto;
@@ -9,20 +9,25 @@
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
 }
-/* line 12, ../css/sass/partials/woocommerce.scss */
+/* line 14, ../css/sass/partials/woocommerce.scss */
 .products li {
   list-style: none;
 }
-/* line 15, ../css/sass/partials/woocommerce.scss */
+/* line 17, ../css/sass/partials/woocommerce.scss */
 .products li a, .products li img, .products li span, .products li li, .products li div {
   grid-area: 1 / 1 / 1 / 1;
   list-style: none;
 }
 
-/* line 27, ../css/sass/partials/woocommerce.scss */
+/* line 33, ../css/sass/partials/woocommerce.scss */
 .woo {
   display: grid;
   gap: 1.6rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   position: relative;
+}
+
+/* line 48, ../css/sass/partials/woocommerce.scss */
+.onsale {
+  position: absolute;
 }

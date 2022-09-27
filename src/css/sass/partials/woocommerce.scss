@@ -1,3 +1,5 @@
+// front page layout 
+
 .products {
 
     display: grid;
@@ -23,12 +25,27 @@
 
 }
 
+.woocommerce-LoopProduct-link  {}
 
+
+
+// page layout 
 .woo {
     display: grid;
     gap: 1.6rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     position: relative;
+
+.woocommerce-product-gallery {}
+
 .summary {}
 
+.woocommerce-tabs {}
+
 }
+
+
+.onsale {
+    position: absolute;
+}
+
