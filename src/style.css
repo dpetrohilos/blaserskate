@@ -1963,7 +1963,13 @@ a {
   font-family: "kent", Arial, Helvetica, sans-serif;
 }
 
-/* line 63, css/sass/partials/woocommerce.scss */
+/* line 60, css/sass/partials/woocommerce.scss */
+.woocommerce-Price-amount {
+  font-weight: bold;
+  color: #634e87;
+}
+
+/* line 69, css/sass/partials/woocommerce.scss */
 .attachment-woocommerce_thumbnail {
   border-radius: 1.2rem;
   aspect-ratio: 1 / 1;

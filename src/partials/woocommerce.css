@@ -1,71 +1,65 @@
-/*
-Error: Undefined variable: "$kent".
-        on line 57 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/woocommerce.scss
+/**
+ * modules/variables
+ * ---
+ */
+/**
+ * Typography
+ */
+/**
+ * Colors
+ */
+/**
+ * Grid
+ */
+/* line 4, ../css/sass/partials/woocommerce.scss */
+.products {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.2rem;
+  grid-column-gap: 1.6rem;
+  grid-row-gap: 1.6rem;
+}
+/* line 15, ../css/sass/partials/woocommerce.scss */
+.products li {
+  list-style: none;
+}
+/* line 18, ../css/sass/partials/woocommerce.scss */
+.products li a, .products li img, .products li span, .products li li, .products li div {
+  grid-area: 1 / 1 / 1 / 1;
+  list-style: none;
+}
 
-52:     padding: 1.2rem 0.6rem;
-53:     background: #232323;
-54:     margin: 2.4rem 0rem;
-55:     color: #fff;
-56:     font-size: 1rem; 
-57:     font-family: $kent;
-58: }
-59: 
-60: 
-61: // img 
-62: 
+/* line 34, ../css/sass/partials/woocommerce.scss */
+.woo {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  position: relative;
+}
 
-Backtrace:
-/Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/woocommerce.scss:57
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$kent\".\A         on line 57 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/woocommerce.scss\A \A 52:     padding: 1.2rem 0.6rem;\A 53:     background: #232323;\A 54:     margin: 2.4rem 0rem;\A 55:     color: #fff;\A 56:     font-size: 1rem; \A 57:     font-family: $kent;\A 58: }\A 59: \A 60: \A 61: // img \A 62: "; }
+/* line 50, ../css/sass/partials/woocommerce.scss */
+.onsale {
+  position: absolute;
+  padding: 1.2rem 0.6rem;
+  background: #232323;
+  margin: 2.4rem 0rem;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "kent", Arial, Helvetica, sans-serif;
+}
+
+/* line 60, ../css/sass/partials/woocommerce.scss */
+.woocommerce-Price-amount {
+  font-weight: bold;
+  color: #634e87;
+}
+
+/* line 69, ../css/sass/partials/woocommerce.scss */
+.attachment-woocommerce_thumbnail {
+  border-radius: 1.2rem;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
