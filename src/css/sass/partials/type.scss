@@ -9,9 +9,9 @@
     margin-top: 12rem; 
 
     span {
-        width: minmax(22rem,46rem); 
-        max-width: 100%;
-    }
+        width: clamp(24rem,50vw, 72rem); 
+        display: block; 
+   }
 }
 
 .section-title {
