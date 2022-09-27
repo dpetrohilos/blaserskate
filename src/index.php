@@ -60,7 +60,7 @@ Founder, Louisville, KY </cite>
 <div class="grid grid-row-3">
 
 <header class="first-row title">
-<h2 class="section-title">Custom Art, Hand Pressed Skate Decks
+<h2 class="section-title"><span>Custom Art, Hand Pressed Skate Decks</span>
 </h2>
 <p></p>
 
@@ -116,7 +116,7 @@ Founder, Louisville, KY </cite>
 <main role="main" aria-label="Content" class="grid-row-4 grid wrapper">
 		<!-- section replace loop with store -->
 		<section><header class="title">
-			<h4 class="section-title">In Stock</h4></header>
+			<h3 class="section-title"><span>In Stock</span></h3></header>
 
 
 			<ul class="products">
@@ -145,8 +145,8 @@ Founder, Louisville, KY </cite>
 	<div class="grid-row-6 grid wrapper">
 
 	<header class="grid-item-1 title">
-<h5 class="section-title">The Crew
-</h5>
+<h4 class="section-title">The Crew
+</h4>
 
 </header>
 
