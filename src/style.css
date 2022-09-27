@@ -1357,8 +1357,8 @@ button.menu-toggle span::after {
 /* line 11, css/sass/partials/type.scss */
 .title >
 .section-title span {
-  max-width: minmax(22rem, 46rem);
-  width: 100%;
+  width: minmax(22rem, 46rem);
+  max-width: 100%;
 }
 
 /* line 17, css/sass/partials/type.scss */
