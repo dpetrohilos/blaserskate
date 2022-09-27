@@ -37,11 +37,14 @@
     grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
     position: relative;
 
-.woocommerce-product-gallery {}
+.woocommerce-product-gallery {            grid-area:  1 / 1 / 1 / 1;
+}
 
-.summary {}
+.summary {            grid-area:  1 / 1 / 1 / 1;
+}
 
-.woocommerce-tabs {}
+.woocommerce-tabs {            grid-area:  1 / 1 / 1 / 1;
+}
 
 }
 
