@@ -1939,7 +1939,14 @@ a {
   position: relative;
 }
 
-/* line 48, css/sass/partials/woocommerce.scss */
+/* line 49, css/sass/partials/woocommerce.scss */
 .onsale {
   position: absolute;
+}
+
+/* line 56, css/sass/partials/woocommerce.scss */
+.attachment-woocommerce_thumbnail {
+  border-radius: 1.2rem;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
 }

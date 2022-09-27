@@ -44,8 +44,18 @@
 
 }
 
+// sale button 
 
 .onsale {
     position: absolute;
 }
 
+
+// img 
+
+.attachment-woocommerce_thumbnail {
+
+    border-radius: 1.2rem;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
