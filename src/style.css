@@ -1910,7 +1910,20 @@ a {
     grid-area: 1 / 1 / 1 / 1;
   }
 }
-/* line 3, css/sass/partials/woocommerce.scss */
+/**
+ * modules/variables
+ * ---
+ */
+/**
+ * Typography
+ */
+/**
+ * Colors
+ */
+/**
+ * Grid
+ */
+/* line 4, css/sass/partials/woocommerce.scss */
 .products {
   display: grid;
   grid-template-rows: auto;
@@ -1921,17 +1934,17 @@ a {
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
 }
-/* line 14, css/sass/partials/woocommerce.scss */
+/* line 15, css/sass/partials/woocommerce.scss */
 .products li {
   list-style: none;
 }
-/* line 17, css/sass/partials/woocommerce.scss */
+/* line 18, css/sass/partials/woocommerce.scss */
 .products li a, .products li img, .products li span, .products li li, .products li div {
   grid-area: 1 / 1 / 1 / 1;
   list-style: none;
 }
 
-/* line 33, css/sass/partials/woocommerce.scss */
+/* line 34, css/sass/partials/woocommerce.scss */
 .woo {
   display: grid;
   gap: 1.6rem;
@@ -1939,12 +1952,18 @@ a {
   position: relative;
 }
 
-/* line 49, css/sass/partials/woocommerce.scss */
+/* line 50, css/sass/partials/woocommerce.scss */
 .onsale {
   position: absolute;
+  padding: 1.2rem 0.6rem;
+  background: #232323;
+  margin: 2.4rem 0rem;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "kent", Arial, Helvetica, sans-serif;
 }
 
-/* line 56, css/sass/partials/woocommerce.scss */
+/* line 63, css/sass/partials/woocommerce.scss */
 .attachment-woocommerce_thumbnail {
   border-radius: 1.2rem;
   aspect-ratio: 1 / 1;
