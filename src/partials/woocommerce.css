@@ -43,21 +43,23 @@
 /* line 50, ../css/sass/partials/woocommerce.scss */
 .onsale {
   position: absolute;
-  padding: 1.2rem 0.6rem;
-  background: #232323;
-  margin: 2.4rem 0rem;
+  padding: 0.6rem 1.2rem;
+  background: #5be397;
+  margin: 2.4rem 1.2rem;
   color: #fff;
   font-size: 1rem;
   font-family: "kent", Arial, Helvetica, sans-serif;
+  border-radius: 4rem;
+  box-shadow: 10px 10px 50px #fff;
 }
 
-/* line 60, ../css/sass/partials/woocommerce.scss */
+/* line 63, ../css/sass/partials/woocommerce.scss */
 .woocommerce-Price-amount {
   font-weight: bold;
   color: #634e87;
 }
 
-/* line 69, ../css/sass/partials/woocommerce.scss */
+/* line 72, ../css/sass/partials/woocommerce.scss */
 .attachment-woocommerce_thumbnail {
   border-radius: 1.2rem;
   aspect-ratio: 1 / 1.5;

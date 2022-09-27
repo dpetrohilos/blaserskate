@@ -49,12 +49,15 @@
 
 .onsale {
     position: absolute;
-    padding: 1.2rem 0.6rem;
-    background: #232323;
-    margin: 2.4rem 0rem;
+    padding: 0.6rem 1.2rem;
+    background: $green;
+    margin: 2.4rem 1.2rem;
     color: #fff;
-    font-size: 1rem; 
-    font-family: $kent;
+    font-size: 1rem;
+    font-family: "kent", Arial, Helvetica, sans-serif;
+    border-radius: 4rem;
+    box-shadow: 10px 10px 50px #fff; 
+
 }
 
 .woocommerce-Price-amount {
