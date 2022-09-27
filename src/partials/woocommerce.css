@@ -39,8 +39,20 @@
   grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
   position: relative;
 }
+/* line 40, ../css/sass/partials/woocommerce.scss */
+.woo .woocommerce-product-gallery {
+  grid-area: 1 / 1 / 1 / 1;
+}
+/* line 43, ../css/sass/partials/woocommerce.scss */
+.woo .summary {
+  grid-area: 1 / 1 / 1 / 1;
+}
+/* line 46, ../css/sass/partials/woocommerce.scss */
+.woo .woocommerce-tabs {
+  grid-area: 1 / 1 / 1 / 1;
+}
 
-/* line 50, ../css/sass/partials/woocommerce.scss */
+/* line 53, ../css/sass/partials/woocommerce.scss */
 .onsale {
   position: absolute;
   padding: 0.6rem 1.2rem;
@@ -53,13 +65,13 @@
   box-shadow: 10px 10px 50px #fff;
 }
 
-/* line 63, ../css/sass/partials/woocommerce.scss */
+/* line 66, ../css/sass/partials/woocommerce.scss */
 .woocommerce-Price-amount {
   font-weight: bold;
   color: #634e87;
 }
 
-/* line 72, ../css/sass/partials/woocommerce.scss */
+/* line 75, ../css/sass/partials/woocommerce.scss */
 .attachment-woocommerce_thumbnail {
   border-radius: 1.2rem;
   aspect-ratio: 1 / 1.5;
