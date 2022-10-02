@@ -1,63 +1,379 @@
-/*
-Error: Undefined mixin 'media'.
-        on line 493 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss, in `media'
-        from line 493 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss
+/**
+ * modules/variables
+ * ---
+ */
+/**
+ * Typography
+ */
+/**
+ * Colors
+ */
+/**
+ * Grid
+ */
+/* line 4, ../css/sass/partials/grid.scss */
+.wrapper {
+  max-width: 144rem;
+  margin: 0 auto;
+  width: 100%;
+}
 
-488: 
-489: $breakpoints: (phone: 640px, 
-490:                tablet: 768px, 
-491:                desktop: 1024px) !default;
-492: 
-493: @include media(">phone", "<tablet") {
-494: }
-495: 
-496: @include media(">tablet", "<950px") {
-497: }
+/* line 10, ../css/sass/partials/grid.scss */
+.grid-row {
+  grid-template-columns: 1fr;
+}
 
-Backtrace:
-/Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss:493:in `media'
-/Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss:493
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:98:in `with_mixin'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'media'.\A         on line 493 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss, in `media'\A         from line 493 of /Users/dylan/Creative Cloud Files/blaser/Blaser_Skate_theme/BlaserBoards/blaserskate/src/css/sass/partials/grid.scss\A \A 488: \A 489: $breakpoints: (phone: 640px, \A 490:                tablet: 768px, \A 491:                desktop: 1024px) !default;\A 492: \A 493: @include media(\">phone\", \"<tablet\") {\A 494: }\A 495: \A 496: @include media(\">tablet\", \"<950px\") {\A 497: }"; }
+/* line 19, ../css/sass/partials/grid.scss */
+.content {
+  padding: 0;
+}
+
+/* line 23, ../css/sass/partials/grid.scss */
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.2rem;
+  grid-column-gap: 1.6rem;
+  grid-row-gap: 1.6rem;
+}
+
+/* line 37, ../css/sass/partials/grid.scss */
+.title {
+  grid-area: 1/1/1/span 2;
+  max-width: 144rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 43, ../css/sass/partials/grid.scss */
+.col-1 {
+  grid-area: 2 / 2 / 2 / 1;
+}
+
+/* line 45, ../css/sass/partials/grid.scss */
+.col-2 {
+  grid-area: 2 / 2 / 2 / 2;
+}
+
+/* line 48, ../css/sass/partials/grid.scss */
+.wrapper > .title {
+  margin: 0;
+}
+
+/* line 60, ../css/sass/partials/grid.scss */
+.col-wrapper .col-1 {
+  grid-area: 1 / 1 / 1 / 1;
+}
+/* line 62, ../css/sass/partials/grid.scss */
+.col-wrapper .col-1 p {
+  max-width: 44rem;
+  width: 100%;
+}
+/* line 68, ../css/sass/partials/grid.scss */
+.col-wrapper .col-2 {
+  grid-area: 1 / 2 / 1 / 2;
+}
+/* line 70, ../css/sass/partials/grid.scss */
+.col-wrapper .col-2 p {
+  max-width: 44rem;
+  width: 100%;
+}
+
+/* line 84, ../css/sass/partials/grid.scss */
+.hero {
+  padding: 0;
+  margin: 0;
+  top: -9.2rem;
+  position: relative;
+  display: grid;
+}
+
+/* line 100, ../css/sass/partials/grid.scss */
+.hero > .col-1 {
+  margin: 1rem auto 0;
+  max-width: 144rem;
+  grid-area: 1 / 1 / 1 / 1;
+  width: 100%;
+}
+/* line 110, ../css/sass/partials/grid.scss */
+.hero > .col-1 p, .hero > .col-1 h1 {
+  max-width: 44rem;
+}
+/* line 114, ../css/sass/partials/grid.scss */
+.hero > .col-1 .content {
+  margin-top: 13.2rem;
+}
+
+/* line 121, ../css/sass/partials/grid.scss */
+.hero > .col-2 {
+  z-index: -1;
+  grid-area: 1 / 1 / 1 / 1;
+}
+/* line 127, ../css/sass/partials/grid.scss */
+.hero > .col-2 img {
+  object-fit: contain;
+}
+
+/* line 143, ../css/sass/partials/grid.scss */
+.grid-row-2 {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  position: relative;
+  margin-top: -34rem;
+}
+/* line 150, ../css/sass/partials/grid.scss */
+.grid-row-2 .card {
+  aspect-ratio: 1 / 2;
+}
+/* line 154, ../css/sass/partials/grid.scss */
+.grid-row-2 .card img {
+  width: 100%;
+  aspect-ratio: 1 / 2;
+  object-fit: cover;
+}
+
+/* line 176, ../css/sass/partials/grid.scss */
+.grid-row-3 .first-row {
+  grid-area: 1 / 1 / 1 / 1;
+  margin: 0 auto;
+  max-width: 144rem;
+}
+/* line 184, ../css/sass/partials/grid.scss */
+.grid-row-3 .second-row {
+  width: auto;
+  margin: 0 auto;
+  grid-area: 2 / 2 / 2 / 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 208, ../css/sass/partials/grid.scss */
+.grid-row-5 .card {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 1.6rem;
+  grid-row-gap: 1.6rem;
+}
+/* line 216, ../css/sass/partials/grid.scss */
+.grid-row-5 .card .card-item-image {
+  grid-area: 1 / 1 / 7 / 7;
+  border-radius: 1.2rem;
+}
+/* line 224, ../css/sass/partials/grid.scss */
+.grid-row-5 .card .card-item-button {
+  grid-area: 6 / 7 / 6 / 1;
+  /* display: flex; */
+  /* align-items: center; */
+  margin-left: 1.6rem;
+  padding-bottom: -0.8rem;
+  top: -1.6rem;
+  position: relative;
+}
+/* line 235, ../css/sass/partials/grid.scss */
+.grid-row-5 .card .card-item-text {
+  grid-area: 1 / 1 / 1 / 5;
+  padding: 1.6rem;
+  color: #f5f5f5 !important;
+  text-shadow: 1px 1px 8px rgba(35, 35, 35, 0.8);
+}
+
+/* line 254, ../css/sass/partials/grid.scss */
+.grid-row-6 .first-row {
+  grid-row: 1 / span 1;
+}
+/* line 259, ../css/sass/partials/grid.scss */
+.grid-row-6 .second-row {
+  grid-row: 2 / span 1;
+}
+
+/* line 277, ../css/sass/partials/grid.scss */
+.cite-wrapper {
+  width: 30rem;
+  margin: 0 auto;
+  padding: 1.2rem;
+}
+
+/* line 287, ../css/sass/partials/grid.scss */
+.sub-grid {
+  display: grid;
+}
+
+/* line 291, ../css/sass/partials/grid.scss */
+.flex {
+  display: flex;
+}
+
+/* line 295, ../css/sass/partials/grid.scss */
+.v-align {
+  align-items: center;
+}
+
+/* line 299, ../css/sass/partials/grid.scss */
+.v-align-bottom {
+  align-items: flex-end;
+}
+
+/* line 303, ../css/sass/partials/grid.scss */
+.h-center {
+  justify-content: center;
+}
+
+/* line 307, ../css/sass/partials/grid.scss */
+.inline-flex {
+  display: inline-flex;
+}
+
+/* line 311, ../css/sass/partials/grid.scss */
+.box-wrap {
+  flex-wrap: wrap;
+}
+
+/* line 315, ../css/sass/partials/grid.scss */
+.product-grid {
+  display: grid;
+  grid-template-row: 1fr 1fr 1fr;
+}
+
+/* line 320, ../css/sass/partials/grid.scss */
+.card {
+  display: grid;
+}
+
+/* line 326, ../css/sass/partials/grid.scss */
+.card-image {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* line 334, ../css/sass/partials/grid.scss */
+.grid-item-half {
+  aspect-ratio: 2 / 1;
+  width: 100%;
+}
+
+/* line 341, ../css/sass/partials/grid.scss */
+.inline {
+  display: inline-flex;
+}
+/* line 345, ../css/sass/partials/grid.scss */
+.inline a {
+  margin-right: 1.8rem;
+}
+
+@media (max-width: 98em) {
+  /* line 363, ../css/sass/partials/grid.scss */
+  .content {
+    padding: 1.6rem;
+  }
+
+  /* line 368, ../css/sass/partials/grid.scss */
+  .hero {
+    margin-top: 8.4rem;
+    position: relative;
+  }
+
+  /* line 375, ../css/sass/partials/grid.scss */
+  .hero > .col-1 {
+    grid-area: 1 / 1 / 1 / 1;
+  }
+  /* line 379, ../css/sass/partials/grid.scss */
+  .hero > .col-1 p {
+    max-width: 44rem;
+  }
+  /* line 384, ../css/sass/partials/grid.scss */
+  .hero > .col-1 .content {
+    margin-top: 3.2rem;
+    padding: 1.6rem;
+  }
+
+  /* line 391, ../css/sass/partials/grid.scss */
+  .hero > .col-2 {
+    grid-area: 1 / 1 / 1 / 1;
+  }
+
+  /* line 399, ../css/sass/partials/grid.scss */
+  .grid-row-2 {
+    position: relative;
+    margin-top: -16.8rem;
+  }
+
+  /* line 407, ../css/sass/partials/grid.scss */
+  .title {
+    grid-area: 1/1/1/span 2;
+    max-width: 144rem;
+    margin: 0 auto;
+  }
+
+  /* line 412, ../css/sass/partials/grid.scss */
+  .wrapper > .title {
+    margin: 0;
+  }
+
+  /* line 420, ../css/sass/partials/grid.scss */
+  .col-1 {
+    grid-area: 2 / 1 / 2 / 1;
+  }
+
+  /* line 422, ../css/sass/partials/grid.scss */
+  .col-2 {
+    grid-area: 3 / 1 / 3 / 1;
+  }
+
+  /* line 430, ../css/sass/partials/grid.scss */
+  .featured {
+    grid-row: span 2;
+    grid-column: span 2;
+    aspect-ratio: 1 / 2;
+  }
+  /* line 436, ../css/sass/partials/grid.scss */
+  .featured img {
+    aspect-ratio: 1 / 2;
+  }
+
+  /* line 439, ../css/sass/partials/grid.scss */
+  .first-row {
+    grid-row: auto;
+  }
+
+  /* line 444, ../css/sass/partials/grid.scss */
+  .second-row {
+    grid-row: auto;
+  }
+
+  /* line 450, ../css/sass/partials/grid.scss */
+  .title {
+    grid-area: 1/1/1/span 2;
+    max-width: 144rem;
+    margin: 0 auto;
+  }
+
+  /* line 455, ../css/sass/partials/grid.scss */
+  .wrapper > .title {
+    margin: 0;
+  }
+
+  /* line 463, ../css/sass/partials/grid.scss */
+  .col-1 {
+    grid-area: 2 / 1 / 2 / 1;
+  }
+
+  /* line 465, ../css/sass/partials/grid.scss */
+  .col-2 {
+    grid-area: 3 / 1 / 3 / 1;
+  }
+
+  /* line 472, ../css/sass/partials/grid.scss */
+  .col-wrapper .col-1 {
+    grid-area: 2 / 2 / 2 / 1;
+  }
+  /* line 475, ../css/sass/partials/grid.scss */
+  .col-wrapper .col-2 {
+    grid-area: 1 / 1 / 1 / 1;
+  }
+}
