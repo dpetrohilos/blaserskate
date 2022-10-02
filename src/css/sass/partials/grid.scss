@@ -90,7 +90,7 @@ margin: 0;
   position: relative;
   display: grid;
 
-
+.hero-item {}
 
 
 }
@@ -424,7 +424,10 @@ display: grid;
 
 
 
-  .featured  {
+  
+  
+  
+    .featured  {
 
     grid-row: span 2;
     grid-column: span 2;
@@ -481,3 +484,14 @@ display: grid;
 }
 
 
+// responsive stuff 
+
+$breakpoints: (phone: 640px, 
+               tablet: 768px, 
+               desktop: 1024px) !default;
+
+@include media(">phone", "<tablet") {
+}
+
+@include media(">tablet", "<950px") {
+}
