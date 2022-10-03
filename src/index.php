@@ -95,18 +95,18 @@ Founder, Louisville, KY </cite>
 
 <div class="grid-item-1 card overlay">
 <a class="card-item card-item-link" href="/decks">
-<img class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/></a>
+<img class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image.jpg"/>
 <p  class="card-item card-item-text kent">Designs as unique as you</p>
-<div class="button third card-item card-item-button" >Custom Decks</div>
+<div class="button third card-item card-item-button"> Custom Decks</div>
 </a>
 
 </div>
 
-<<div class="grid-item-2 card overlay">
-<a class="card-item card-item-link" href=/catalogue">
-<img class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image_2.jpg"/></a>
+<div class="grid-item-2 card overlay">
+<a class="card-item card-item-link" href="/catalogue">
+<img class="card-item card-item-image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/deck_store_image_2.jpg"/>
 <p  class="card-item card-item-text kent">Made to order decks</p>
-<div class="button third card-item card-item-button" >Our Catalogue</div>
+<div class="button third card-item card-item-button">Our Catalogue</div>
 </a>
 
 </div>
