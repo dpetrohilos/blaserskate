@@ -159,4 +159,5 @@ Founder, Louisville, KY </cite>
 
 </div>
 
+</div>
 <?php get_footer(); ?>
