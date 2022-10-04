@@ -143,22 +143,20 @@ Founder, Louisville, KY </cite>
 
 	<div class="grid-row-6 grid wrapper">
 
-	<header class="grid-item-1 title">
-<h4 class="section-title">The Crew
+<header class="grid-item-1 title">
+<h4 class="section-title">News &amp; Updates 
 </h4>
-
 </header>
 
 <div class="grid-item-2 col-1" >
-<p class="sub-title">Korey Blaser</p>
-<p class="sub-title">Sar Rats </p>
-<p class="sub-title">KRIN Fernandez</p>
+
+<?php get_template_part('loop'); ?>
+		
+		<!-- Pagination -->
+		<div id="pagination">
+			<?php html5wp_pagination(); ?>
+		</div>
+
 </div>
 
-<div class="grid-item-3 kent col-2">
-<p class="sub-title">Justin Cornett</p>
-<p class="sub-title">Holden Turner</p>
-</div>
-</div>
-</div>
 <?php get_footer(); ?>
