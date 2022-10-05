@@ -3,6 +3,18 @@
 
 @mixin devices ($breakpoint) { //the name of the mixin is devices
   
+  @if $breakpoint == xl {    
+    @media only screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+  
+  @if $breakpoint == large {    
+    @media only screen and (max-width: 1024px) {
+      @content;
+    }
+  }
+
   @if $breakpoint == tablet {    
   @media only screen and (max-width: 680px) {
     @content;
@@ -106,6 +118,9 @@ margin: 0;
   display: grid;
 
 @include devices(tablet) {
+
+
+  .hero{}
 
   .col-1, .col-2 {grid-area: 1 / 1 / 1 / 1; 
   
