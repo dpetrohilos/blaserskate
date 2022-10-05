@@ -116,11 +116,17 @@ margin: 0;
   top: -9.2rem;
   position: relative;
   display: grid;
+  height: 100vh;
+  min-height: 100%;
 
 @include devices(tablet) {
 
 
-  .hero{}
+  .hero {
+
+
+
+  }
 
   .col-1, .col-2 {grid-area: 1 / 1 / 1 / 1; 
   
