@@ -1,6 +1,21 @@
 @import "modules/variables";
 
 
+@mixin devices ($breakpoint) { //the name of the mixin is devices
+  
+  @if $breakpoint == tablet {    
+  @media only screen and (max-width: 680px) {
+    @content;
+  }
+}
+
+@if $breakpoint == mobile {
+  @media only screen and (max-width: 481px) {
+    @content;
+  }
+}
+}
+
 .wrapper {
   max-width: $wrapper-width;
   margin: 0 auto;
@@ -90,14 +105,25 @@ margin: 0;
   position: relative;
   display: grid;
 
-.hero-item {}
+@include devices(tablet) {
+
+  .col-1, .col-2 {grid-area: 1 / 1 / 1 / 1; 
+  
+  }
+
+}
+
+@include devices(mobile) {
+  
+  .col-1, .col-2 {grid-area: 1 / 1 / 1 / 1; 
+  }
 
 
 }
 
 
 
-.hero > .col-1 {
+.col-1 {
 
 
   margin: 1rem auto 0; 
@@ -118,7 +144,7 @@ margin: 0;
 
 }
 
-.hero > .col-2 {
+.col-2 {
 
   z-index: -1;
   grid-area: 1 / 1 / 1 / 1;
@@ -132,6 +158,7 @@ margin: 0;
   
   }
 
+}
 }
 
 
@@ -371,38 +398,6 @@ display: grid;
   padding: 1.6rem; 
 }
 
-
-.hero {
-
-  margin-top: 8.4rem; 
-  position: relative;
-}
-
-  
-  .hero > .col-1 {
-  
-    grid-area: 1 / 1 / 1 / 1;      
- 
-    p {  max-width: 44rem;
- 
-    }
-  
-  
-      .content {
-        margin-top: 3.2rem;
-        padding: 1.6rem; 
-  
-      }
-  
-  }
-  .hero > .col-2 {
-  
-    grid-area: 1 / 1 / 1 / 1; 
-   
-  
-  }
-
-
 .grid-row-2  {
 
   position: relative;
@@ -491,4 +486,33 @@ display: grid;
 }
 
 
-// responsive stuff 
+
+
+
+
+
+
+
+
+// example 
+// .responsive {
+ // background: yellow;
+  // The normal background color is set to yellow
+ 
+//  @include devices(tablet) {
+  //      background: lightblue;
+        // code set for tablet
+ //   }
+ 
+ // @include devices(mobile) {
+   //     background: aquamarine;
+     //   h1{
+       //     color: red;
+        // }
+        // code set for mobile    
+   //  }
+// }
+
+
+//  @include devices(tablet) {
+ // @include devices(mobile) {
