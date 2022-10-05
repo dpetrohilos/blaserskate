@@ -111,11 +111,29 @@ margin: 0;
   
   }
 
+  .col-2 {
+
+    img {
+
+      aspect-ratio: 3 / 5;
+    }
+
+  }
+
 }
 
 @include devices(mobile) {
-  
+
   .col-1, .col-2 {grid-area: 1 / 1 / 1 / 1; 
+  }
+
+  .col-2 {
+
+    img {
+
+      aspect-ratio: 1 / 2;
+    }
+
   }
 
 
@@ -154,6 +172,7 @@ margin: 0;
 
 
     object-fit: contain;
+    aspect-ratio: 2  / 1;
   
   
   }
