@@ -15,7 +15,7 @@
 <div class="grid-item-2 col-2">
 
 
-
+// rethink this 
 <picture class="hero-wrapper">
     <source media="(min-width: 1000px)" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hero_BG_desktop.jpg">
     <source media="(min-width: 470px)" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Hero_BG_tablet.jpg">
